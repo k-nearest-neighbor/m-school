@@ -78,15 +78,15 @@ export const navigation = [
       { title: 'People & Projects', href: '/mech-interp/organizations-and-projects' },
     ],
   },
-  {
-    title: 'Scaling Behaviors',
-    links: [
-      // { title: 'Posts', href: '/scaling/posts' },
-      // { title: 'Papers', href: '/scaling/papers' },
-      { title: 'All Known Scaling Behaviors', href: '/scaling/all-known-scaling-behavior' },
-      // { title: 'Classic Scaling laws', href: '/scaling/classic-scaling-laws' },
-    ],
-  },
+  // {
+  //   title: 'Scaling Behaviors',
+  //   links: [
+  //     // { title: 'Posts', href: '/scaling/posts' },
+  //     // { title: 'Papers', href: '/scaling/papers' },
+  //     { title: 'All Known Scaling Behaviors', href: '/scaling/all-known-scaling-behavior' },
+  //     // { title: 'Classic Scaling laws', href: '/scaling/classic-scaling-laws' },
+  //   ],
+  // },
 
   // {
   //   title: 'Models',
