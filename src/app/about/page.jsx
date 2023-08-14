@@ -152,7 +152,7 @@ export default function About() {
             {/* Center Content */}
             <div className="py-8  sm:mx-0 sm:px-8 sm:pb-14 lg:col-span-2 lg:row-span-2 lg:row-end-2  xl:pb-20 xl:pt-16">
               <p className="my-6">
-                Hi. I'm Des.
+                Hi. I&apos;m Des.
               </p>
               <p className="my-6">
                 This site is a way for me to track observations about ML / AI research.
@@ -175,23 +175,23 @@ export default function About() {
 
               <h2 className="text-2xl font-bold my-6">
                 {/* What does &nbsp;<span className="italic font-extrabold">"AI Breakout"</span>&nbsp; mean? */}
-                What does &nbsp;<span className="">"AI Breakout"</span>&nbsp; mean?
+                What does &nbsp;<span className="">&quot;AI Breakout&quot;</span>&nbsp; mean?
               </h2>
 
               {/* <p className="my-6">
-              The idea of an AI system escaping its intended containers. Sometime in the future (who knows when?) it will be a thing that can happen. It's funny but whenever it does happen, hopefully it won't be in a situations with high costs in money or human lives lost -- making it seem like the name of this little blog was chosen in <i>super</i> poor taste.
+              The idea of an AI system escaping its intended containers. Sometime in the future (who knows when?) it will be a thing that can happen. It&apos;s funny but whenever it does happen, hopefully it won&apos;t be in a situations with high costs in money or human lives lost -- making it seem like the name of this little blog was chosen in <i>super</i> poor taste.
               </p> */}
 
               <p className="my-6">
-              It's referring to the idea of agentive AI systems escaping their containers. Sometime in the future (who knows when?) it will be a thing that can happen.
+              It&apos;s referring to the idea of agentive AI systems escaping their containers. Sometime in the future (who knows when?) it will be a thing that can happen.
               </p>
 
               <p className="my-6">
-              It seems funny now but if it does happen, hopefully it won't be something with high costs in terms of money or human lives lost -- because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
+              It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost -- because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
               </p>
 
               <p className="my-6">
-              I'm optimistic about AI research and confident about the prospect of making systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
+              I&apos;m optimistic about AI research and confident about the prospect of making systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
               </p>
 
               <iframe
@@ -206,7 +206,7 @@ export default function About() {
               </iframe>
 
               <p className="my-6">
-              We're not there yet obviously.
+              we&apos;re not there yet obviously.
               </p>
 
               {/* <h2 className="text-2xl font-bold my-6">
