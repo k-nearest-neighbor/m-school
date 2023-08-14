@@ -5,6 +5,8 @@ import clsx from 'clsx'
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 
+import { Analytics } from '@vercel/analytics/react';
+
 import '@/styles/tailwind.css'
 
 const inter = Inter({
@@ -40,6 +42,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Layout>{children}</Layout>
         </Providers>
+        <Analytics></Analytics>
       </body>
     </html>
   )
