@@ -99,20 +99,20 @@ export default function About() {
                       className="h-32 w-32 rounded-full mx-auto ring-1 ring-sky-400/50"
                       style={{boxShadow: '0px 0px 99px #9994cc54'}}
                       src={profileImage}
-                      alt=""
+                      alt="Cool Person"
                     />
                     {/* <span className="absolute bottom-0 left-12 w- block rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-600 ring-1 ring-inset ring-green-600/20" >
                         Successful Person   
                     </span> */}
 
                   
-                  <div className=" w-full pt-4">
+                  {/* <div className=" w-full pt-4">
                     <dt className="sr-only">Status</dt>
                     <dd className="rounded-md px-3 py-1 mx-auto w-fit flex items-center whitespace-nowrap text-sm font-medium text-green-400 ring-1 ring-inset ring-green-400/50">
                       Cool Person
                       <CheckCircleIcon className="h-5 ml-2"></CheckCircleIcon>
                     </dd>
-                  </div>
+                  </div> */}
                   <div className="flex-auto w-full pt-6 text-2xl font-bold text-center text-white">
                     Desmond Grealy
                   </div>

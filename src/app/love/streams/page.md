@@ -29,8 +29,8 @@ Michaël Trazzi is consistently great. I'm a big fan of his work.
 
 <!-- https://www.youtube.com/watch?v=WIAatc0TVa8 -->
 
-## Podcasts
+<!-- ## Podcasts
 
 #### LatentSpace
 
-swyx is a very talented and lovely guy. -->
+swyx is a very talented and lovely guy. --> -->
