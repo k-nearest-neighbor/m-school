@@ -85,7 +85,7 @@ export default function About() {
             {/* Invoice summary */}
             <div className="lg:col-start-3 lg:row-end-1 sm:w-fit mx-auto">
               <h2 className="sr-only">Person Information</h2>
-              <div className="my-8 flex rounded-3xl p-6 bg-amber-50 dark:bg-darkerish dark:ring-1 dark:ring-slate-400/10">
+              <div className="my-8 flex rounded-3xl p-6 bg-slate-50 dark:bg-darkerish dark:ring-1 dark:ring-slate-400/10">
                 <div className="flex flex-col w-full p-4">
 
                     <Image
@@ -102,7 +102,7 @@ export default function About() {
                   
                   <div className=" w-full pt-4">
                     <dt className="sr-only">Status</dt>
-                    <dd className="rounded-md px-3 py-1 mx-auto w-fit flex items-center whitespace-nowrap text-sm font-medium text-green-400 ring-1 ring-inset ring-green-400/50">
+                    <dd className="rounded-md px-3 py-1 mx-auto w-fit flex items-center whitespace-nowrap text-sm font-medium text-green-600 dark:text-green-400 ring-1 ring-inset ring-green-600/50 darK:ring-green-400/50">
                       Cool Person
                       <CheckCircleIcon className="h-5 ml-2"></CheckCircleIcon>
                     </dd>
@@ -183,7 +183,7 @@ export default function About() {
               </p> */}
 
               <p className="my-6">
-              It&apos;s referring to the idea of agentive AI systems escaping their containers. Sometime in the future (who knows when?) it will be a thing that can happen.
+              It&apos;s referring to the idea of agentive AI systems escaping their containers. Eventually, it will be a thing that can happen. Sometime in the future. (Who knows when?)
               </p>
 
               <p className="my-6">
@@ -191,7 +191,7 @@ export default function About() {
               </p>
 
               <p className="my-6">
-              I&apos;m optimistic about AI research and confident about the prospect of making systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
+              I&apos;m optimistic about AI research and confident about making systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
               </p>
 
               <iframe

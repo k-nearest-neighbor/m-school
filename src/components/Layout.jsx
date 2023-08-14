@@ -63,7 +63,7 @@ function Header({ navigation }) {
         <Search />
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow font-medium">
-        {/* <ThemeSelector className="relative z-10" /> */}
+        <ThemeSelector className="relative z-10" />
         <Link
           href="/about"
           className={
@@ -85,7 +85,7 @@ export function Layout({ children }) {
   let { theme, setTheme } = useTheme()
 
   useEffect(() => {
-    setTheme('dark')
+    setTheme('light')
   }, [])
 
   return (

@@ -9,7 +9,7 @@ export function Navigation({ navigation, className, onLinkClick }) {
     <nav className={clsx('text-base lg:text-sm', className)}>
       <ul role="list" className="space-y-9">
 
-      {/* <li className="relative">
+        {/* <li className="relative">
                 <Link
                   href="/"
                   onClick={onLinkClick}
@@ -21,10 +21,10 @@ export function Navigation({ navigation, className, onLinkClick }) {
                   )}
                 >
                   <h2 className="font-display font-medium">
-                    All
+                    Blog
                   </h2>
                 </Link>
-              </li> */}
+        </li> */}
 
         {navigation.map((section) => (
           <li key={section.title}>

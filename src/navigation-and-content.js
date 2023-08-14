@@ -88,23 +88,36 @@ export const navigation = [
     ],
   },
 
-  {
-    title: 'Models',
-    links: [
-      { title: 'News', href: '/models/news' },
-      { title: 'LLMs', href: '/models/llm' },
-      { title: 'Coding', href: '/models/Coding' },
-      { title: 'Multi-Modal', href: '/models/multi-modal' },
-      { title: 'Vision', href: '/models/vision' },
-      { title: 'Generative Image', href: '/models/generative-image' },
-      { title: 'Generative Video', href: '/models/generative-video' },
-      { title: 'Generative Video', href: '/models/generative-audio' },
-      { title: 'TTS', href: '/models/tts' },
-      { title: 'ASR', href: '/models/asr' },
+  // {
+  //   title: 'Models',
+  //   links: [
+  //     { title: 'News', href: '/models/news' },
+  //     { title: 'LLMs', href: '/models/llm' },
+  //     { title: 'Coding', href: '/models/Coding' },
+  //     { title: 'Multi-Modal', href: '/models/multi-modal' },
+  //     { title: 'Vision', href: '/models/vision' },
+  //     { title: 'Generative Image', href: '/models/generative-image' },
+  //     { title: 'Generative Video', href: '/models/generative-video' },
+  //     { title: 'Generative Video', href: '/models/generative-audio' },
+  //     { title: 'TTS', href: '/models/tts' },
+  //     { title: 'ASR', href: '/models/asr' },
       
-      { title: 'Specialist', href: '/models/specialist' },
+  //     { title: 'Specialist', href: '/models/specialist' },
+  //   ],
+  // },
+
+  {
+    title: 'Reccomendations',
+    links: [
+      { title: 'Channels & Podcasts', href: '/love/streams' },
+      { title: 'People & Blogs', href: '/love/people-and-blogs' },
+      { title: 'Community', href: '/love/community' },
+      { title: 'Books', href: '/love/books' },
+      
     ],
   },
+]
+
 
   // {
   //   title: 'ML Theory & Methodology',
@@ -116,78 +129,3 @@ export const navigation = [
   //   ],
   // },
 
-  {
-    title: 'Reccomendations',
-    links: [
-      { title: 'Streams', href: '/love/streams' },
-      { title: 'People & Blogs', href: '/love/people-and-blogs' },
-      { title: 'Community', href: '/love/community' },
-      { title: 'Books', href: '/love/books' },
-      
-    ],
-  },
-]
-
-
-
-
-// export const navigation1 = [
-//   {
-//     title: 'Latest',
-//     subsections: [], // the 'latest' section has no subsections. Instead it has nodes.
-//     nodes: [
-//       // getFiveLatestPosts()
-//       { title: 'Getting started', href: '/', tags: [], date: "2023-08-11"},
-//       { title: 'Installation', href: '/docs/installation', tags: [], date: "2023-08-11"},
-//     ],
-//   },
-//   {
-//     title: 'Latest',
-//     subsections: [], // the 'latest' section has no subsections. Instead it has nodes.
-//     nodes: [
-//       // getFiveLatestPosts()
-//       { title: 'Getting started', href: '/', tags: [], date: "2023-08-11"},
-//       { title: 'Installation', href: '/docs/installation', tags: [], date: "2023-08-11"},
-//     ],
-//   },
-//   {
-//     title: 'Agents',
-//     subsections: [
-//       // {title: "Papers", path: "agents/papers", subsections:[], expandable: true, nodes: [] subsections:[...]},
-//       {title: "Benchmarks & Datasets", path: "agents/benchmarks", expandable: false, nodes: gatherNodesByTags(["agents", "Benchmarks & Datasets"]), subsections:[]},
-//       {title: "Datasets", path: "agents/datasets", expandable: false, nodes: gatherNodesByTags(["agents", "datasets"]), subsections:[]},
-//       {title: "Projects", path: "agents/projects", expandable: false, nodes: gatherNodesByTags(["agents", "projects"]), subsections:[]},
-//       {title: "Notes", path: "agents/notes", expandable: false, nodes: gatherNodesByTags(["agents", "notes"]), subsections:[]},
-//     ],
-//     nodes: [],
-//   },
-//   {
-//     title: 'Alignment',
-//     subsections: [
-//       // {title: "Papers", path: "agents/papers", subsections:[], expandable: true, nodes: [] subsections:[...]},
-//       {title: "Research Groups", path: "agents/projects", expandable: false, nodes: gatherNodesByTags(["agents", "projects"]), subsections:[]},
-//       {title: "Benchmarks & Datasets", path: "agents/benchmarks", expandable: false, nodes: gatherNodesByTags(["agents", "Benchmarks & Datasets"]), subsections:[]},
-//       {title: "Datasets", path: "agents/datasets", expandable: false, nodes: gatherNodesByTags(["agents", "datasets"]), subsections:[]},
-      
-//       {title: "Notes", path: "agents/notes", expandable: false, nodes: gatherNodesByTags(["agents", "notes"]), subsections:[]},
-//     ],
-//     nodes: [],
-//   },
-//   {
-//     title: 'Scaling Behavior',
-//     nodes: [
-//       { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict', tags: [], date: "2023-08-11"},
-//       { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush', tags: [], date: "2023-08-11"},
-//       { title: 'CacheAdvance.revert()', href: '/docs/cacheadvance-revert', tags: [], date: "2023-08-11"},
-//       { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret', tags: [], date: "2023-08-11"},
-//     ],
-//   },
-//   {
-//     title: 'Interperability',
-//     nodes: [
-//       { title: 'How to contribute', href: '/docs/how-to-contribute', tags: [], date: "2023-08-11"},
-//       { title: 'Architecture guide', href: '/docs/architecture-guide', tags: [], date: "2023-08-11"},
-//       { title: 'Design principles', href: '/docs/design-principles', tags: [], date: "2023-08-11"},
-//     ],
-//   },
-// ]
