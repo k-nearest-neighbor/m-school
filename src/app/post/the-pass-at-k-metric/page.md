@@ -10,6 +10,8 @@ Understanding confidence metrics: Pass@1 vs. Pass@100
 
 ---
 
+<!--
+
 ## What is the Pass@k Metric?
 
 ### HumanEval
@@ -21,4 +23,4 @@ Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut par
 The company AI Maintainer has an benchmarking system and leaderboard for AI Agents.
 It's probably worth mentioning that I am a co-founder of AI Maintainer.
 
-## AI Research Agents
+## AI Research Agents -->

@@ -1,81 +1,13 @@
 ---
-title: The Current Zoo of Models
+title: Generative Audio Models
 nextjs:
   metadata:
-    title: The Current Zoo of Models
-    description: The Current Zoo of Models
+    title: Generative Audio Models
+    description: Generative Audio Models
 ---
 
-## <!-- This might be better on different pages -->
+## Open Models
 
-## LLMs
+## Commercially Available Models
 
-### Open
-
-### Closed
-
----
-
-## Coding Models
-
-### Open
-
-### Closed
-
----
-
-## Multi-Modal
-
-### Open
-
-### Closed
-
----
-
-## Generative Image
-
-### Open
-
-### Closed
-
----
-
-## Generative Video
-
-### Open
-
-### Closed
-
----
-
-## TTS
-
-### Open
-
-### Closed
-
----
-
-## ASR
-
-### Open
-
-### Closed
-
----
-
-## Computer Vision
-
-### Open
-
-### Closed
-
----
-
-## Computer Vision
-
-### Open
-
-### Closed
-
----
+## Private Models

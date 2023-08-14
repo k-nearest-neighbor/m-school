@@ -6,7 +6,9 @@ nextjs:
     description: Papers, articles, and other literature on AI Agent research.
 ---
 
-This is an outline of some current major threads.
+Nothing here yet.
+
+<!-- This is an outline of some current major threads.
 
 ---
 
@@ -28,4 +30,4 @@ This is an outline of some current major threads.
 
 ## Skills
 
----
+--- -->
