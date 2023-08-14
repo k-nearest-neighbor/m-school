@@ -85,12 +85,18 @@ export default function About() {
             {/* Invoice summary */}
             <div className="lg:col-start-3 lg:row-end-1 sm:w-fit mx-auto">
               <h2 className="sr-only">Person Information</h2>
-              <div className="my-8 flex rounded-3xl p-6 bg-slate-50 dark:bg-darkerish dark:ring-1 dark:ring-slate-400/10">
+              <div className="my-8 flex rounded-3xl p-6
+                            bg-darkerish
+                            dark:ring-1
+                            dark:ring-slate-400/10
+                            shadow-2xl
+                            dark:shadow-slate-900/10
+                            ">
                 <div className="flex flex-col w-full p-4">
 
                     <Image
                       // className="h-32 w-32 rounded-full dark:border border-3 border-slate-700 mx-auto"
-                      className="h-32 w-32 rounded-full mx-auto dark:ring-1 dark:ring-sky-400/50"
+                      className="h-32 w-32 rounded-full mx-auto ring-1 ring-sky-400/50"
                       style={{boxShadow: '0px 0px 99px #9994cc54'}}
                       src={profileImage}
                       alt=""
@@ -102,12 +108,12 @@ export default function About() {
                   
                   <div className=" w-full pt-4">
                     <dt className="sr-only">Status</dt>
-                    <dd className="rounded-md px-3 py-1 mx-auto w-fit flex items-center whitespace-nowrap text-sm font-medium text-green-600 dark:text-green-400 ring-1 ring-inset ring-green-600/50 darK:ring-green-400/50">
+                    <dd className="rounded-md px-3 py-1 mx-auto w-fit flex items-center whitespace-nowrap text-sm font-medium text-green-400 ring-1 ring-inset ring-green-400/50">
                       Cool Person
                       <CheckCircleIcon className="h-5 ml-2"></CheckCircleIcon>
                     </dd>
                   </div>
-                  <div className="flex-auto w-full pt-6 text-2xl font-bold text-center">
+                  <div className="flex-auto w-full pt-6 text-2xl font-bold text-center text-white">
                     Desmond Grealy
                   </div>
                   <div className=" w-full pt-4">
@@ -167,7 +173,7 @@ export default function About() {
               
               
               <p className="h-10"></p>
-              <hr className="border-b border-slate-800"></hr>
+              <hr className="border-b border-slate-100 dark:border-slate-800"></hr>
               <p className="h-10"></p>
               
               
@@ -187,26 +193,28 @@ export default function About() {
               </p>
 
               <p className="my-6">
-              It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost -- because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
+              It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
               </p>
 
               <p className="my-6">
               I&apos;m optimistic about AI research and confident about making systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
               </p>
 
-              <iframe
-                className="mx-auto"
-                width="280"
-                // width="560"
-                // height="315"
-                // src="https://www.youtube.com/embed/B9XGim2dyOA?hd=1&iv_load_policy=3"
-                src="https://www.youtube.com/embed/8MwC0u-orNw?hd=1&iv_load_policy=3"
-                title="YouTube video player"
-                frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
-              </iframe>
+              
+              <div className='w-fit mx-auto shadow-2xl dark:shadow-slate-900/10'>
+                <iframe
+                  width="280"
+                  // width="560"
+                  // height="315"
+                  // src="https://www.youtube.com/embed/B9XGim2dyOA?hd=1&iv_load_policy=3"
+                  src="https://www.youtube.com/embed/8MwC0u-orNw?hd=1&iv_load_policy=3"
+                  title="YouTube video player"
+                  frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
+                </iframe>
+              </div>
 
               <p className="my-6">
-              we&apos;re not there yet obviously.
+              We&apos;re not there yet obviously.
               </p>
 
               {/* <h2 className="text-2xl font-bold my-6">

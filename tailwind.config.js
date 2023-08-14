@@ -31,7 +31,8 @@ module.exports = {
         'avatar': '0px 0px 99px #9994cc54'
       },
       colors: {
-        'darkerish': 'rgb(0 0 0 / 15%)'
+        'darkerish-translucent': 'rgb(0 0 0 / 15%)',
+        'darkerish': '#0b1423',
       },
     },
   },

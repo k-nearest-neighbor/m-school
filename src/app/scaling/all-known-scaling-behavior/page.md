@@ -8,6 +8,6 @@ nextjs:
 
 Okay sure, the title is probably a tad too ambitious.
 
-This is an effort to gather a brief reference of (at least most) known scaling behaviors relevant to Machine Learning. It is a work in progress. If you know of a behavior or relationship to add, please reach out.
+This is an effort to gather a brief reference of (at least most) currently known scaling behaviors relevant to Machine Learning. If you think of a behavior or relationship to add, please reach out.
 
 ---
