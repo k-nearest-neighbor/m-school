@@ -6,6 +6,7 @@ import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 
 import { Analytics } from '@vercel/analytics/react';
+import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 
 import '@/styles/tailwind.css'
 
@@ -38,19 +39,8 @@ export default function RootLayout({ children }) {
       className={clsx('h-full antialiased', inter.variable, lexend.variable)}
       suppressHydrationWarning
     >
-      <head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-3CJ6XC4B3C"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+      <GoogleAnalytics/>
 
-          gtag('config', 'G-3CJ6XC4B3C');
-        `}
-      </script>
-      </head>
-      
       <body className="flex min-h-full bg-white dark:bg-slate-900">
         <Providers>
           <Layout>{children}</Layout>

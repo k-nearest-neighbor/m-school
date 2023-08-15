@@ -50,6 +50,9 @@ dependencies:
   heroicons:
     specifier: ^2.0.18
     version: 2.0.18
+  html-entities:
+    specifier: ^2.4.0
+    version: 2.4.0
   js-yaml:
     specifier: ^4.1.0
     version: 4.1.0
@@ -1763,6 +1766,10 @@ packages:
 
   /highlight-words-core@1.2.2:
     resolution: {integrity: sha512-BXUKIkUuh6cmmxzi5OIbUJxrG8OAk2MqoL1DtO3Wo9D2faJg2ph5ntyuQeLqaHJmzER6H5tllCDA9ZnNe9BVGg==}
+    dev: false
+
+  /html-entities@2.4.0:
+    resolution: {integrity: sha512-igBTJcNNNhvZFRtm8uA6xMY6xYleeDwn3PeBCkDz7tHttv4F2hsDI2aPgNERWzvRcNYHNT3ymRaQzllmXj4YsQ==}
     dev: false
 
   /ieee754@1.2.1:

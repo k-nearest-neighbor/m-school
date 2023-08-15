@@ -1,5 +1,5 @@
 ---
-title: AI Agent Organizations &amp; Projects
+title: AI Agent Organizations & Projects
 nextjs:
   metadata:
     title: AI Agent Organizations and Projects

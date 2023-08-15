@@ -1,9 +1,9 @@
 ---
-title: People &amp; Blogs
+title: People & Blogs
 nextjs:
   metadata:
-    title: People &amp; Blogs
-    description: People &amp; Blogs
+    title: People & Blogs
+    description: People & Blogs
 ---
 
 ---
