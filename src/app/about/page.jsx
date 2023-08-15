@@ -1,33 +1,8 @@
 'use client'
 
-import { Fragment, useState } from 'react'
-import { Dialog, Listbox, Menu, Transition } from '@headlessui/react'
-import {
-  Bars3Icon,
-  CalendarDaysIcon,
-  CreditCardIcon,
-  EllipsisVerticalIcon,
-  FaceFrownIcon,
-  FaceSmileIcon,
-  FireIcon,
-  HandThumbUpIcon,
-  HeartIcon,
-  PaperClipIcon,
-  UserCircleIcon,
-  XMarkIcon as XMarkIconMini,
-  CheckBadgeIcon,
-  CheckCircleIcon,
-  PaperAirplaneIcon
-} from '@heroicons/react/20/solid';
-
-
 import Link from 'next/link'
 import Image from 'next/image'
 import profileImage from '@/images/desmond-grealy.png'
-
-
-
-
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -198,7 +173,7 @@ export default function About() {
               </p>
 
               <p className="my-6">
-              The name "AI Breakout" is just for fun. However I&apos;m optimistic about Alignment. With the right care, we should probably striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
+                The name &quot;AI Breakout&quot; is just for fun. However I&apos;m optimistic about Alignment. With the right care, we should probably striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
               </p>
 
               
