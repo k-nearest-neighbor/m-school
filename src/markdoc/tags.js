@@ -1,6 +1,7 @@
-import { Callout } from '@/components/Callout'
-import { QuickLink, QuickLinks } from '@/components/QuickLinks'
-import { PostsList } from '@/components/PostsList'
+import { Callout } from '@/components/Callout';
+import { QuickLink, QuickLinks } from '@/components/QuickLinks';
+import { PostsList } from '@/components/PostsList';
+import { LatexComponent } from '@/components/Latex';
 
 const tags = {
   callout: {
@@ -33,6 +34,13 @@ const tags = {
   'quick-links': {
     render: QuickLinks,
   },
+  'latex': {
+    selfClosing: true,
+    render: LatexComponent,
+    attributes: {
+      src: { type: String },
+    },
+  },
   'quick-link': {
     selfClosing: true,
     render: QuickLink,
@@ -50,7 +58,8 @@ const tags = {
       includetags: { type: Array },
       excludetags: { type: Array },
     }
-  }
+  },
+
 }
 
 export default tags

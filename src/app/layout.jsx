@@ -26,10 +26,10 @@ const lexend = localFont({
 export const metadata = {
   title: {
     template: '%s',
-    default: 'AI Breakout.',
+    default: 'AI Breakout',
   },
   description:
-    'Notes on AI Research.',
+    'Notes On AI Research.',
 }
 
 export default function RootLayout({ children }) {

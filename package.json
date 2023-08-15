@@ -1,5 +1,5 @@
 {
-  "name": "tailwindui-syntax",
+  "name": "ai-breakout-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,12 +27,15 @@
     "heroicons": "^2.0.18",
     "html-entities": "^2.4.0",
     "js-yaml": "^4.1.0",
+    "mathjax-full": "^3.2.2",
+    "mathjax-react": "^2.0.1",
     "next": "13.4.13",
     "next-themes": "^0.2.1",
     "prism-react-renderer": "^2.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-highlight-words": "^0.20.0",
+    "react-latex-next": "^2.2.0",
     "react-social-icons": "^5.15.0",
     "simple-functional-loader": "^1.2.1",
     "tailwindcss": "^3.3.3"

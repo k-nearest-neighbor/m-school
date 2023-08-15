@@ -10,6 +10,25 @@ Understanding confidence metrics: Pass@1 vs. Pass@100
 
 ---
 
+Demonstrate inline latex: {% latex src="e^+e^-" /%} blah blah.
+
+```latex
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6
+\end{bmatrix}^{\mathrm{T}}
+=
+\begin{bmatrix}
+1 & 4 \\
+2 & 5 \\
+3 & 6
+\end{bmatrix}
+$$
+```
+
+<!-- {% latex src=`We give illustrations for the three processes $e^+e^-$, gluon-gluon and some macros: $\f\relax{x} = 1$` %}{% /latex %} -->
+
 <!--
 
 ## What is the Pass@k Metric?
