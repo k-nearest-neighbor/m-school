@@ -1,9 +1,9 @@
 ---
-title: Alignment & Ability Benchmarks
+title: Alignment &amp; Ability Benchmarks
 nextjs:
   metadata:
-    title: Alignment & Ability Benchmarks
-    description: Benchmarks for AI Agent Alignment & Ability.
+    title: Alignment &amp; Ability Benchmarks
+    description: Benchmarks for AI Agent Alignment &amp; Ability.
 ---
 
 Nothing here yet.
