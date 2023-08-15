@@ -189,15 +189,16 @@ export default function About() {
               </p> */}
 
               <p className="my-6">
-              It&apos;s referring to the idea of agentive AI systems escaping their containers. Eventually, it will be a thing that can happen. Sometime in the future. (Who knows when?)
+              It&apos;s referring to the idea of agentive AI systems escaping their containers. Eventually, it will be a thing that can happen. (Who knows when?)
               </p>
 
               <p className="my-6">
               It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
+              {/* It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste. */}
               </p>
 
               <p className="my-6">
-              I&apos;m optimistic about AI research and confident about making systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
+              The name "AI Breakout" is just for fun. However I&apos;m optimistic about Alignment. With the right care, we should probably striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
               </p>
 
               

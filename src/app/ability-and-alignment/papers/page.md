@@ -6,7 +6,9 @@ nextjs:
     description: Papers, articles, and other literature on Alignmen and ability research.
 ---
 
-This is an outline of some current major threads.
+Nothing here yet.
+
+<!-- This is an outline of some current major threads.
 
 ---
 
@@ -14,6 +16,6 @@ This is an outline of some current major threads.
 
 ### Helpfulness, Harmlessness, and Honesty
 
-### Deception
+### Deception -->
 
 <!-- ## Ability -->
