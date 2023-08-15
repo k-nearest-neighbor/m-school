@@ -1,8 +1,8 @@
 ---
-title: Channels & Podcasts
+title: Channels &amp; Podcasts
 nextjs:
   metadata:
-    title: Channels & Podcasts
+    title: Channels &amp; Podcasts
     description: Channels & Podcasts
 ---
 
