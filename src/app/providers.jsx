@@ -4,7 +4,10 @@ import { ThemeProvider } from 'next-themes'
 
 export function Providers({ children }) {
   return (
-    <ThemeProvider attribute="class" disableTransitionOnChange>
+    <ThemeProvider
+      attribute="class"
+      defaultTheme='system'
+      disableTransitionOnChange>
       {children}
     </ThemeProvider>
   )

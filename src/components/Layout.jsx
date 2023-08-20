@@ -11,7 +11,6 @@ import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
-import { useTheme } from 'next-themes'
 
 
 import { navigation } from '@/navigation-and-content'
@@ -83,11 +82,7 @@ function Header({ navigation }) {
 export function Layout({ children }) {
   let pathname = usePathname()
   // let isHomePage = pathname === '/'
-  let { theme, setTheme } = useTheme()
 
-  useEffect(() => {
-    setTheme('light')
-  }, [theme, setTheme])
 
   return (
     <div className="flex w-full flex-col">
