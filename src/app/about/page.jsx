@@ -173,7 +173,7 @@ export default function About() {
               </p>
 
               <p className="my-6">
-                The name &quot;AI Breakout&quot; is just for fun. However, I&apos;m optimistic about Alignment. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
+                The name &quot;AI Breakout&quot; is just for fun. I&apos;m optimistic about Alignment. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
               </p>
 
               

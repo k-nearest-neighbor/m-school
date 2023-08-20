@@ -6,9 +6,14 @@ import { Highlight } from 'prism-react-renderer'
 import Latex from 'react-latex-next';
 
 export function Fence({ children, language }) {
-  if (language === 'latex') {
+  if (language.startsWith('latex')) {
+    let sizeClass= 'text-xl'; // default
+    sizeClass = (language === 'small') ? 'text-sm' : sizeClass;
+    sizeClass = (language === '2xl') ? 'text-2xl' : sizeClass;
+    sizeClass = (language === '3xl') ? 'text-3xl' : sizeClass;
+    // ...
     return (
-      <span className="select-none">
+      <span className={`select-none ${sizeClass} text-black dark:text-white`}>
         <Latex>{children}</Latex>
       </span>
     )

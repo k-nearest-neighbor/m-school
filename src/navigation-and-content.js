@@ -63,6 +63,7 @@ export const navigation = [
   },
   {
     title: 'Ability & Alignment',
+    hide: true,
     links: [
       { title: 'Posts', href: '/ability-and-alignment/posts' },
       { title: 'Papers', href: '/ability-and-alignment/papers' },
@@ -72,42 +73,46 @@ export const navigation = [
   },
   {
     title: 'Mechanistic Interpretability',
+    hide: true,
     links: [
       // { title: 'Posts', href: '/mech-interp/posts' },
       { title: 'Papers', href: '/mech-interp/papers' },
       { title: 'People & Projects', href: '/mech-interp/organizations-and-projects' },
     ],
   },
-  // {
-  //   title: 'Scaling Behaviors',
-  //   links: [
-  //     // { title: 'Posts', href: '/scaling/posts' },
-  //     // { title: 'Papers', href: '/scaling/papers' },
-  //     { title: 'All Known Scaling Behaviors', href: '/scaling/all-known-scaling-behavior' },
-  //     // { title: 'Classic Scaling laws', href: '/scaling/classic-scaling-laws' },
-  //   ],
-  // },
+  {
+    title: 'Scaling Behaviors',
+    hide: true,
+    links: [
+      // { title: 'Posts', href: '/scaling/posts' },
+      // { title: 'Papers', href: '/scaling/papers' },
+      { title: 'All Known Scaling Behaviors', href: '/scaling/all-known-scaling-behavior' },
+      // { title: 'Classic Scaling laws', href: '/scaling/classic-scaling-laws' },
+    ],
+  },
 
-  // {
-  //   title: 'Models',
-  //   links: [
-  //     { title: 'News', href: '/models/news' },
-  //     { title: 'LLMs', href: '/models/llm' },
-  //     { title: 'Coding', href: '/models/Coding' },
-  //     { title: 'Multi-Modal', href: '/models/multi-modal' },
-  //     { title: 'Vision', href: '/models/vision' },
-  //     { title: 'Generative Image', href: '/models/generative-image' },
-  //     { title: 'Generative Video', href: '/models/generative-video' },
-  //     { title: 'Generative Video', href: '/models/generative-audio' },
-  //     { title: 'TTS', href: '/models/tts' },
-  //     { title: 'ASR', href: '/models/asr' },
+  {
+    title: 'Models',
+    hide: true,
+    links: [
+      { title: 'News', href: '/models/news' },
+      { title: 'LLMs', href: '/models/llm' },
+      { title: 'Coding', href: '/models/Coding' },
+      { title: 'Multi-Modal', href: '/models/multi-modal' },
+      { title: 'Vision', href: '/models/vision' },
+      { title: 'Generative Image', href: '/models/generative-image' },
+      { title: 'Generative Video', href: '/models/generative-video' },
+      { title: 'Generative Video', href: '/models/generative-audio' },
+      { title: 'TTS', href: '/models/tts' },
+      { title: 'ASR', href: '/models/asr' },
       
-  //     { title: 'Specialist', href: '/models/specialist' },
-  //   ],
-  // },
+      { title: 'Specialist', href: '/models/specialist' },
+    ],
+  },
 
   {
     title: 'Reccomendations',
+    hide: true,
     links: [
       { title: 'Channels & Podcasts', href: '/love/streams' },
       { title: 'People & Blogs', href: '/love/people-and-blogs' },

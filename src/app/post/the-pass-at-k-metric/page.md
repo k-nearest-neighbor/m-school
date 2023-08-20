@@ -10,21 +10,32 @@ Understanding confidence metrics: Pass@1 vs. Pass@100
 
 ---
 
-Demonstrate inline latex: {% latex src="e^+e^-" /%} blah blah.
+This is the thing: {% latex src="pass@k" /%} blah blah.
 
 ```latex
 $$
-\begin{bmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6
-\end{bmatrix}^{\mathrm{T}}
-=
-\begin{bmatrix}
-1 & 4 \\
-2 & 5 \\
-3 & 6
-\end{bmatrix}
+ pass@k := \mathop{\mathbb{E}}_{\text{Problems}} \left[ 1 - \frac{{\binom{n-c}{k}}} {\binom{n}{k}} \right]
+
 $$
+```
+
+```js
+// cache-advance.config.js
+export default {
+  strategy: 'predictive',
+  engine: {
+    cpus: 12,
+    backups: ['./storage/cache.wtf'],
+  },
+}
+```
+
+```python
+// foo.py
+import blah from foo
+
+s = [1,2,3,4,5,6,7,8,9,10]
+
 ```
 
 <!-- {% latex src=`We give illustrations for the three processes $e^+e^-$, gluon-gluon and some macros: $\f\relax{x} = 1$` %}{% /latex %} -->
