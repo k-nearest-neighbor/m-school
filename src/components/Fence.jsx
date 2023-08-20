@@ -13,7 +13,8 @@ export function Fence({ children, language }) {
     sizeClass = (language === '3xl') ? 'text-3xl' : sizeClass;
     // ...
     return (
-      <span className={`select-none ${sizeClass} text-black dark:text-white`}>
+      // <span className={`select-none ${sizeClass} text-black dark:text-white`}>
+      <span className={`select-none ${sizeClass} text-black dark:text-sky-400`}>
         <Latex>{children}</Latex>
       </span>
     )

@@ -8,12 +8,16 @@ export function Navigation({ navigation, className, onLinkClick }) {
   let pathname = usePathname()
 
   // dev feature to show or hide all the items in navigation use this to turn it on or off:
-  // localStorage.setItem('devShowAll', true)
-  // localStorage.setItem('devShowAll', false)
   let [devShowAll, setDevShowAll] = useState(false);
   useEffect(()=>{
     if (typeof window !== "undefined") {
       setDevShowAll(JSON.parse(localStorage.getItem('devShowAll') || false));
+      window.devShowAllTrue = () =>{
+        localStorage.setItem('devShowAll', true);
+      }
+      window.devShowAllFalse = () =>{
+        localStorage.setItem('devShowAll', false);
+      }
     }
   }, [devShowAll, setDevShowAll])
 

@@ -28,7 +28,10 @@ module.exports = {
       },
       dropShadow: {
         'logo': '0 35px 35px rgba(255, 255, 255, 255)',
-        'avatar': '0px 0px 99px #9994cc54'
+      },
+      boxShadow: {
+        'avatar' : '0px 0px 99px #9994cc54',
+        'cool'   : '0px 0px 88px #253b6157'
       },
       colors: {
         'darkerish-translucent': 'rgb(0 0 0 / 15%)',

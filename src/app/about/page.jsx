@@ -57,22 +57,19 @@ export default function About() {
 
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 grid-rows-1 items-start gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {/* Invoice summary */}
             <div className="lg:col-start-3 lg:row-end-1 sm:w-fit mx-auto">
-              <h2 className="sr-only">Person Information</h2>
+              <h2 className="sr-only">Author Information</h2>
               <div className="my-8 flex rounded-3xl p-6
                             bg-darkerish
-                            dark:ring-1
-                            dark:ring-slate-400/10
                             shadow-2xl
-                            dark:shadow-slate-900/10
+                            dark:shadow-cool
                             ">
                 <div className="flex flex-col w-full p-4">
 
                     <Image
                       // className="h-32 w-32 rounded-full dark:border border-3 border-slate-700 mx-auto"
-                      className="h-32 w-32 rounded-full mx-auto ring-1 ring-sky-400/50"
-                      style={{boxShadow: '0px 0px 99px #9994cc54'}}
+                      className="h-32 w-32 rounded-full mx-auto  shadow-avatar"
+                      // style={{boxShadow: '0px 0px 99px #9994cc54'}}
                       src={profileImage}
                       alt="Cool Person"
                     />
@@ -140,7 +137,7 @@ export default function About() {
               </p>
 
               <p className="my-6">
-                I made it for you too though, whoever you are, who is interested in the same things I am. I hope you find it useful.
+                I made it for you too though, whoever you are, who is interested in the same topics. I hope you find it useful.
               </p>
 
               
@@ -167,13 +164,11 @@ export default function About() {
               It&apos;s referring to the idea of agentive AI systems escaping their containers. Eventually it will be a thing that can happen. (Who knows when?)
               </p>
 
-              <p className="my-6">
-              It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
-              {/* It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste. */}
-              </p>
+
 
               <p className="my-6">
-                The name &quot;AI Breakout&quot; is just for fun. I&apos;m optimistic about Alignment. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
+                {/* The name &quot;AI Breakout&quot; is just for fun. I&apos;m optimistic about Alignment. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies: */}
+                The name is just for fun. I&apos;m mostly optimistic about Alignment though. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
               </p>
 
               
@@ -191,6 +186,11 @@ export default function About() {
 
               <p className="my-6">
               We&apos;re not there yet obviously.
+              </p>
+
+              <p className="my-6">
+              It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
+              {/* It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste. */}
               </p>
 
               {/* <h2 className="text-2xl font-bold my-6">
