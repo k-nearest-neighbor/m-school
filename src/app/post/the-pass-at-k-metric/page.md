@@ -12,7 +12,7 @@ Understanding confidence metrics: Pass@1 vs. Pass@100
 
 This is the thing: {% latex src="pass@k" /%} blah blah.
 
-```latex
+```latex-xl
 $$
  pass@k := \mathop{\mathbb{E}}_{\text{Problems}} \left[ 1 - \frac{{\binom{n-c}{k}}} {\binom{n}{k}} \right]
 

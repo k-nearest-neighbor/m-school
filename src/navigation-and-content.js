@@ -7,6 +7,7 @@ const posts = [
     date: new Date('2023-08-11T12:00:00Z'),
     teaseimg: null,
     excerpt: "A metric for evaluating the performance of AI agents in a multi-agent environment.",
+    hidden: true
   },
 
   // { title: "The Pass@k Metric",
@@ -24,20 +25,21 @@ const posts = [
 
 export const collectLatestPosts = (n) => {
   return posts
-    .filter((post) => post.tags.includes('appears-in-latest'))
+    .filter((post) => post.tags.includes('appears-in-latest') && !post.hidden)
     .sort((a, b) => b.date - a.date)
     .slice(0, n)
 }
 
 export const collectAllPosts = () => {
   return posts
-    .filter((post) => !post.tags.includes('dont-show-in-all-view'))
+    .filter((post) => !post.tags.includes('dont-show-in-all-view') && !post.hidden)
     .sort((a, b) => b.date - a.date)
 }
 
 export const collectPostsWithTags = (includeTagsArray, excludeTagsArray) => {
   excludeTagsArray = excludeTagsArray || [];
   return posts
+    .filter((post) => !post.hidden)
     .filter((post) => includeTagsArray.some(tag => posts[0].tags.includes(tag)))
     .filter((post) => !excludeTagsArray.some(tag => posts[0].tags.includes(tag)))
     .sort((a, b) => b.date - a.date)

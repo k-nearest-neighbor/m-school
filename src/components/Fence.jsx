@@ -8,9 +8,13 @@ import Latex from 'react-latex-next';
 export function Fence({ children, language }) {
   if (language.startsWith('latex')) {
     let sizeClass= 'text-xl'; // default
-    sizeClass = (language === 'small') ? 'text-sm' : sizeClass;
-    sizeClass = (language === '2xl') ? 'text-2xl' : sizeClass;
-    sizeClass = (language === '3xl') ? 'text-3xl' : sizeClass;
+    sizeClass = (language.endsWith('xs')) ? 'text-xs' : sizeClass;
+    sizeClass = (language.endsWith('sm')) ? 'text-sm' : sizeClass;
+    sizeClass = (language.endsWith('lg')) ? 'text-lg' : sizeClass;
+    sizeClass = (language.endsWith('xl')) ? 'text-xl' : sizeClass;
+    sizeClass = (language.endsWith('2xl')) ? 'text-2xl' : sizeClass;
+    sizeClass = (language.endsWith('3xl')) ? 'text-3xl' : sizeClass;
+    sizeClass = (language.endsWith('4xl')) ? 'text-4xl' : sizeClass;
     // ...
     return (
       // <span className={`select-none ${sizeClass} text-black dark:text-white`}>

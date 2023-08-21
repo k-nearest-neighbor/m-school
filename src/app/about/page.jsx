@@ -151,14 +151,11 @@ export default function About() {
               
 
 
-              <h2 className="text-2xl font-bold my-6">
-                {/* What does &nbsp;<span className="italic font-extrabold">"AI Breakout"</span>&nbsp; mean? */}
+              {/* <h2 className="text-2xl font-bold my-6">
                 What does &nbsp;<span className="">&quot;AI Breakout&quot;</span>&nbsp; mean?
               </h2>
 
-              {/* <p className="my-6">
-              The idea of an AI system escaping its intended containers. Sometime in the future (who knows when?) it will be a thing that can happen. It&apos;s funny but whenever it does happen, hopefully it won&apos;t be in a situations with high costs in money or human lives lost -- making it seem like the name of this little blog was chosen in <i>super</i> poor taste.
-              </p> */}
+              
 
               <p className="my-6">
               It&apos;s referring to the idea of agentive AI systems escaping their containers. Eventually it will be a thing that can happen. (Who knows when?)
@@ -167,7 +164,7 @@ export default function About() {
 
 
               <p className="my-6">
-                {/* The name &quot;AI Breakout&quot; is just for fun. I&apos;m optimistic about Alignment. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies: */}
+                
                 The name is just for fun. I&apos;m mostly optimistic about Alignment though. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
               </p>
 
@@ -175,9 +172,6 @@ export default function About() {
               <div className='w-fit mx-auto shadow-2xl dark:shadow-slate-900/10'>
                 <iframe
                   width="280"
-                  // width="560"
-                  // height="315"
-                  // src="https://www.youtube.com/embed/B9XGim2dyOA?hd=1&iv_load_policy=3"
                   src="https://www.youtube.com/embed/8MwC0u-orNw?hd=1&iv_load_policy=3"
                   title="YouTube video player"
                   frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
@@ -190,16 +184,19 @@ export default function About() {
 
               <p className="my-6">
               It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
-              {/* It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste. */}
-              </p>
+              
+              </p> */}
 
               {/* <h2 className="text-2xl font-bold my-6">
                 Do you take X-risk too seriously? Or not seriously enough?
               </h2> */}
             </div>
 
-
-
+{/* <p className="my-6">
+              The idea of an AI system escaping its intended containers. Sometime in the future (who knows when?) it will be a thing that can happen. It&apos;s funny but whenever it does happen, hopefully it won&apos;t be in a situations with high costs in money or human lives lost -- making it seem like the name of this little blog was chosen in <i>super</i> poor taste.
+              </p> */}
+{/* The name &quot;AI Breakout&quot; is just for fun. I&apos;m optimistic about Alignment. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies: */}
+{/* It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste. */}
 
 
 
