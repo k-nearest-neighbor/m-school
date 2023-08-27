@@ -137,7 +137,7 @@ export default function About() {
               </p>
 
               <p className="my-6">
-                I made it for you too though, whoever you are, who is interested in the same topics. I hope you find it useful.
+                I made it for you too though, whoever you are, interested in the same topics. I hope you find it useful.
               </p>
 
               
@@ -188,8 +188,23 @@ export default function About() {
               </p> */}
 
               {/* <h2 className="text-2xl font-bold my-6">
-                Do you take X-risk too seriously? Or not seriously enough?
-              </h2> */}
+                P-Doom?
+              </h2>
+              <p className="my-6"><a href="https://www.abc.net.au/news/2023-07-15/whats-your-pdoom-ai-researchers-worry-catastrophe/102591340" target="_blank">An intro to P-Doom</a> if you're unfamiliar.</p> 
+              
+              <p className="my-6">
+                How I think about it:
+                <br/>
+                <span className='font-bold'>5 year P-Doom:</span>{' '}~5%
+                <br/>
+                <span className='font-bold'>10 year P-Doom:</span>{' '}~8%
+                <br/>
+                <span className='font-bold'>15 year P-Doom:</span>{' '}~10%
+                <br/>
+                <span className='font-bold'>20 year P-Doom:</span>{' '}~14%
+                <br/>
+                <span className='font-bold'>30 year P-Doom:</span>{' '}~19%
+              </p> */}
             </div>
 
 {/* <p className="my-6">

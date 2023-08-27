@@ -62,7 +62,7 @@ export function DocsLayout({ children, frontmatter: {
                                                 authors,
                                                 cited_as,
                                                 source,
-                                                publish_date,
+                                                published_date,
                                                 notes_composed_date,
                                                 notes_updated_date,
                                                 tags }, ast }) {
@@ -88,7 +88,7 @@ export function DocsLayout({ children, frontmatter: {
         <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
           <article>
             <header className="mb-9 space-y-1">
-              <p className="font-display text-center text-sm font-medium text-slate-900 dark:text-white">
+              <p className="font-display text-center text-sm font-medium text-slate-900 dark:text-slate-300">
                 RESEARCH PAPER NOTES
               </p>
               <h1 className="font-display text-2xl font-bold tracking-tight pb-2">
@@ -99,9 +99,9 @@ export function DocsLayout({ children, frontmatter: {
               </h2>
               <p className="font-display text-sm text-slate-900 dark:text-white">
                 <b>Published:</b>{' '}
-                <span className="font-extralight">{publish_date}</span>
+                <span className="font-light">{published_date}</span>
               </p>
-              <p className="font-display text-sm text-slate-900 dark:text-white">
+              <p className="font-display text-sm text-slate-900 dark:text-slate-300">
                 <b>Source:</b>{' '}
                 <Link
                   href={source}
@@ -114,11 +114,11 @@ export function DocsLayout({ children, frontmatter: {
               </p>
               {/* <p className="font-display text-sm text-slate-900 dark:text-white">
                 <b>Cited As:</b>{' '}
-                <span className="font-extralight">{cited_as} / {nickname}</span>
+                <span className="font-light">{cited_as} / {nickname}</span>
               </p> */}
               <p className="font-display text-sm text-slate-900 dark:text-white line-clamp-1">
                 <b>Paper Authors:</b>{' '}
-                <span className="font-extralight italic">{authors}</span>
+                <span className="font-light italic">{authors}</span>
               </p>
 
               {{tags} && (
@@ -132,16 +132,16 @@ export function DocsLayout({ children, frontmatter: {
               )}
               <hr className="border-1 dark:border-slate-800"/>
               <p className="font-display text-sm text-right text-slate-900 dark:text-white">
-                <b>Notes Composed:</b>{' '}
-                <span className="font-extralight">{notes_composed_date}</span>
+                <b>Notes Created:</b>{' '}
+                <span className="font-light">{notes_composed_date}</span>
                 { notes_updated_date && (
                   <>
                     <br/><b>Updated:</b>{' '}
-                    <span className="font-extralight">{notes_updated_date}</span>
+                    <span className="font-light">{notes_updated_date}</span>
                   </>
                 )}
                 <br/>
-                <span className="font-extralight">Desmond Grealy</span>
+                <span className="font-light">Desmond Grealy</span>
               </p>
               <hr className="border-1 dark:border-slate-800"/>
             </header>

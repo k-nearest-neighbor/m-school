@@ -1,7 +1,6 @@
 import { collectPostsWithTags } from '@/navigation-and-content';
 
 import Image from 'next/image'
-import fourByTwoLightImage from '@/images/logos/4x2-lights.png' // coolest but too weird
 
 import dateFormat from "dateformat";
 
@@ -52,7 +51,7 @@ export function Post({post}) {
       </div>
       <a className="flex items-center text-sm text-sky-500 font-medium no-underline w-fit" href={post.href}>
         <span className="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl no-underline"></span>
-        <span className="relative no-underline">Read more<span className="sr-only">, Tailwind Connect 2023: Recap of our first in-person event</span>
+        <span className="relative no-underline">Read more<span className="sr-only">,{' '}{post.title}</span>
         </span>
         {/* <svg className="relative mt-px overflow-visible ml-2.5 text-sky-300 dark:text-sky-700" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"> */}
         <svg className="relative mt-px overflow-visible ml-2.5 text-sky-300 dark:text-sky-700" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" strokeWidth="2" >

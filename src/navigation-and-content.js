@@ -13,25 +13,77 @@ const posts = [
     excerpt: "A metric for evaluating the performance of AI agents in a multi-agent environment.",
     hide_in_latest: false,
     hide_in_all: false,
-    hide: true
+    hide: false
   },
 
   {
     template: 'paper',
     title: 'Code Llama: Open Foundation Models for Code',
     nickname: 'The Code Llama paper', // can be null
+    cited_as: 'Rozière et. al. 2023',
     href: '/paper/2308-code-llama',
     author1: 'Rozière',
     source: 'https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/',
-    publish_date: new Date('2023-08-24T12:00:00Z'),
-    publish_date_str: 'Aug 24, 2023',
+    published_date: new Date('2023-08-24T12:00:00Z'),
+    published_date_str: 'Aug 24, 2023',
     authored_date: new Date('2023-08-26T12:00:00Z'),
     authored_date_str: 'Aug 26, 2023',
-    tags: ['code', 'code-generation', 'llama2'],
+    tags: ['ai-coding', 'code-generation', 'llama2'],
     hide_in_latest: false,
     hide_in_all: false,
-    hide: true
-  }
+    hide: false
+  },
+  // {
+  //   template: 'paper',
+  //   title: 'Code Llama: Open Foundation Models for Code other one',
+  //   nickname: 'The Code Llama paper', // can be null
+  //   cited_as: 'Rozière et. al. 2023',
+  //   href: '/paper/2308-code-llamaasdf',
+  //   author1: 'Rozière',
+  //   source: 'https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/',
+  //   published_date: new Date('2023-08-22T12:00:00Z'),
+  //   published_date_str: 'Aug 22, 2023',
+  //   authored_date: new Date('2023-08-26T12:00:00Z'),
+  //   authored_date_str: 'Aug 26, 2023',
+  //   tags: ['ai-coding', 'code-generation', 'llama2'],
+  //   hide_in_latest: false,
+  //   hide_in_all: false,
+  //   hide: false
+  // },
+  // {
+  //   template: 'paper',
+  //   title: 'Code Llama: Open Foundation Models for Code',
+  //   nickname: 'The Code Llama paper', // can be null
+  //   cited_as: 'Rozière et. al. 2023',
+  //   href: '/paper/2208-code-llama',
+  //   author1: 'Rozière',
+  //   source: 'https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/',
+  //   published_date: new Date('2022-08-24T12:00:00Z'),
+  //   published_date_str: 'Aug 24, 2023',
+  //   authored_date: new Date('2022-08-26T12:00:00Z'),
+  //   authored_date_str: 'Aug 26, 2023',
+  //   tags: ['ai-coding', 'code-generation', 'llama2'],
+  //   hide_in_latest: false,
+  //   hide_in_all: false,
+  //   hide: false
+  // },
+  // {
+  //   template: 'paper',
+  //   title: 'Code Llama: Open Foundation Models for Code other one',
+  //   nickname: 'The Code Llama paper', // can be null
+  //   cited_as: 'Rozière et. al. 2023',
+  //   href: '/paper/2208-code-llamaasdf',
+  //   author1: 'Rozière',
+  //   source: 'https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/',
+  //   published_date: new Date('2022-07-24T12:00:00Z'),
+  //   published_date_str: 'Aug 24, 2023',
+  //   authored_date: new Date('2022-08-26T12:00:00Z'),
+  //   authored_date_str: 'Aug 26, 2023',
+  //   tags: ['ai-coding', 'code-generation', 'llama2'],
+  //   hide_in_latest: false,
+  //   hide_in_all: false,
+  //   hide: false
+  // }
   
 ]
 
@@ -63,10 +115,11 @@ export const collectPostsWithTags = (includeTagsArray, excludeTagsArray) => {
 
 export const collectPapersWithTags = (includeTagsArray, excludeTagsArray) => {
   excludeTagsArray = excludeTagsArray || [];
-  return papers
-    .filter((post) => post.template === 'post' && !post.hide)
-    .filter((paper) => includeTagsArray.some(tag => papers[0].tags.includes(tag)))
-    .filter((paper) => !excludeTagsArray.some(tag => papers[0].tags.includes(tag)))
+  // debugger
+  return posts
+    .filter((paper) => paper.template === 'paper' && !paper.hide)
+    .filter((paper) => includeTagsArray.some(tag => paper.tags.includes(tag)))
+    .filter((paper) => !excludeTagsArray.some(tag => paper.tags.includes(tag)))
     .sort((a, b) => b.authored_date - a.authored_date)
     // .slice(0, n)
 }
