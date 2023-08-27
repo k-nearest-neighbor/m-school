@@ -1,7 +1,6 @@
-import fourByTwoLightImage from '@/images/logos/4x2-lights.png'
+
 
 // would be nice to parse these from the posts and papers directories using the frontmatter
-
 const posts = [
   { 
     template: 'post',
@@ -33,57 +32,6 @@ const posts = [
     hide_in_all: false,
     hide: false
   },
-  // {
-  //   template: 'paper',
-  //   title: 'Code Llama: Open Foundation Models for Code other one',
-  //   nickname: 'The Code Llama paper', // can be null
-  //   cited_as: 'Rozière et. al. 2023',
-  //   href: '/paper/2308-code-llamaasdf',
-  //   author1: 'Rozière',
-  //   source: 'https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/',
-  //   published_date: new Date('2023-08-22T12:00:00Z'),
-  //   published_date_str: 'Aug 22, 2023',
-  //   authored_date: new Date('2023-08-26T12:00:00Z'),
-  //   authored_date_str: 'Aug 26, 2023',
-  //   tags: ['ai-coding', 'code-generation', 'llama2'],
-  //   hide_in_latest: false,
-  //   hide_in_all: false,
-  //   hide: false
-  // },
-  // {
-  //   template: 'paper',
-  //   title: 'Code Llama: Open Foundation Models for Code',
-  //   nickname: 'The Code Llama paper', // can be null
-  //   cited_as: 'Rozière et. al. 2023',
-  //   href: '/paper/2208-code-llama',
-  //   author1: 'Rozière',
-  //   source: 'https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/',
-  //   published_date: new Date('2022-08-24T12:00:00Z'),
-  //   published_date_str: 'Aug 24, 2023',
-  //   authored_date: new Date('2022-08-26T12:00:00Z'),
-  //   authored_date_str: 'Aug 26, 2023',
-  //   tags: ['ai-coding', 'code-generation', 'llama2'],
-  //   hide_in_latest: false,
-  //   hide_in_all: false,
-  //   hide: false
-  // },
-  // {
-  //   template: 'paper',
-  //   title: 'Code Llama: Open Foundation Models for Code other one',
-  //   nickname: 'The Code Llama paper', // can be null
-  //   cited_as: 'Rozière et. al. 2023',
-  //   href: '/paper/2208-code-llamaasdf',
-  //   author1: 'Rozière',
-  //   source: 'https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/',
-  //   published_date: new Date('2022-07-24T12:00:00Z'),
-  //   published_date_str: 'Aug 24, 2023',
-  //   authored_date: new Date('2022-08-26T12:00:00Z'),
-  //   authored_date_str: 'Aug 26, 2023',
-  //   tags: ['ai-coding', 'code-generation', 'llama2'],
-  //   hide_in_latest: false,
-  //   hide_in_all: false,
-  //   hide: false
-  // }
   
 ]
 
@@ -99,7 +47,7 @@ export const collectLatestPosts = (n) => { // adjust this to do papers too
 
 export const collectAllPosts = () => {
   return posts
-    .filter((post) => post.template === 'post' && !post.hide_in_all && !post.hidden)
+    .filter((post) => post.template === 'post' && !post.hide_in_all && !post.hide)
     .sort((a, b) => b.authored_date - a.authored_date)
 }
 
@@ -111,6 +59,12 @@ export const collectPostsWithTags = (includeTagsArray, excludeTagsArray) => {
     .filter((post) => !excludeTagsArray.some(tag => posts[0].tags.includes(tag)))
     .sort((a, b) => b.authored_date - a.authored_date)
     // .slice(0, n)
+}
+
+export const collectAllPapers = () => {
+  return posts
+    .filter((item) => item.template === 'post' && !item.hide_in_all && !item.hide)
+    .sort((a, b) => b.authored_date - a.authored_date)
 }
 
 export const collectPapersWithTags = (includeTagsArray, excludeTagsArray) => {

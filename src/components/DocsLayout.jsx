@@ -124,7 +124,7 @@ export function DocsLayout({ children, frontmatter: {
               {{tags} && (
                   <div className="flex py-6">
                     {tags.map((tag) => (
-                      <div className="inline-block bg-slate-300 dark:bg-sky-100 rounded-full px-3 py-1 text-sm font-semibold text-xs text-sky-700 mr-2 mb-2">
+                      <div key={tag} className="inline-block bg-slate-300 dark:bg-sky-100 rounded-full px-3 py-1 text-sm font-semibold text-xs text-sky-700 mr-2 mb-2">
                         {tag}
                       </div>
                     ))}
