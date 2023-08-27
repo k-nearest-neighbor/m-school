@@ -1,13 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useTheme } from 'next-themes'
-import { Listbox } from '@headlessui/react'
-import clsx from 'clsx'
 
-const themes = [
-  { name: 'Light', value: 'light', icon: LightIcon },
-  { name: 'Dark', value: 'dark', icon: DarkIcon },
-  { name: 'System', value: 'system', icon: SystemIcon },
-]
+import clsx from 'clsx'
+import { usePathname } from 'next/navigation'
 
 function LightIcon(props) {
   return (
@@ -59,6 +54,8 @@ export function ThemeSelector(props) {
   let { theme, setTheme } = useTheme()
   let [mounted, setMounted] = useState(false)
 
+  let pathname = usePathname()
+
   const setLight = () => {
     setTheme('light');
   }
@@ -73,6 +70,10 @@ export function ThemeSelector(props) {
   if (!mounted) {
     return <div className="h-5 w-5" />
   }
+
+  // if (pathname == '/about') { // forced to light mode there
+  //   return null;
+  // }
   
   return (
     <>
