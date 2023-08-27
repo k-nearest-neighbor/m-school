@@ -12,7 +12,7 @@ const posts = [
     excerpt: "A metric for evaluating the performance of AI agents in a multi-agent environment.",
     hide_in_latest: false,
     hide_in_all: false,
-    hide: false
+    hide: true
   },
 
   {
@@ -30,7 +30,7 @@ const posts = [
     tags: ['ai-coding', 'code-generation', 'llama2'],
     hide_in_latest: false,
     hide_in_all: false,
-    hide: false
+    hide: true
   },
   
 ]
@@ -63,7 +63,7 @@ export const collectPostsWithTags = (includeTagsArray, excludeTagsArray) => {
 
 export const collectAllPapers = () => {
   return posts
-    .filter((item) => item.template === 'post' && !item.hide_in_all && !item.hide)
+    .filter((item) => item.template === 'paper' && !item.hide_in_all && !item.hide)
     .sort((a, b) => b.authored_date - a.authored_date)
 }
 
@@ -85,6 +85,7 @@ export const navigation = [
   {
     title: 'Latest',
     links: collectLatestPosts(3),
+    hide: true
   },
   {
     title: 'AI Agents & Code Generation', // want to switch these links to /agents_and_coding

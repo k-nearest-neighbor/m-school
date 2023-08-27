@@ -151,21 +151,21 @@ export default function About() {
               
 
 
-              {/* <h2 className="text-2xl font-bold my-6">
+              <h2 className="text-2xl font-bold my-6">
                 What does &nbsp;<span className="">&quot;AI Breakout&quot;</span>&nbsp; mean?
               </h2>
 
               
 
               <p className="my-6">
-              It&apos;s referring to the idea of agentive AI systems escaping their containers. Eventually it will be a thing that can happen. (Who knows when?)
+              This is referring to the idea of agentive AI systems escaping their containers. Eventually that will be a thing that can happen. (Who knows when?) The name is just for fun.
               </p>
 
 
 
               <p className="my-6">
                 
-                The name is just for fun. I&apos;m mostly optimistic about Alignment though. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies:
+                I&apos;m mostly optimistic about Alignment. I read about X-Risk, and actually do take it seriously. But I feel like we should be fostering an optimistic disposition. AI will make us stronger, and we will make it stronger. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Like these cute babies:
               </p>
 
               
@@ -183,9 +183,9 @@ export default function About() {
               </p>
 
               <p className="my-6">
-              It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
+              It seems funny now but when an &#34;AI breakout&#34; eventually does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste.
               
-              </p> */}
+              </p>
 
               {/* <h2 className="text-2xl font-bold my-6">
                 P-Doom?

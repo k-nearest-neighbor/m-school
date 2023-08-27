@@ -1,9 +1,9 @@
 ---
-title: Agent Benchmarks
+title: Benchmarks & Datasets
 nextjs:
   metadata:
-    title: Agent Benchmarks
-    description: Benchmarks for AI Agent research.
+    title: Benchmarks & Datasets
+    description: Benchmarks & Datasets for AI Agent and code generation research.
 ---
 
 Nothing here yet.

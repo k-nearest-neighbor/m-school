@@ -1,9 +1,9 @@
 ---
-title: AI Agent Organizations & Projects
+title: People & Projects
 nextjs:
   metadata:
-    title: AI Agent Organizations and Projects
-    description: An overview of Organizations and Projects related to AI Agents.
+    title: People & Projects
+    description: An overview of People & Projects related to AI Agents and code generation.
 ---
 
 Nothing here yet.
