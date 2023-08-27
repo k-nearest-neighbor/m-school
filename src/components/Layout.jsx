@@ -55,7 +55,8 @@ function Header({ navigation }) {
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" className="flex align-middle justify-center content-center items-center" aria-label="Home page">
           {/* <Logomark className="h-9 w-9" /> */}
-          <span className="hidden ml-6 h-9 w-auto italic fill-slate-700 dark:fill-sky-100 lg:block text-3xl font-extrabold dark:drop-shadow-logo">AI Breakout</span>
+          {/* <span className="hidden ml-6 h-9 w-auto fill-slate-700 dark:fill-sky-100 lg:block text-3xl font-extrabold dark:drop-shadow-logo">🚨 <span className="italic">AI Breakout</span></span> */}
+          <span className="hidden ml-6 h-9 w-auto fill-slate-700 dark:fill-sky-100 lg:block text-3xl font-extrabold dark:drop-shadow-logo"><span className="italic">AI Breakout</span></span>
           {/* <span className="ml-6 h-9 w-auto italic fill-slate-700 dark:fill-sky-100 text-3xl font-extrabold dark:drop-shadow-logo">AI Breakout</span> */}
         </Link>
       </div>

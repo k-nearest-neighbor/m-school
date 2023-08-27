@@ -2,8 +2,31 @@ import { Callout } from '@/components/Callout';
 import { QuickLink, QuickLinks } from '@/components/QuickLinks';
 import { PostsList } from '@/components/PostsList';
 import { LatexComponent } from '@/components/Latex';
+import { AttributedImage } from '@/components/AttributedImage';
+import { NextLink, ALink } from '@/components/Links';
 
 const tags = {
+  alink: {
+    selfClosing: true,
+    attributes: {
+      text: { type: String },
+      href: { type: String },
+      target: { type: String },
+      rel: { type: String },
+    },
+    render: ALink,
+  },
+  nextlink : {
+    selfClosing: true,
+    attributes: {
+      text: { type: String },
+      href: { type: String },
+      replace: { type: Boolean },
+      scroll: { type: Boolean },
+      prefretch: { type: Boolean },
+    },
+    render: ALink,
+  },
   callout: {
     attributes: {
       title: { type: String },
@@ -15,6 +38,17 @@ const tags = {
       },
     },
     render: Callout,
+  },
+  inlineimg: {
+    selfClosing: true,
+    attributes: {
+      src: { type: String },
+      alt: { type: String },
+      caption: { type: String },
+      attribution: { type: String },
+      attributionHref: { type: String },
+    },
+    render: AttributedImage,
   },
   figure: {
     selfClosing: true,

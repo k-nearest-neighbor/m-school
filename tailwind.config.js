@@ -37,7 +37,22 @@ module.exports = {
         'darkerish-translucent': 'rgb(0 0 0 / 15%)',
         'darkerish': '#0b1423',
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            img: {
+              // Remove margins until Next/Image issue is resolved
+              // https://github.com/vercel/next.js/issues/19817
+              "margin-top": "0",
+              "margin-bottom": "0",
+            },
+          },
+        },
+      }),
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+      require('@tailwindcss/typography')
+  ],
+  
 }

@@ -31,6 +31,8 @@ Michaël Trazzi is consistently great. I'm a big fan of his work.
 
 <!-- ## Podcasts
 
+AXRP - the AI X-risk Research Podcast
+
 #### LatentSpace
 
 swyx is a very talented and lovely guy. --> -->

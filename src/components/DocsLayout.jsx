@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 
 import { DocsHeader } from '@/components/DocsHeader'
@@ -53,21 +55,105 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
   return sections
 }
 
-export function DocsLayout({ children, frontmatter: { title }, ast }) {
+export function DocsLayout({ children, frontmatter: {
+                                                title,
+                                                nickname,
+                                                template,
+                                                authors,
+                                                cited_as,
+                                                source,
+                                                publish_date,
+                                                notes_composed_date,
+                                                notes_updated_date,
+                                                tags }, ast }) {
   let tableOfContents = collectHeadings(ast.children)
+  let templateName = template ?? 'default';
+  
+  if (templateName === 'default') {
+    return (
+      <>
+        <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
+          <article>
+            <DocsHeader title={title} />
+            <Prose>{children}</Prose>
+          </article>
+          {/* <PrevNextLinks /> */}
+        </div>
+        <TableOfContents tableOfContents={tableOfContents} />
+      </>
+    )
+  } else if (templateName === 'paper') {
+    return (
+      <>
+        <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
+          <article>
+            <header className="mb-9 space-y-1">
+              <p className="font-display text-center text-sm font-medium text-slate-900 dark:text-white">
+                RESEARCH PAPER NOTES
+              </p>
+              <h1 className="font-display text-2xl font-bold tracking-tight pb-2">
+                {title}
+              </h1>
+              <h2 className="font-display font-semibold tracking-tight pb-8">
+                {nickname && (<span>&#34;{nickname}&#34; /{' '}</span>)}{cited_as}
+              </h2>
+              <p className="font-display text-sm text-slate-900 dark:text-white">
+                <b>Published:</b>{' '}
+                <span className="font-extralight">{publish_date}</span>
+              </p>
+              <p className="font-display text-sm text-slate-900 dark:text-white">
+                <b>Source:</b>{' '}
+                <Link
+                  href={source}
+                  target="_blank"
+                  className="mt-8 text-sm font-base text-sky-500"
+                >
+                  {source}
+                </Link>
 
-  return (
-    <>
-      <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
-        <article>
-          <DocsHeader title={title} />
-          <Prose>{children}</Prose>
-        </article>
-        {/* <PrevNextLinks /> */}
-      </div>
-      <TableOfContents tableOfContents={tableOfContents} />
-    </>
-  )
+              </p>
+              {/* <p className="font-display text-sm text-slate-900 dark:text-white">
+                <b>Cited As:</b>{' '}
+                <span className="font-extralight">{cited_as} / {nickname}</span>
+              </p> */}
+              <p className="font-display text-sm text-slate-900 dark:text-white line-clamp-1">
+                <b>Paper Authors:</b>{' '}
+                <span className="font-extralight italic">{authors}</span>
+              </p>
+
+              {{tags} && (
+                  <div className="flex py-6">
+                    {tags.map((tag) => (
+                      <div className="inline-block bg-slate-300 dark:bg-sky-100 rounded-full px-3 py-1 text-sm font-semibold text-xs text-sky-700 mr-2 mb-2">
+                        {tag}
+                      </div>
+                    ))}
+                  </div>
+              )}
+              <hr className="border-1 dark:border-slate-800"/>
+              <p className="font-display text-sm text-right text-slate-900 dark:text-white">
+                <b>Notes Composed:</b>{' '}
+                <span className="font-extralight">{notes_composed_date}</span>
+                { notes_updated_date && (
+                  <>
+                    <br/><b>Updated:</b>{' '}
+                    <span className="font-extralight">{notes_updated_date}</span>
+                  </>
+                )}
+                <br/>
+                <span className="font-extralight">Desmond Grealy</span>
+              </p>
+              <hr className="border-1 dark:border-slate-800"/>
+            </header>
+
+            <Prose>{children}</Prose>
+          </article>
+          {/* <PrevNextLinks /> */}
+        </div>
+        <TableOfContents tableOfContents={tableOfContents} />
+      </>
+    )
+  }
 }
 
 /*

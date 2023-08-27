@@ -46,7 +46,7 @@ export function Post({post}) {
         <dl className="absolute left-0 top-0 lg:left-auto lg:right-full lg:mr-[calc(6.5rem+1px)]">
         <dt className="sr-only">Date</dt>
         <dd className="whitespace-nowrap text-sm leading-6 dark:text-slate-400">
-          <time dateTime={post.date.toISOString()}>{dateFormat(post.date, "mmmm d, yyyy")}</time>
+          <time dateTime={post.authored_date.toISOString()}>{dateFormat(post.authored_date, "mmmm d, yyyy")}</time>
         </dd>
         </dl>
       </div>
