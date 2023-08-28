@@ -101,8 +101,8 @@ export function DocsLayout({ children, frontmatter: {
                 <b>Published:</b>{' '}
                 <span className="font-light">{published_date}</span>
               </p>
-              <p className="font-display text-sm text-slate-900 dark:text-slate-300">
-                <b>Source:</b>{' '}
+              <p className="font-display text-sm text-slate-900 dark:text-white">
+                <b>Paper:</b>{' '}
                 <Link
                   href={source}
                   target="_blank"
@@ -110,7 +110,6 @@ export function DocsLayout({ children, frontmatter: {
                 >
                   {source}
                 </Link>
-
               </p>
               {/* <p className="font-display text-sm text-slate-900 dark:text-white">
                 <b>Cited As:</b>{' '}

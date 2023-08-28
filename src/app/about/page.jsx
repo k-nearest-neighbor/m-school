@@ -180,7 +180,7 @@ export default function About() {
 
               <p className="my-6">
                 
-                I&apos;m mostly optimistic about Alignment. I take X-risk seriously, but I think we should be fostering an optimistic disposition. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Like these cute babies:
+                I&apos;m mostly optimistic about Alignment. I take X-risk seriously, but I think we should foster an optimistic disposition. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own, like cute babies escaping their cribs:
               </p>
 
               
@@ -201,6 +201,17 @@ export default function About() {
               It seems funny now but when an &#34;AI breakout&#34; eventually does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in poor taste.
               
               </p>
+
+              <h2 className="text-2xl font-bold mt-16">
+                How can I get updates about this content?
+              </h2>
+              <p className="my-6">
+                I will post updates on Twitter &#8212;{' '}
+                <Link href="https://twitter.com/k_nearest" className="text-sky-500 hover:text-sky-400" >@k_nearest</Link>. An RSS feed is also in the works.
+              </p> 
+              {/* <p className="my-6">
+                
+              </p> */}
 
               {/* <h2 className="text-2xl font-bold my-6">
                 P-Doom?
