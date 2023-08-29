@@ -63,18 +63,21 @@ export function DocsLayout({ children, frontmatter: {
                                                 cited_as,
                                                 source,
                                                 published_date,
-                                                notes_composed_date,
-                                                notes_updated_date,
+                                                composed_date,
+                                                updated_date,
                                                 tags }, ast }) {
   let tableOfContents = collectHeadings(ast.children)
-  let templateName = template ?? 'default';
+  let templateName = template ?? 'post';
   
-  if (templateName === 'default') {
+  if (templateName === 'post') {
     return (
       <>
         <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
           <article>
             <DocsHeader title={title} />
+            {composed_date}
+
+            Desmond Grealy
             <Prose>{children}</Prose>
           </article>
           {/* <PrevNextLinks /> */}
@@ -88,61 +91,79 @@ export function DocsLayout({ children, frontmatter: {
         <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
           <article>
             <header className="mb-9 space-y-1">
-              <p className="font-display text-center text-sm font-medium text-slate-900 dark:text-slate-300">
+              {/* <p className="font-display mb-4 text-center text-sm font-medium text-slate-900 dark:text-slate-300">
                 RESEARCH PAPER NOTES
-              </p>
-              <h1 className="font-display text-2xl font-bold tracking-tight pb-2">
-                {title}
-              </h1>
-              <h2 className="font-display font-semibold tracking-tight pb-8">
-                {nickname && (<span>&#34;{nickname}&#34; /{' '}</span>)}{cited_as}
-              </h2>
-              <p className="font-display text-sm text-slate-900 dark:text-white">
-                <b>Published:</b>{' '}
-                <span className="font-light">{published_date}</span>
-              </p>
-              <p className="font-display text-sm text-slate-900 dark:text-white">
-                <b>Paper:</b>{' '}
-                <Link
-                  href={source}
-                  target="_blank"
-                  className="mt-8 text-sm font-base text-sky-500"
-                >
-                  {source}
-                </Link>
-              </p>
-              {/* <p className="font-display text-sm text-slate-900 dark:text-white">
-                <b>Cited As:</b>{' '}
-                <span className="font-light">{cited_as} / {nickname}</span>
               </p> */}
-              <p className="font-display text-sm text-slate-900 dark:text-white line-clamp-1">
-                <b>Paper Authors:</b>{' '}
-                <span className="font-light italic">{authors}</span>
-              </p>
 
-              {{tags} && (
-                  <div className="flex py-6">
-                    {tags.map((tag) => (
-                      <div key={tag} className="inline-block bg-slate-300 dark:bg-sky-100 rounded-full px-3 py-1 text-sm font-semibold text-xs text-sky-700 mr-2 mb-2">
-                        {tag}
+
+              {/* <div className="px-4 py-2 rounded-2xl bg-slate-100 dark:bg-slate-800/60"> */}
+
+              <div className="px-4 py-2 group relative rounded-3xl border border-slate-200 dark:border-slate-800 dark:bg-slate-800/60 max-w-[42rem] mx-auto">
+                <div className="absolute -inset-px rounded-xl border-2 border-transparent  [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.slate.50)),var(--quick-links-hover-bg,theme(colors.slate.100)))_padding-box,linear-gradient(to_top,theme(colors.blue.500),theme(colors.cyan.500),theme(colors.sky.600))_border-box] dark:[--quick-links-hover-bg:theme(colors.slate.800)]" />
+                  <div className="relative overflow-hidden rounded-xl px-4 py-2">
+                  <h1 className="font-display text-2xl font-bold tracking-tight pb-2">
+                    {title}
+                  </h1>
+                  <h2 className="font-display font-semibold tracking-tight pb-8 text-slate-600 dark:text-slate-300">
+                    {/* Known as:  {nickname && (<span>&#34;{nickname}&#34; /{' '}</span>)}{cited_as} */}
+                    
+                    {nickname && (<span><span className="text-slate-400">&#34;</span>{nickname}<span className="text-slate-400">&#34;</span></span>)}
+                    <br/>
+                    {cited_as && (<span><span className="text-slate-400">&#34;</span>{cited_as}<span className="text-slate-400">&#34;</span></span>)}
+                    
+                    
+                  </h2>
+                  <p className="font-display text-sm text-slate-900 dark:text-white py-1">
+                    {/* <b>Published:</b>{' '} */}
+                    <span className="font-light">Published {published_date}</span>
+                  </p>
+                  <p className="font-display text-sm text-slate-900 dark:text-white py-1">
+                    {/* <b>Paper:</b>{' '} */}
+                    <Link
+                      href={source}
+                      target="_blank"
+                      className="mt-8 text-sm font-base text-sky-500"
+                    >
+                      {source}
+                    </Link>
+                  </p>
+                  {/* <p className="font-display text-sm text-slate-900 dark:text-white">
+                    <b>Cited As:</b>{' '}
+                    <span className="font-light">{cited_as} / {nickname}</span>
+                  </p> */}
+                  <p className="font-display text-sm text-black dark:text-white py-1">
+                    {/* <b>Paper Authors:</b>{' '} */}
+                    <span className="font-light italic">{authors}</span>
+                  </p>
+                  {{tags} && (
+                      <div className="flex pt-6">
+                        {tags.map((tag) => (
+                          <div key={tag} className="inline-block bg-slate-300 dark:bg-slate-950/50 rounded-full px-3 py-1 text-sm font-semibold text-xs text-sky-700 dark:text-slate-100 mr-2 mb-2">
+                            {tag}
+                          </div>
+                        ))}
                       </div>
-                    ))}
-                  </div>
-              )}
-              <hr className="border-1 dark:border-slate-800"/>
-              <p className="font-display text-sm text-right text-slate-900 dark:text-white">
-                <b>Notes Created:</b>{' '}
-                <span className="font-light">{notes_composed_date}</span>
-                { notes_updated_date && (
+                  )}
+                </div>
+              </div>
+
+
+
+              {/* <hr className="border-1 dark:border-slate-800"/> */}
+              <p className="font-display text-sm text-center text-slate-900 dark:text-white pt-6">
+                <b>Notes from{' '}
+                <span className="">{composed_date}</span>
+                </b>
+                { updated_date && (
                   <>
                     <br/><b>Updated:</b>{' '}
-                    <span className="font-light">{notes_updated_date}</span>
+                    <span className="">{updated_date}</span>
                   </>
                 )}
                 <br/>
-                <span className="font-light">Desmond Grealy</span>
+                <span className="">Desmond Grealy</span>
               </p>
-              <hr className="border-1 dark:border-slate-800"/>
+              {/* <hr className="border-1 dark:border-slate-800"/> */}
             </header>
 
             <Prose>{children}</Prose>

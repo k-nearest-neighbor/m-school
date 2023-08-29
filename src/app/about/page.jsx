@@ -78,13 +78,13 @@ export default function About() {
                             ">
                 <div className="flex flex-col w-full p-4">
 
-                    <Image
+                    {/* <Image
                       // className="h-32 w-32 rounded-full dark:border border-3 border-slate-700 mx-auto"
                       className="h-32 w-32 rounded-full mx-auto  shadow-avatar"
                       // style={{boxShadow: '0px 0px 99px #9994cc54'}}
                       src={profileImage}
                       alt="Cool Person"
-                    />
+                    /> */}
                     {/* <span className="absolute bottom-0 left-12 w- block rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-600 ring-1 ring-inset ring-green-600/20" >
                         Successful Person   
                     </span> */}
@@ -145,10 +145,10 @@ export default function About() {
             {/* Center Content */}
             <div className="py-8  sm:mx-0 sm:px-8 sm:pb-14 lg:col-span-2 lg:row-span-2 lg:row-end-2  xl:pb-20 xl:pt-16">
               <p className="my-6">
-                Hi. I&apos;m Des.
+                Hi, I&apos;m Des.
               </p>
               <p className="my-6">
-                This site is a way for me to track observations about ML / AI research.
+                This site is a way for me to track observations about <span className='whitespace-nowrap'>ML / AI</span> research.
               </p>
 
               <p className="my-6">
@@ -173,14 +173,14 @@ export default function About() {
               
 
               <p className="my-6">
-              This is referring to the idea of AI systems escaping their containers. Eventually that will be a thing that can happen. (Who knows when?) The name is just for fun.
+              It&apos;s referring to the idea of AI systems escaping their containers. Eventually that will be a thing that can happen. (Who knows when? Probably far from now). The name is just for fun.
               </p>
 
 
 
               <p className="my-6">
                 
-                I&apos;m mostly optimistic about Alignment. I take X-risk seriously, but I think we should foster an optimistic disposition. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own, like cute babies escaping their cribs:
+                I&apos;m mostly optimistic about Alignment. I do take much of X-Risk seriously, but we should have an optimistic disposition. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own, like babies cleverly escaping their cribs:
               </p>
 
               
@@ -203,11 +203,11 @@ export default function About() {
               </p>
 
               <h2 className="text-2xl font-bold mt-16">
-                How can I get updates about this content?
+                How can I get updates about content?
               </h2>
               <p className="my-6">
                 I will post updates on Twitter &#8212;{' '}
-                <Link href="https://twitter.com/k_nearest" className="text-sky-500 hover:text-sky-400" >@k_nearest</Link>. An RSS feed is also in the works.
+                <Link href="https://twitter.com/k_nearest" className="text-sky-500 hover:text-sky-400" >@k_nearest</Link>.
               </p> 
               {/* <p className="my-6">
                 

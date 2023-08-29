@@ -17,7 +17,6 @@ export function BreakPointDebug() {
                 </linearGradient>
             </defs>
         </svg>
-        Current breakpoint
         <span className="ml-1 sm:hidden md:hidden lg:hidden xl:hidden">default (&lt; 640px)</span>
         <span className="ml-1 hidden sm:inline md:hidden font-extrabold">sm</span>
         <span className="ml-1 hidden md:inline lg:hidden font-extrabold">md</span>

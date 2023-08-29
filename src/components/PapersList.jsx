@@ -24,8 +24,12 @@ export function Paper({paper}) {
         </circle>
       </svg>
       <div className="relative">
-        <h3 className="font-semibold tracking-tight text-slate-900 dark:text-slate-200 pt-8 lg:pt-0">
-          <span className='mr-3'>📄</span>{paper.title}
+        <h2 className="font-semibold tracking-tight text-slate-900 dark:text-slate-200 pt-8 lg:pt-0">
+          {/* <span className='mr-3'>📄</span> */}
+          {paper.title}
+        </h2>
+        <h3 className="font-semibold tracking-tight text-slate-900 dark:text-slate-200 pt-2">
+          <span className='ml-0'>&quot;</span>{paper.nickname}<span className=''>&quot;</span>
         </h3>
         <div className="flex flex-col mt-2 mb-0 prose prose-slate max-w-none dark:prose-invert dark:text-slate-400 ">
         

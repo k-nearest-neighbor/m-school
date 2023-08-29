@@ -4,7 +4,7 @@
 const posts = [
   { 
     template: 'post',
-    title: "The Pass@k Metric",
+    title: "📓 What does Pass@1 mean? Understanding confidence metrics used to evaluate AI Code Generation",
     href: "/post/the-pass-at-k-metric",
     tags: ['agents'],
     authored_date: new Date('2023-08-11T12:00:00Z'),
@@ -15,10 +15,23 @@ const posts = [
     hide: true
   },
 
+ { 
+    template: 'post',
+    title: '🧐 Why do We Keep Comparing Against an Old GPT-4 Result?',
+    href: "/post/why-do-we-keep-comparing-against-an-old-gpt4-metric",
+    tags: ['code-generation', 'metrics','gpt-4'],
+    authored_date: new Date('2023-08-29T12:00:00Z'),
+    teaseimg: null,
+    excerpt: "Several code LLM papers prefer to use a GPT-4 metric which is known to be dated",
+    hide_in_latest: false,
+    hide_in_all: false,
+    hide: false
+  },
+
   {
     template: 'paper',
-    title: 'Code Llama: Open Foundation Models for Code',
-    nickname: 'The Code Llama paper', // can be null
+    title: '📋 Code Llama: Open Foundation Models for Code',
+    nickname: 'The Code Llama Paper', // can be null
     cited_as: 'Rozière et. al. 2023',
     href: '/paper/2308-code-llama',
     author1: 'Rozière',
@@ -82,38 +95,45 @@ export const collectPapersWithTags = (includeTagsArray, excludeTagsArray) => {
 
 
 export const navigation = [ 
+  // {
+  //   title: 'All Posts & Papers',
+  //   links: collectLatestPosts(3),
+  //   hide: false
+  // },
+
   {
     title: 'Latest',
     links: collectLatestPosts(3),
-    hide: true
+    hide: false
   },
   {
-    title: 'AI Agents & Code Generation', // want to switch these links to /agents_and_coding
+    title: 'Code Generation Models',
+    links: [
+      { title: 'Posts', href: '/generative-code/posts' },
+      { title: 'Papers', href: '/generative-code/papers' },
+      // { title: 'Benchmarks & Datasets', href: '/generative-code/benchmarks-and-datasets' },
+      // { title: 'People & Projects', href: '/generative-code/people-and-projects' },
+    ],
+  },
+  {
+    title: 'AI Agents',
     links: [
       { title: 'Posts', href: '/agents/posts' },
       { title: 'Papers', href: '/agents/papers' },
       // { title: 'Overview', href: '/agents/papers' },
-      { title: 'Benchmarks & Datasets', href: '/agents/benchmarks_and_datasets' },
-      { title: 'People & Projects', href: '/agents/organizations-and-projects' },
+      // { title: 'Benchmarks & Datasets', href: '/agents/benchmarks-and-datasets' },
+      // { title: 'People & Projects', href: '/agents/people-and-projects' },
     ],
   },
-  // {
-  //   title: 'AI Coding',
-  //   links: [
-  //     { title: 'Posts', href: '/coding/posts' },
-  //     { title: 'Papers', href: '/coding/papers' },
-  //     { title: 'Benchmarks & Datasets', href: '/agents/benchmarks_and_datasets' },
-  //     { title: 'People & Projects', href: '/agents/organizations-and-projects' },
-  //   ],
-  // },
+
   {
-    title: 'Alignment', // want to switch these links to "Alignment"
+    title: 'Alignment',
     hide: true,
     links: [
-      { title: 'Posts', href: '/ability-and-alignment/posts' },
-      { title: 'Papers', href: '/ability-and-alignment/papers' },
-      { title: 'Benchmarks & Datasets', href: '/ability-and-alignment/benchmarks_and_datasets' },
-      { title: 'People & Projects', href: '/ability-and-alignment/organizations-and-projects' },
+      { title: 'Posts', href: '/alignment/posts' },
+      { title: 'Papers', href: '/alignment/papers' },
+      { title: 'Benchmarks & Datasets', href: '/alignment/benchmarks-and-datasets' },
+      { title: 'People & Projects', href: '/alignment/people-and-projects' },
     ],
   },
   {
@@ -122,7 +142,7 @@ export const navigation = [
     links: [
       // { title: 'Posts', href: '/mech-interp/posts' },
       { title: 'Papers', href: '/mech-interp/papers' },
-      { title: 'People & Projects', href: '/mech-interp/organizations-and-projects' },
+      { title: 'People & Projects', href: '/mech-interp/people-and-projects' },
     ],
   },
   {
@@ -135,6 +155,23 @@ export const navigation = [
       // { title: 'Classic Scaling laws', href: '/scaling/classic-scaling-laws' },
     ],
   },
+  {
+    title: 'Security',
+    hide: true,
+    links: [
+      { title: 'Posts', href: '/security/posts' },
+      { title: 'Papers', href: '/security/papers' },
+    ],
+  },
+  {
+    title: 'Governance',
+    hide: true,
+    links: [
+      { title: 'Posts', href: '/governance/posts' },
+      { title: 'Papers', href: '/governance/papers' },
+      { title: 'Policy & Organizations', href: '/governance/policy-and-organizations' },
+    ],
+  },
 
   {
     title: 'Models',
@@ -142,7 +179,7 @@ export const navigation = [
     links: [
       // { title: 'News', href: '/models/news' }, // needed?
       { title: 'LLMs', href: '/models/llm' },
-      { title: 'Coding', href: '/models/Coding' },
+      { title: 'Coding', href: '/models/coding' },
       { title: 'Multi-Modal', href: '/models/multi-modal' },
       { title: 'Vision', href: '/models/vision' },
       { title: 'Generative Image', href: '/models/generative-image' },
@@ -156,7 +193,8 @@ export const navigation = [
   },
 
   {
-    title: 'See Also',
+    title: '💚 See Also',
+    // title: '👁️ See Also',
     hide: true,
     links: [
       { title: 'Channels & Podcasts', href: '/love/streams' },

@@ -3,7 +3,7 @@ import { QuickLink, QuickLinks } from '@/components/QuickLinks';
 import { PostsList } from '@/components/PostsList';
 import { LatexComponent } from '@/components/Latex';
 import { AttributedImage } from '@/components/AttributedImage';
-import { NextLink, ALink } from '@/components/Links';
+import { NextLink, ALink, CitationRef } from '@/components/Links';
 
 const tags = {
   alink: {
@@ -15,6 +15,16 @@ const tags = {
       rel: { type: String },
     },
     render: ALink,
+  },
+  ref: {
+    selfClosing: true,
+    attributes: {
+      text: { type: String },
+      href: { type: String },
+      text: { type: String },
+      blue: { type: Boolean, default: false},
+    },
+    render: CitationRef,
   },
   nextlink : {
     selfClosing: true,
@@ -43,7 +53,6 @@ const tags = {
     selfClosing: true,
     attributes: {
       src: { type: String },
-      alt: { type: String },
       caption: { type: String },
       attribution: { type: String },
       attributionHref: { type: String },

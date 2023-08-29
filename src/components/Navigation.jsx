@@ -27,7 +27,7 @@ export function Navigation({ navigation, className, onLinkClick }) {
       <ul role="list" className="space-y-9">
 
         {/* Link for all posts at the top. Decided against it but leaving it here in case I want to turn it back on */}
-        {/* <li className="relative">
+        <li className="relative">
                 <Link
                   href="/"
                   onClick={onLinkClick}
@@ -39,10 +39,10 @@ export function Navigation({ navigation, className, onLinkClick }) {
                   )}
                 >
                   <h2 className="font-display font-medium">
-                    Blog
+                    All Posts & Papers
                   </h2>
                 </Link>
-        </li> */}
+        </li>
 
         {navigation
           .filter((section) => devShowAll || !section.hide)
@@ -69,7 +69,8 @@ export function Navigation({ navigation, className, onLinkClick }) {
                           : 'text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300'
                       )}
                     >
-                      <span className="line-clamp-1">{(link.template ==='paper') && (<span>📄{' '}</span>)}{link.title}</span>
+                      {/* <span className="line-clamp-1">{(link.template ==='paper') && (<span>📋{' '}</span>)}{link.title}</span> */}
+                      <span className="line-clamp-1">{link.title}</span>
                     </Link>
                   </li>
                 ))}

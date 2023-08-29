@@ -1,13 +1,11 @@
 ---
-title: The "Pass@k" Metric
+title: >
+  What does Pass@1 mean in AI Code Generation benchmarks?
 nextjs:
   metadata:
-    title: The "Pass@k" Metric
+    title: >
+      📓 The "Pass@k" Metric: Understanding confidence metrics used to evaluate AI code synthesis.
     description: Benchmarks for AI Agent research.
----
-
-Understanding confidence metrics: Pass@1 vs. Pass@100
-
 ---
 
 This is the thing: {% latex src="pass@k" /%} blah blah.
@@ -18,6 +16,16 @@ $$
 
 $$
 ```
+
+testing blockquotes
+
+> For illustrating the effect of increasing the base period of rotary position embeddings, we plot expectations for attention scores when varying the distance between key and query vectors in Figure 8a. Compared to the default base period of 10,000, θ = 1, 000, 000 reduces the decay in attention scores, which helps far-away tokens contribute to the current prediction. Notably, this change in rotation frequencies can be applied to pretrained models, with loss curves stabilizing within a few gradient steps at a low learning rate. While the uniform frequency scaling proposed by Chen et al. (2023b) is motivated by maintaining the overall range of rotations when increasing the context from the sequence length used for pretraining, our modification explicitly addresses the problem of performing attention over long distances.
+
+<!--
+good graphic example is the humanEval table called table 10 in the Code Llama paper
+
+
+ -->
 
 ```js
 // cache-advance.config.js
@@ -30,6 +38,7 @@ export default {
 }
 ```
 
+<!--
 ```python
 // foo.py
 import blah from foo
@@ -113,4 +122,4 @@ Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut par
 The company AI Maintainer has an benchmarking system and leaderboard for AI Agents.
 It's probably worth mentioning that I am a co-founder of AI Maintainer.
 
-## AI Research Agents -->
+## AI Research Agents --> -->

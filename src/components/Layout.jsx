@@ -5,8 +5,6 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 
-import { Hero } from '@/components/Hero'
-import { Logo, Logomark } from '@/components/Logo'
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Search } from '@/components/Search'
@@ -14,7 +12,7 @@ import { ThemeSelector } from '@/components/ThemeSelector'
 
 
 import { navigation } from '@/navigation-and-content'
-
+import { BreakPointDebug } from '@/components/BreakpointDebug';
 
 function GitHubIcon(props) {
   return (
@@ -81,15 +79,24 @@ function Header({ navigation }) {
 }
 
 export function Layout({ children }) {
-  let pathname = usePathname()
-  // let isHomePage = pathname === '/'
 
+  // dev feature
+  let [breakpointDebug, setBreakpointDebug] = useState(false);
+  useEffect(()=>{
+    if (typeof window !== "undefined") {
+      setBreakpointDebug(JSON.parse(localStorage.getItem('breakpointDebug') || false));
+      window.breakpointDebugTrue = () =>{
+        localStorage.setItem('breakpointDebug', true);
+      }
+      window.breakpointDebugFalse = () =>{
+        localStorage.setItem('breakpointDebug', false);
+      }
+    }
+  }, [breakpointDebug, setBreakpointDebug])
 
   return (
     <div className="flex w-full flex-col">
       <Header navigation={navigation} />
-
-      {/* {isHomePage && <Hero />} */}
 
       <div className="relative mx-auto flex w-full max-w-8xl flex-auto justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
@@ -102,6 +109,9 @@ export function Layout({ children }) {
         </div>
         {children}
       </div>
+      
+      {breakpointDebug && <BreakPointDebug />}
+    
     </div>
   )
 }

@@ -18,7 +18,12 @@ export function Prose({ as: Component = 'div', className, ...props }) {
         // pre
         'prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg dark:prose-pre:bg-slate-800/60 dark:prose-pre:shadow-none dark:prose-pre:ring-1 dark:prose-pre:ring-slate-300/10',
         // hr
-        'dark:prose-hr:border-slate-800'
+        'dark:prose-hr:border-slate-800',
+        // ul
+        'prose-ul:my-0 prose-ul:pl-0 prose-ul:space-y-0 prose-ul:ml-12 prose-ul:list-disc prose-ul:list-outside',
+        // ol
+        'prose-ol:my-0 prose-ol:pl-0 prose-ol:list-none prose-ol:space-y-0 prose-ol:ml-0  prose-ol:list-outside',
+        
       )}
       {...props}
     />
