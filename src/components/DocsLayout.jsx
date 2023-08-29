@@ -149,8 +149,6 @@ export function DocsLayout({ children, frontmatter: {
                 </div>
               </div>
 
-
-
               {/* <hr className="border-1 dark:border-slate-800"/> */}
               <p className="font-display text-sm text-center text-slate-900 dark:text-white pt-6">
                 <b>Notes from{' '}
@@ -165,7 +163,7 @@ export function DocsLayout({ children, frontmatter: {
                 <br/>
                 <span className="">Desmond Grealy</span>
               </p>
-              {/* <hr className="border-1 dark:border-slate-800"/> */}
+
             </header>
 
             <Prose>{children}</Prose>
@@ -179,6 +177,7 @@ export function DocsLayout({ children, frontmatter: {
 }
 
 /*
+
   Some notes on trying to get h4s to work in the table of contents:
     I don't understand why but h4s are put at the same level as h3s.
     It could be a problem with the loop above, but it seems good.
