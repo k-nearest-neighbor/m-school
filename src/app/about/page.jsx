@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import profileImage from '@/images/desmond-grealy.png'
+import { Prose } from '@/components/Prose'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -144,6 +145,7 @@ export default function About() {
 
             {/* Center Content */}
             <div className="py-8  sm:mx-0 sm:px-8 sm:pb-14 lg:col-span-2 lg:row-span-2 lg:row-end-2  xl:pb-20 xl:pt-16">
+            <Prose>
               <p className="my-6">
                 Hi, I&apos;m Des.
               </p>
@@ -180,7 +182,7 @@ export default function About() {
 
               <p className="my-6">
                 
-                I&apos;m mostly optimistic about Alignment. I do take much of X-Risk seriously, but we should have an optimistic disposition. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own, like babies cleverly escaping their cribs:
+                I&apos;m mostly optimistic about Alignment. I do take much of X-risk seriously, but we should have an optimistic disposition. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own, like babies cleverly escaping their cribs:
               </p>
 
               
@@ -231,6 +233,7 @@ export default function About() {
                 <br/>
                 <span className='font-bold'>30 year P-Doom:</span>{' '}~19%
               </p> */}
+            </Prose>
             </div>
 
 {/* <p className="my-6">
@@ -238,6 +241,7 @@ export default function About() {
               </p> */}
 {/* The name &quot;AI Breakout&quot; is just for fun. I&apos;m optimistic about Alignment. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own. Just like these cute babies: */}
 {/* It seems funny now but if it does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in <i>super</i> poor taste. */}
+
 
 
 

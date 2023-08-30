@@ -6,8 +6,8 @@ authors: Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Ga
 cited_as: 'Rozière et. al. 2023'
 source: 'https://arxiv.org/abs/2308.12950'
 published_date: 'Aug 24, 2023'
-notes_composed_date: 'Aug 26, 2023'
-notes_updated_date:
+composed_date: 'Aug 26, 2023'
+updated_date:
 tags: ['code generation', 'foundation models', 'llama2']
 nextjs:
   metadata:
@@ -23,23 +23,15 @@ If you aren't immediately distracted by the mention of a shinier model and are s
 
 Here's the performance of Code LLama on HumanEval (Chen et al., 2021) and MBPP (Austin et al., 2021), breaking ground for open models:
 
-{% inlineimg src="/2308-code-llama/nice-eval-table.jpg" caption="Code LLama benchmark performance. (The GPT-4 score is actually much higher now)." attribution="Meta AI" attributionHref="https://ai.meta.com/blog/code-llama-large-language-model-coding/"/%}
+{% inlineimg src="/2308-code-llama/nice-eval-table.jpg" caption="Code LLama benchmark performance." attribution="Meta AI" attributionHref="https://ai.meta.com/blog/code-llama-large-language-model-coding/"/%}
 
-It's worth noting that the most recent GPT-4 HumanEval performance seems not reflected in the chart. Some have called this disingenuous. From what I can tell, the chart is reporting the HumanEval score from the **GPT-4 introduction paper** {% ref text="(OpenAI 2023)" href="https://arxiv.org/abs/2303.08774" /%} from March, specifically on pg. 7:
+Side-note: there's an inaccuracy regarding the GPT-4 performance in this table, {% nextlink text="which I wrote about here" href="/post/why-do-we-keep-using-a-dated-gpt-4-benchmark-score" /%}.
 
-{% inlineimg src="/2308-code-llama/gpt4-p7-t2.png" caption="Pg.7 of the GPT-4 paper" attribution="(OpenAI 2023)" attributionHref="https://arxiv.org/abs/2303.0877"/%}
-
-But OpenAI very quickly updated their HumanEval 0-shot pass@1 metric from 67.0% to 82.0% in their **"Sparks of AGI" paper** {% ref text="(Bubeck et al. 2023)" href="https://arxiv.org/abs/2303.12712v1" /%} only a week later. Back then people noticed the jump and wondered about it, I remember:
-
-{% inlineimg src="/2308-code-llama/sparks-pg21-t1.png" caption="Pg.7 of the GPT-4 paper" attribution="(Bubeck et al. 2023)" attributionHref="https://arxiv.org/abs/2303.12712v1"/%}
-
-5 months later, GPT-4 is {% alink text="still being independently measured at 82.0" href="https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder#comparing-wizardcoder-python-34b-v10-with-other-llms" /%}. So why did the Code Llama team compare against a dubious, lower number for GPT-4? It's unclear. They aren't alone in doing it though. I have noticed a few other papers making the same mistake, for instance the WizardCoder paper () also chose to compete against the inaccurate 67% GPT-4 score despite a newer score being available (see pg N), although that team currently acknowledges the correct GPT-4 score in other communications.
-
-Anyway - **Code Llama is built on Llama 2,** by giving it a series of training and fine-tuning tasks shown in the figure below. The Llama 2 base is trained on general-purpose tasks, whereas many of the top-performing code generation models to date, like **WizardCoder** {% ref text="(Luo et al. 2023)" href="https://arxiv.org/abs/2306.08568" /%}, have been trained on foundation models which were trained entirely on code-specific tasks: mostly **StarCoder** {% ref text="(Li et al. 2023)" href="https://arxiv.org/abs/2305.06161" /%} as of lately. The Code LLama team shows that **training on both general-purpose and code-specific tasks can achieve a superior coding result,** and many code synthesis models will be scrambling to rebuild upon this newer foundation to perform even better than what we've seen so far.
+**Code Llama is built on Llama 2,** by giving it a series of training and fine-tuning tasks shown in the figure below. The Llama 2 base is trained on general-purpose tasks, whereas many of the top-performing code generation models to date, like **WizardCoder** {% ref text="(Luo et al. 2023)" href="https://arxiv.org/abs/2306.08568" /%}, have been trained on foundation models which were trained entirely on code-specific tasks: mostly **StarCoder** {% ref text="(Li et al. 2023)" href="https://arxiv.org/abs/2305.06161" /%} as of lately. The Code LLama team shows that **training on both general-purpose and code-specific tasks can achieve a superior coding result,** and many code synthesis models will be scrambling to rebuild upon this newer foundation to perform even better than what we've seen so far.
 
 {% inlineimg src="/2308-code-llama/code-llama-pipeline.jpg" caption="The Code LLama training pipeline." attribution="Meta AI" attributionHref="https://ai.meta.com/blog/code-llama-large-language-model-coding/"/%}
 
-So this is the Code Llama family. As you can see there are **3 variants branching from a base** of LLama2 foundation models **trained on 500B coding task tokens**:
+So this is the Code Llama family. As you can see there are 3 variants on a base of LLama2 foundation models **trained on 500B coding task tokens**:
 
 1. _Code Llama_
 

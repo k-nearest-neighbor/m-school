@@ -17,8 +17,8 @@ const posts = [
 
  { 
     template: 'post',
-    title: '🧐 Why do We Keep Comparing Against an Old GPT-4 Result?',
-    href: "/post/why-do-we-keep-comparing-against-an-old-gpt4-metric",
+    title: '🔬 Why do we keep using a dated GPT-4 benchmark score?',
+    href: "/post/why-do-we-keep-using-a-dated-gpt-4-benchmark-score",
     tags: ['code-generation', 'metrics','gpt-4'],
     authored_date: new Date('2023-08-29T12:00:00Z'),
     teaseimg: null,
@@ -43,7 +43,7 @@ const posts = [
     tags: ['ai-coding', 'code-generation', 'llama2'],
     hide_in_latest: false,
     hide_in_all: false,
-    hide: true
+    hide: false
   },
   
 ]
@@ -195,7 +195,7 @@ export const navigation = [
   {
     title: '💚 See Also',
     // title: '👁️ See Also',
-    hide: true,
+    hide: false,
     links: [
       { title: 'Channels & Podcasts', href: '/love/streams' },
       { title: 'People & Blogs', href: '/love/people-and-blogs' },

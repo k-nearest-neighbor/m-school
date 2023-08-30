@@ -1,5 +1,6 @@
 ---
 title: Books
+template: 'content'
 nextjs:
   metadata:
     title: Books

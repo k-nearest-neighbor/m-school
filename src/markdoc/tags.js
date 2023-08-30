@@ -4,15 +4,40 @@ import { PostsList } from '@/components/PostsList';
 import { LatexComponent } from '@/components/Latex';
 import { AttributedImage } from '@/components/AttributedImage';
 import { NextLink, ALink, CitationRef } from '@/components/Links';
+import { YoutubeEmbed, YoutubeEmbedGrid, lsEmbed, arxpEmbed } from '@/components/Youtube';
 
 const tags = {
+  axrp: {
+    selfClosing: true,
+    render: arxpEmbed,
+  },
+  ls: {
+    selfClosing: true,
+    render: lsEmbed,
+  },
+  youtube1: {
+    selfClosing: true,
+    attributes: {
+      vid: { type: String },
+    },
+    render: YoutubeEmbed,
+  },
+  ytgrid: {
+    selfClosing: true,
+    attributes: {
+      vids: { type: String },
+      // vid1: { type: String },
+      // vid2: { type: String },
+    },
+    render: YoutubeEmbedGrid,
+  },
   alink: {
     selfClosing: true,
     attributes: {
       text: { type: String },
-      href: { type: String },
       target: { type: String },
       rel: { type: String },
+      pwrap: { type: Boolean },
     },
     render: ALink,
   },
@@ -20,7 +45,6 @@ const tags = {
     selfClosing: true,
     attributes: {
       text: { type: String },
-      href: { type: String },
       text: { type: String },
       blue: { type: Boolean, default: false},
     },
@@ -35,7 +59,7 @@ const tags = {
       scroll: { type: Boolean },
       prefretch: { type: Boolean },
     },
-    render: ALink,
+    render: NextLink,
   },
   callout: {
     attributes: {
@@ -101,6 +125,10 @@ const tags = {
       includetags: { type: Array },
       excludetags: { type: Array },
     }
+  },
+  'br': {
+    selfClosing: true,
+    render: () => {return(<div className="h-8 w-full"></div>)},
   },
 
 }

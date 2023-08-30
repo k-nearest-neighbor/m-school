@@ -11,16 +11,24 @@ export function NextLink({ text, href, replace, scroll, prefetch }) {
   )
 }
 
-export function ALink({ text, href, target="_blank", rel="noopener" }) {
+export function ALink({ text, href, pwrap=false}) {
+  console.log('pwrap is ', pwrap)
+  if (pwrap) {
+    return (
+      <p>
+        <a
+          href={href}
+        >{text}</a>
+      </p>
+    )
+  } else {
   return (
     <a
       href={href}
-      target={target}
-      rel={rel}
     >{text}</a>
   )
+  }
 }
-
 export function CitationRef({ text, href, blue=false, target="_blank", rel="noopener" }) {
 
   // todo, this blue == false case doesn't work, take blue out or fix it. it's prob not needed

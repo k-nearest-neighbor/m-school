@@ -28,6 +28,7 @@ export function TableOfContents({ tableOfContents }) {
   useEffect(() => {
     if (tableOfContents.length === 0) return
     let headings = getHeadings(tableOfContents)
+        .filter((e)=> typeof e !== 'undefined') // for some reason youtube embeds cause an undefined entry here. not sure why. they are iframes. anyway this fixes it
     function onScroll() {
       let top = window.scrollY
       let current = headings[0].id
