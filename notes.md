@@ -57,6 +57,12 @@ LLM censorship: A machine learning challenge or a computer security problem? arX
 LLaMA: Open and efficient foundation language models. arXiv:abs/2302.13971, 2023a.
 Llama 2: Open foundation and fine-tuned chat models. arXiv:abs/2307.09288, 2023b.
 
+## videos to do
+
+https://youtu.be/psfh1fk2Qig?t=2128
+
+## code llama notes
+
 - Mention that they provide inference code for both completion and infilling models in th repo
 - Training on code, vs starting from a general-purpose model. observation section 3.4.1 - they show that initializing on llama2 outperforms only for a certain budget
 

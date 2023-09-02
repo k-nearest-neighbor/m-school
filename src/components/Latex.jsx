@@ -20,7 +20,7 @@ export function LatexComponent({ src }) {
   */
   return (
     // <span className="select-none text-black dark:text-white">
-    <span className="select-none text-black dark:text-sky-400">
+    <span className="select-none text-lg text-black dark:text-amber-400">
       <Latex>{'$'+src+'$'}</Latex>
     </span>
   );

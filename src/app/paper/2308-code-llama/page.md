@@ -33,17 +33,17 @@ Side-note: there's an inaccuracy regarding the GPT-4 performance in this table, 
 
 So this is the Code Llama family. As you can see there are 3 variants on a base of LLama2 foundation models **trained on 500B coding task tokens**:
 
-1. _Code Llama_
+1. _**Code Llama**_
 
 - **Fine-tuned on 20B long context tokens**, a process referred to in the paper as "**LCFT**".
 - The important details will be outlined in these notes.
 
-2. _Code Llama-Instruct_
+2. _**Code Llama-Instruct**_
 
 - **Fine-tuned on 5B instruction following tokens**, using "**RLHFv5**" as described in the Llama2 paper {% ref text="(Touvron et al. 2023b)" href="https://arxiv.org/abs/2307.09288" /%}.
 - A small portion of this (8%) is using a proprietary dataset.
 
-3. _Code Llama-Python_
+3. _**Code Llama-Python**_
 
 - **Trained on an additional 100B instruction following tokens**,
 - and also the same 20B token instruction fine-tuning as Code Llama-Instruct.

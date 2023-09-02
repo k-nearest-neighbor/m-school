@@ -29,7 +29,7 @@ export const metadata = {
     default: 'AI Breakout',
   },
   description:
-    'Notes On AI Research.',
+    'Notes on AI Research.',
 }
 
 export default function RootLayout({ children }) {

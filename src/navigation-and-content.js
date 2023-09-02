@@ -44,6 +44,23 @@ const posts = [
     hide_in_latest: false,
     hide_in_all: false,
     hide: false
+  },
+  {
+    template: 'paper',
+    title: '📋 Graph of Thoughts: Solving Elaborate Problems with Large Language Models',
+    nickname: 'The (Zurich) Graph of Thoughts Paper', // can be null
+    cited_as: 'Besta et. al. 2023',
+    href: '/paper/2308-graph-of-thoughts',
+    author1: 'Besta',
+    source: 'https://arxiv.org/abs/2308.09687',
+    published_date: new Date('2023-08-24T12:00:00Z'),
+    published_date_str: 'Aug 18, 2023',
+    authored_date: new Date('2023-09-02T12:00:00Z'),
+    authored_date_str: 'Sep 02, 2023',
+    tags: ['in-context-learning', 'prompt-engineering', 'thought-modeling'],
+    hide_in_latest: false,
+    hide_in_all: false,
+    hide: false
   },  
 ]
 

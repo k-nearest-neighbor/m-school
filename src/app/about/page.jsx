@@ -177,7 +177,7 @@ export default function About() {
               
 
               <p className="my-6">
-              It&apos;s referring to the idea of AI systems escaping their containers. Eventually that might be a thing that can happen. Who knows when? (Probably far from now). The name is just for fun.
+              The name is just for fun &#8212; I like to think it&apos;s referring to the idea of AI systems escaping their containers. Eventually that might be a thing that can happen ... who knows when? (Probably far from now).
               </p>
 
 
@@ -202,7 +202,7 @@ export default function About() {
               </p>
 
               <p className="my-6">
-              It seems funny now but when an &#34;AI breakout&#34; eventually does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in poor taste.
+              It seems funny now but if an &#34;AI breakout&#34; eventually does happen, hopefully it won&apos;t be something with high costs in terms of money or human lives lost &#8212;&nbsp;because then it would make it seem like my choice of an italic font for the logo here was done in poor taste.
               
               </p>
 
