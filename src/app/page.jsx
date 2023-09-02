@@ -1,5 +1,5 @@
 'use client'
-import { PostsList } from '@/components/PostsList'
+import { AllPostsAndPapersList } from '@/components/PostsAndPapersList'
 
 export default function Posts() {
 
@@ -16,7 +16,7 @@ export default function Posts() {
           All Serialized Posts
         </h2> */}
         <div className='mt-16'>
-          <PostsList includetags="ability alignment agents models mech-interp" />
+          <AllPostsAndPapersList/>
         </div>
       </main>
     </div>

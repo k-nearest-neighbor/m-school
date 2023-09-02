@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
     >
       <GoogleAnalytics/>
 
-      <body className="flex min-h-full bg-white dark:bg-slate-900">
+      <body className="flex min-h-full bg-white dark:bg-slate-950">
         <Providers>
           <Layout>{children}</Layout>
         </Providers>

@@ -15,6 +15,8 @@ nextjs:
 First off, **Meta AI and the WizardLM / WizardCoder teams mentioned here deserve massive kudos for their recent contributions ({% alink text="Code Llama" href="https://ai.meta.com/blog/code-llama-large-language-model-coding/" /%} & {% alink text="WizardCoder-Python-34B" href="https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder#comparing-wizardcoder-python-34b-v10-with-other-llms" /%}).**
 They're doing great things for the common good, and that deserves a lot of appreciation. Thank you, Meta AI, and Wizard Coder researchers.
 
+---
+
 ## GPT-4's HumanEval is at 82.0
 
 {% alink text="According to Meta AI" href="https://ai.meta.com/blog/code-llama-large-language-model-coding/" /%}, this chart shows the performance of the new Code LLama

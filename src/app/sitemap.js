@@ -25,10 +25,18 @@ export default async function sitemap() {
     }));
 
 
-  const routes = ["/", "/about"].map((route) => ({
-    url: `${URL}${route}`,
-    lastModified: new Date().toISOString(),
+  const routes = [
+      "/",
+      "/about",
+      '/see-also/streams'
+    ].map((route) => ({
+      url: `${URL}${route}`,
+      lastModified: new Date().toISOString(),
   }));
 
-  return [...routes, ...posts, ...papers];
+  return [
+    ...routes,
+    ...posts,
+    ...papers
+  ];
 }

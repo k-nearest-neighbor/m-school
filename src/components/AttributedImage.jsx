@@ -32,7 +32,7 @@ export function AttributedImage({ src, caption='', attribution='', attributionHr
   return (
     <>
     <div className=' max-w-lg mx-auto my-16'>
-        <div className='rounded-xl p-2 dark:bg-white border dark:border-none'>
+        <div className='rounded-xl p-2 dark:bg-white border dark:border-none shadow-2xl'>
           <Image
             src={src}
             height={700}
@@ -47,7 +47,7 @@ export function AttributedImage({ src, caption='', attribution='', attributionHr
                         { !attributionHref && (<span>{attribution}</span>)}
               </div>
             )}
-            <div className='text-center  dark:font-normal dark:text-white mx-auto max-w-sm'>{caption}</div>
+            <div className='text-center text-black dark:font-normal dark:text-white mx-auto max-w-sm'>{caption}</div>
         </div>
       </div>
     </>

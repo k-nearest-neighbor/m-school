@@ -21,7 +21,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: 'var(--font-inter)',
-        display: ['var(--font-lexend)', { fontFeatureSettings: '"ss01"' }],
+        display: ['var(--font-lexend)', { fontFeatureSettings: '"ss01"' }], // montserrat could look good here. REM is nice too
       },
       maxWidth: {
         '8xl': '88rem',

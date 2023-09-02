@@ -1,5 +1,6 @@
 ---
 title: Benchmarks & Datasets
+template: content
 nextjs:
   metadata:
     title: Benchmarks & Datasets

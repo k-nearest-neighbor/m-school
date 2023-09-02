@@ -6,7 +6,7 @@ const posts = [
     template: 'post',
     title: "📓 What does Pass@1 mean? Understanding confidence metrics used to evaluate AI Code Generation",
     href: "/post/the-pass-at-k-metric",
-    tags: ['agents'],
+    tags: ['generative-code', 'benchmarks', 'HumanEval'],
     authored_date: new Date('2023-08-11T12:00:00Z'),
     teaseimg: null,
     excerpt: "A metric for evaluating the performance of AI agents in a multi-agent environment.",
@@ -19,7 +19,7 @@ const posts = [
     template: 'post',
     title: '🔬 Why do we keep using a dated GPT-4 benchmark score?',
     href: "/post/why-do-we-keep-using-a-dated-gpt-4-benchmark-score",
-    tags: ['code-generation', 'metrics','gpt-4'],
+    tags: ['generative-code', 'benchmarks','gpt-4'],
     authored_date: new Date('2023-08-29T12:00:00Z'),
     teaseimg: null,
     excerpt: "Several code LLM papers prefer to use a GPT-4 metric which is known to be dated",
@@ -40,12 +40,11 @@ const posts = [
     published_date_str: 'Aug 24, 2023',
     authored_date: new Date('2023-08-26T12:00:00Z'),
     authored_date_str: 'Aug 26, 2023',
-    tags: ['ai-coding', 'code-generation', 'llama2'],
+    tags: ['generative-code', 'llama2', 'foundation-models'],
     hide_in_latest: false,
     hide_in_all: false,
     hide: false
-  },
-  
+  },  
 ]
 
 
@@ -61,6 +60,12 @@ export const collectLatestPosts = (n) => { // adjust this to do papers too
 export const collectAllPosts = () => {
   return posts
     .filter((post) => post.template === 'post' && !post.hide_in_all && !post.hide)
+    .sort((a, b) => b.authored_date - a.authored_date)
+}
+
+export const collectAllPostsAndPapers = () => {
+  return posts
+    .filter((item) => !item.hide_in_all && !item.hide)
     .sort((a, b) => b.authored_date - a.authored_date)
 }
 
@@ -82,7 +87,6 @@ export const collectAllPapers = () => {
 
 export const collectPapersWithTags = (includeTagsArray, excludeTagsArray) => {
   excludeTagsArray = excludeTagsArray || [];
-  // debugger
   return posts
     .filter((paper) => paper.template === 'paper' && !paper.hide)
     .filter((paper) => includeTagsArray.some(tag => paper.tags.includes(tag)))
@@ -91,15 +95,19 @@ export const collectPapersWithTags = (includeTagsArray, excludeTagsArray) => {
     // .slice(0, n)
 }
 
+export const collectPostsAndPapersWithTags = (includeTagsArray, excludeTagsArray) => {
+  excludeTagsArray = excludeTagsArray || [];
+  return posts
+    .filter((item) => !item.hide_in_all && !item.hide)
+    .filter((item) => includeTagsArray.some(tag => item.tags.includes(tag)))
+    .filter((item) => !excludeTagsArray.some(tag => item.tags.includes(tag)))
+    .sort((a, b) => b.authored_date - a.authored_date)
+    // .slice(0, n)
+}
 
 
 
 export const navigation = [ 
-  // {
-  //   title: 'All Posts & Papers',
-  //   links: collectLatestPosts(3),
-  //   hide: false
-  // },
 
   {
     title: 'Latest',
@@ -111,7 +119,7 @@ export const navigation = [
     links: [
       { title: 'Posts', href: '/generative-code/posts' },
       { title: 'Papers', href: '/generative-code/papers' },
-      // { title: 'Benchmarks & Datasets', href: '/generative-code/benchmarks-and-datasets' },
+      { title: 'Benchmarks & Datasets', href: '/generative-code/benchmarks-and-datasets' },
       // { title: 'People & Projects', href: '/generative-code/people-and-projects' },
     ],
   },
@@ -197,10 +205,10 @@ export const navigation = [
     // title: '👁️ See Also',
     hide: false,
     links: [
-      { title: 'Channels & Podcasts', href: '/love/streams' },
-      { title: 'People & Blogs', href: '/love/people-and-blogs' },
-      { title: 'Community', href: '/love/community' },
-      { title: 'Books', href: '/love/books' },
+      { title: 'Channels & Podcasts', href: '/see-also/streams' },
+      // { title: 'People & Blogs', href: '/see-also/people-and-blogs' },
+      // { title: 'Community', href: '/see-also/community' },
+      // { title: 'Books', href: '/see-also/books' },
       
     ],
   },

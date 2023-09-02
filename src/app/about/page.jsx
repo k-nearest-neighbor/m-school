@@ -74,6 +74,7 @@ export default function About() {
               <h2 className="sr-only">Author Information</h2>
               <div className="my-8 flex rounded-3xl p-6
                             bg-darkerish
+                            dark:bg-black
                             shadow-2xl
                             dark:shadow-cool
                             ">
@@ -98,7 +99,8 @@ export default function About() {
                       <CheckCircleIcon className="h-5 ml-2"></CheckCircleIcon>
                     </dd>
                   </div> */}
-                  <div className="flex-auto w-full pt-6 text-2xl font-bold text-center text-white">
+                  {/* <div className="flex-auto w-full pt-6 text-2xl font-bold text-center text-white"> */}
+                  <div className="flex-auto w-full text-2xl font-bold text-center text-white">
                     Desmond Grealy
                   </div>
                   <div className=" w-full pt-4">
@@ -146,7 +148,7 @@ export default function About() {
             {/* Center Content */}
             <div className="py-8  sm:mx-0 sm:px-8 sm:pb-14 lg:col-span-2 lg:row-span-2 lg:row-end-2  xl:pb-20 xl:pt-16">
             <Prose>
-              <p className="my-6">
+              <p className="my-6 text-black dark:text-white">
                 Hi, I&apos;m Des.
               </p>
               <p className="my-6">
@@ -162,20 +164,20 @@ export default function About() {
               
               
               <p className="h-10"></p>
-              <hr className="border-b border-slate-100 dark:border-slate-800"></hr>
-              <p className="h-10"></p>
+              <hr className="border-b-[0.5px] border-slate-100 dark:border-slate-800/80"></hr>
+              {/* <p className="h-10"></p> */}
               
               
 
 
               <h2 className="text-2xl font-bold my-6">
-                What does &nbsp;<span className="">&quot;AI Breakout&quot;</span>&nbsp; mean?
+                What does the name &nbsp;<span className="">&quot;AI Breakout&quot;</span>&nbsp; mean?
               </h2>
 
               
 
               <p className="my-6">
-              It&apos;s referring to the idea of AI systems escaping their containers. Eventually that will be a thing that can happen. (Who knows when? Probably far from now). The name is just for fun.
+              It&apos;s referring to the idea of AI systems escaping their containers. Eventually that might be a thing that can happen. Who knows when? (Probably far from now). The name is just for fun.
               </p>
 
 
@@ -210,6 +212,10 @@ export default function About() {
               <p className="my-6">
                 I will post updates on Twitter &#8212;{' '}
                 <Link href="https://twitter.com/k_nearest" className="text-sky-500 hover:text-sky-400" >@k_nearest</Link>.
+              </p>
+              <p className="my-6">
+                There is also an{' '}
+                <Link href="https://ai-breakout.com/rss.xml" className="text-sky-500 hover:text-sky-400" >RSS feed</Link>.
               </p> 
               {/* <p className="my-6">
                 

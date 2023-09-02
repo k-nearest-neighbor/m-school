@@ -10,7 +10,7 @@ export default function Posts() {
           Posts
         </h1>
         <div className='mt-16'>
-          <PostsList includetags="agents" />
+          <PostsList includetags="generative-code" />
         </div>
       </main>
     </div>

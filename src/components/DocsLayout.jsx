@@ -116,7 +116,9 @@ export function DocsLayout({ children, frontmatter: {
               {/* <div className="px-4 py-2 rounded-2xl bg-slate-100 dark:bg-slate-800/60"> */}
 
               <div className="px-4 py-2 group relative rounded-3xl border border-slate-200 dark:border-slate-800 dark:bg-slate-800/60 max-w-[42rem] mx-auto">
-                <div className="absolute -inset-px rounded-xl border-2 border-transparent  [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.slate.50)),var(--quick-links-hover-bg,theme(colors.slate.100)))_padding-box,linear-gradient(to_top,theme(colors.blue.500),theme(colors.cyan.500),theme(colors.sky.600))_border-box] dark:[--quick-links-hover-bg:theme(colors.slate.800)]" />
+                <div className="absolute -inset-px rounded-xl border-2 border-transparent  
+                    [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.slate.50)),var(--quick-links-hover-bg,theme(colors.slate.100)))_padding-box,linear-gradient(to_top,theme(colors.blue.500),theme(colors.cyan.500),theme(colors.sky.600))_border-box] 
+                    dark:[--quick-links-hover-bg:theme(colors.slate.900)]" />
                   <div className="relative overflow-hidden rounded-xl px-4 py-2">
                   <h1 className="font-display text-2xl font-bold tracking-tight pb-2">
                     {title}

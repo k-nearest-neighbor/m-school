@@ -9,13 +9,13 @@ import { BreakPointDebug } from './BreakpointDebug';
 
 export function Paper({paper}) {
   return (
-    <article className="relative group">
+    <article className="relative group w-full sm:w-fit">
       <div className="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl 
-        bg-slate-100/70
-        group-hover:bg-slate-100
-        dark:bg-slate-800/50
-          dark:ring-1 dark:ring-slate-300/10
-        dark:group-hover:bg-slate-700/50
+        bg-sky-100/70
+        group-hover:bg-sky-100
+        dark:bg-cyan-900/50
+          dark:ring-1 dark:ring-cyan-300/10
+        dark:group-hover:bg-cyan-800/50
 
       ">
       </div>
@@ -23,7 +23,7 @@ export function Paper({paper}) {
         <circle cx="4.5" cy="4.5" r="4.5" stroke="currentColor" className="fill-white dark:fill-slate-900" strokeWidth="2">
         </circle>
       </svg>
-      <div className="relative">
+      <div className="relative w-fit">
         <h2 className="font-semibold tracking-tight text-slate-900 dark:text-slate-200 pt-8 lg:pt-0">
           {/* <span className='mr-3'>📄</span> */}
           {paper.title}

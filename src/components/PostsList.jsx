@@ -8,7 +8,10 @@ import dateFormat from "dateformat";
 export function Post({post}) {
   return (
     <article className="relative group">
-      <div className="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl group-hover:bg-slate-50/70
+      <div className="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl 
+        
+        bg-slate-100/70
+        group-hover:bg-slate-200/50
         dark:bg-slate-800/50
         dark:ring-1 dark:ring-slate-300/10
         dark:group-hover:bg-slate-700/50

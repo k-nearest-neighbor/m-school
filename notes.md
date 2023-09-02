@@ -18,6 +18,8 @@
 
 - Lost in the middle: How language models use long contexts. arXiv:abs/2307.03172, 2023b. (also a good ability paper)
 
+  on the subject of synthetic data
+
 - Unnatural instructions: Tuning language models with (almost) no human labor.
 
 ### Alignment and ability (maybe this is still a good category)
@@ -102,7 +104,7 @@ Yo. Should I go get the nine? And just _kill_ a process? I'm about to roll up on
 
 That one isn't in the paper. 😂
 
-{% ref text="()" href="" /% }
+{% ref text="()" href="" /%}
 
 ---
 
@@ -142,3 +144,21 @@ with open('./HumanEval.jsonl','r') as f:
 ```
 
 ---
+
+```javascript
+// work in progress
+function refs() {
+  let s = ''
+  ;[...new Set($$('.citationRef').map((item) => item.text))].forEach(
+    (text, i) => {
+      s = s + ('[' + (i + 1) + '] **' + text + '** \n')
+    }
+  )
+  console.log(s)
+}
+```
+
+## CopyFasta
+
+https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853
+https://paperswithcode.com/method/multi-head-attention

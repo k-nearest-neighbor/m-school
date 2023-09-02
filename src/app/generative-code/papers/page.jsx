@@ -10,7 +10,7 @@ export default function Papers() {
           Research Paper Notes
         </h1>
         <div className='mt-16'>
-          <PapersList includetags="agents ai-coding" />
+          <PapersList includetags="generative-code" />
         </div>
       </main>
     </div>
