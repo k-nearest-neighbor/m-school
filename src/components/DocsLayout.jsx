@@ -76,9 +76,11 @@ export function DocsLayout({ children, frontmatter: {
           <article>
             <DocsHeader title={title} />
             
-            <p >{composed_date}</p>
-
-            <p className='mb-12'>Desmond Grealy</p>
+            <p className='prose prose-slate max-w-none dark:prose-invert text-slate-400 dark:text-slate-500 mb-8'>
+              {composed_date}&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              {updated_date && (<span>updated {updated_date}{' '}&bull;{' '}</span>)}
+              Desmond Grealy
+            </p>
 
             <Prose>{children}</Prose>
           </article>
@@ -155,9 +157,9 @@ export function DocsLayout({ children, frontmatter: {
                     <span className="font-light italic">{authors}</span>
                   </p>
                   {{tags} && (
-                      <div className="flex pt-6">
+                      <div className="flex pt-6 w-full flex-wrap">
                         {tags.map((tag) => (
-                          <div key={tag} className="inline-block bg-slate-300 dark:bg-slate-950/50 rounded-full px-3 py-1 text-sm font-semibold text-xs text-sky-700 dark:text-slate-100 mr-2 mb-2">
+                          <div key={tag} className="inline-block bg-slate-300 dark:bg-slate-950/50 rounded-full px-3 py-1 text-sm font-semibold text-xs text-sky-700 dark:text-slate-100 mr-2 mb-2 dark:border-slate-600 dark:border-[1px] whitespace-nowrap">
                             {tag}
                           </div>
                         ))}
@@ -167,7 +169,7 @@ export function DocsLayout({ children, frontmatter: {
               </div>
 
               {/* <hr className="border-1 dark:border-slate-800"/> */}
-              <p className="font-display text-sm text-center text-slate-900 dark:text-white pt-6">
+              <p className="text-sm text-center text-slate-900 dark:text-white pt-6">
                 <b>Notes from{' '}
                 <span className="">{composed_date}</span>
                 </b>
@@ -178,7 +180,7 @@ export function DocsLayout({ children, frontmatter: {
                   </>
                 )}
                 <br/>
-                <span className="">Desmond Grealy</span>
+                <span className="prose prose-slate max-w-none dark:prose-invert dark:text-slate-400">Desmond Grealy</span>
               </p>
 
             </header>

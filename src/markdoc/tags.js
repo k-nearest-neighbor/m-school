@@ -35,6 +35,7 @@ const tags = {
     selfClosing: true,
     attributes: {
       text: { type: String },
+      href: { type: String },
       target: { type: String },
       rel: { type: String },
       pwrap: { type: Boolean },
@@ -45,7 +46,7 @@ const tags = {
     selfClosing: true,
     attributes: {
       text: { type: String },
-      text: { type: String },
+      href: { type: String },
       blue: { type: Boolean, default: false},
     },
     render: CitationRef,

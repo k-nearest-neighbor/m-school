@@ -1,6 +1,7 @@
 ---
 title: >
   What does Pass@1 mean in AI Code Generation benchmarks?
+subtitle: Understanding confidence metrics used to evaluate AI Code Generation
 nextjs:
   metadata:
     title: >

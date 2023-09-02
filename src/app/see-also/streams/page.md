@@ -9,7 +9,7 @@ nextjs:
 
 <!-- There's some great video and podcast content available today. The content below is excellent. -->
 
-There's a lot of content out there, especially after 2022-Q3. Below are some of the sources which I always pay attention to.
+There's a lot of content out there, especially after 2022-Q3. Below are some of the sources I pay attention to.
 
 ## Youtube Channels
 

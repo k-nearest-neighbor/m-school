@@ -12,7 +12,7 @@ nextjs:
 
 ## Appreciation
 
-First off, **Meta AI and the WizardLM / WizardCoder teams mentioned here deserve massive kudos for their recent contributions ({% alink text="Code Llama" href="https://ai.meta.com/blog/code-llama-large-language-model-coding/" /%} & {% alink text="WizardCoder-Python-34B" href="https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder#comparing-wizardcoder-python-34b-v10-with-other-llms" /%}).**
+First off: **Meta AI and the WizardLM / WizardCoder teams mentioned here deserve massive kudos for their recent contributions ({% alink text="Code Llama" href="https://ai.meta.com/blog/code-llama-large-language-model-coding/" /%} & {% alink text="WizardCoder-Python-34B" href="https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder#comparing-wizardcoder-python-34b-v10-with-other-llms" /%}).**
 They're doing great things for the common good, and that deserves a lot of appreciation. Thank you, Meta AI, and Wizard Coder researchers.
 
 ---
@@ -24,7 +24,7 @@ foundation model family on two prominent benchmarks of coding ability: **HumanEv
 
 {% inlineimg src="/why-do-we-keep-using-a-dated-gpt-4-benchmark-score/nice-eval-table.jpg" caption="Code LLama benchmark performance. (The GPT-4 score is actually much higher)." attribution="Meta AI" attributionHref="https://ai.meta.com/blog/code-llama-large-language-model-coding/"/%}
 
-I see some people calling this disingenuous, so I wanted to figure out what was going on. From what I can tell, the chart is reporting the **67.0** HumanEval score from the introductory **GPT-4 Technical Report** {% ref text="(OpenAI 2023)" href="https://arxiv.org/abs/2303.08774" /%} in March 2023:
+I see some people calling this disingenuous, so I wanted to figure out what was going on. From what I can tell the chart is reporting the **67.0** HumanEval score from the introductory **GPT-4 Technical Report** {% ref text="(OpenAI 2023)" href="https://arxiv.org/abs/2303.08774" /%} in March 2023:
 
 {% inlineimg src="/2308-code-llama/gpt4-p7-t2.png" caption="Pg.7 of the GPT-4 Technical Report. Mar 15." attribution="(OpenAI 2023)" attributionHref="https://arxiv.org/abs/2303.0877"/%}
 
@@ -47,3 +47,5 @@ Okay. Now that that's settled, _there will never again be any inaccuracies in pu
 I suppose it's also a bit annoying to have to pay OpenAI inference fees to do an evaluation on _their_ model. They know they are in 1st place, and they also know everyone needs to have an accurate up-to-date score for benchmarking. It would have been more convenient and mistakes could have been avoided if OpenAI had published the 82.0 themselves, anywhere.
 
 **But GPT-4 is (currently) the model to beat in this field so let's have our facts about it accurate.**
+
+## See Also

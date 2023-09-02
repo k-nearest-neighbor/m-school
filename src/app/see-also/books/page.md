@@ -12,9 +12,8 @@ Just some light reading. 😁
 ---
 
 <!--
-I'm not compensated for these recommendations. I just like them.
 
-Amazon links for convenience only, they aren't affiliate links.
+
 
 ## Machine Learning
 
@@ -50,4 +49,12 @@ Algorithms
 
 Can you go wrong with theses books? I don't think so.
 
-## Misc -->
+## Alignment
+
+Superintelligence
+
+The classic book on Alignment
+
+
+
+ -->

@@ -115,7 +115,7 @@ export const navigation = [
     hide: false
   },
   {
-    title: 'Code Generation Models',
+    title: 'Code Generation',
     links: [
       { title: 'Posts', href: '/generative-code/posts' },
       { title: 'Papers', href: '/generative-code/papers' },

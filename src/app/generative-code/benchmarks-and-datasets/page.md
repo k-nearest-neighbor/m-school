@@ -7,20 +7,42 @@ nextjs:
     description: Benchmarks & Datasets for AI Agent and code generation research.
 ---
 
-Nothing here yet.
-
 ---
 
-<!--
-## AI Coding Agents
+## Coding Ability
 
 ### HumanEval
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+[Website](https://github.com/openai/human-eval) | [HuggingFace](https://huggingface.co/datasets/openai_humaneval) | [Chen et al. 2021](https://arxiv.org/abs/2107.03374)
 
-### AI Maintainer
+Introduced in 2021 by **OpenAI**, along with the "**Codex**" model.
 
-The company AI Maintainer has an benchmarking system and leaderboard for AI Agents.
-It's probably worth mentioning that I am a co-founder of AI Maintainer.
+Related AI Breakout posts:
 
-## AI Research Agents -->
+- 📓 What does Pass@1 mean?
+
+---
+
+### HumanEval+
+
+[Website](https://github.com/openai/human-eval) | [HuggingFace](https://huggingface.co/datasets/openai_humaneval) | [Chen et al. 2021](https://arxiv.org/abs/2107.03374)
+
+...
+
+---
+
+### MBPP
+
+[Website](https://github.com/openai/human-eval) | [HuggingFace](https://huggingface.co/datasets/openai_humaneval) | [Chen et al. 2021](https://arxiv.org/abs/2107.03374)
+
+...
+
+---
+
+### CodingAgentEvals
+
+[Website](https://www.ai-maintainer.com/benchmarking) | [Leaderboard](https://www.ai-maintainer.com/leaderboard)
+
+Introduced in 2023 by **AI Maintainer** CodingAgentEvals is a benchmarking system addressing practical / industry use-cases for code generation and AI coding agents.
+
+(I am a co-founder of AI Maintainer).

@@ -43,7 +43,7 @@ export function AttributedImage({ src, caption='', attribution='', attributionHr
         <div className='flex-col mx-auto'>
             {attribution && (
               <div className='ml-auto mt-1 mb-2  pr-4  text-right text-xs'>
-                Image Source: { attributionHref && (<a href={attributionHref} target="_blank">{attribution}</a>)}
+                Image Source: { attributionHref && (<a className='text-slate-500 hover:text-sky-600 dark:text-slate-400 dark:hover:text-slate-300' href={attributionHref}>{attribution}</a>)}
                         { !attributionHref && (<span>{attribution}</span>)}
               </div>
             )}
