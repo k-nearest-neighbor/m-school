@@ -71,7 +71,7 @@ export function ThemeSelector(props) {
     return <div className="h-5 w-5" />
   }
 
-  // if (pathname == '/about') { // forced to light mode there
+  // if (pathname == '/faq') { // forced to light mode there
   //   return null;
   // }
   

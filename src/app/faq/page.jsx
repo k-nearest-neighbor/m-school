@@ -56,7 +56,7 @@ function DiscordIcon () {
 }
 
 
-export default function About() {
+export default function Faq() {
 
 
   return (
@@ -159,7 +159,10 @@ export default function About() {
                 I made it for you too though, whoever you are, interested in the same topics. I hope you find it useful.
               </p>
 
-              
+              {/* <hr className="mb-0 border-b-[0.5px] border-slate-100 dark:border-slate-800/80"></hr>
+              <p className="my-6">
+                I'm a co-founder of a company called AI Maintainer. We're working on benchmarking AI coding tools and agents.
+              </p> */}
               
               
               
@@ -169,22 +172,42 @@ export default function About() {
               
               
 
+              <h2 className="text-2xl font-bold mt-16">
+                How can I get updates about content?
+              </h2>
+              <p className="my-6">
+                I will post updates on Twitter &#8212;{' '}
+                <Link href="https://twitter.com/k_nearest" className="text-sky-500 hover:text-sky-400" >@k_nearest</Link>.
+              </p>
+              <p className="my-6">
+                There is also an{' '}
+                <Link href="https://ai-breakout.com/rss.xml" className="text-sky-500 hover:text-sky-400" >RSS feed</Link>.
+              </p> 
 
-              <h2 className="text-2xl font-bold my-6">
+              <h2 className="text-2xl font-bold mt-16">
+                AI Maintainer
+              </h2>
+              <p className="my-6">
+                I&apos;m a co-founder of a company called{' '}
+                <Link href="https://www.ai-maintainer.com" className="text-sky-500 hover:text-sky-400" >AI Maintainer</Link>.
+                We&apos;re working on benchmarking AI coding agents and tools.
+              </p>
+
+              <h2 className="text-2xl font-bold mt-16">
                 What does the name &nbsp;<span className="">&quot;AI Breakout&quot;</span>&nbsp; mean?
               </h2>
 
               
 
               <p className="my-6">
-              The name is just for fun &#8212; I like to think it&apos;s referring to the idea of AI systems escaping their containers. Eventually that might be a thing that can happen ... who knows when? (Probably far from now).
+              The name is just for fun &#8212; I like to think it&apos;s referring to the idea of AI systems escaping their containers. It seems like a fantastical idea, but eventually that might be a thing that can happen ... who knows when?
               </p>
 
 
 
               <p className="my-6">
                 
-                I&apos;m mostly optimistic about Alignment. I do take much of X-risk seriously, but we should have an optimistic disposition. With the right care we should probably be striving to make systems capable enough that they may one day break out into the world on their own, like babies cleverly escaping their cribs:
+                I&apos;m optimistic about Alignment. I do take much of X-risk seriously but I think we should have an optimistic disposition. With the right care we should probably be striving to make systems capable enough that they may one day &quot;break out&quot; into the world on their own, maybe like babies cleverly escaping their cribs:
               </p>
 
               
@@ -206,17 +229,7 @@ export default function About() {
               
               </p>
 
-              <h2 className="text-2xl font-bold mt-16">
-                How can I get updates about content?
-              </h2>
-              <p className="my-6">
-                I will post updates on Twitter &#8212;{' '}
-                <Link href="https://twitter.com/k_nearest" className="text-sky-500 hover:text-sky-400" >@k_nearest</Link>.
-              </p>
-              <p className="my-6">
-                There is also an{' '}
-                <Link href="https://ai-breakout.com/rss.xml" className="text-sky-500 hover:text-sky-400" >RSS feed</Link>.
-              </p> 
+
               {/* <p className="my-6">
                 
               </p> */}

@@ -8,7 +8,7 @@ source: 'https://arxiv.org/abs/2308.09687'
 published_date: 'Aug 18, 2023'
 composed_date: 'Sep 2, 2023'
 updated_date:
-tags: ['in-context-learning', 'prompt-engineering', 'thought-modeling']
+tags: ['in-context-learning', 'prompt-engineering', 'thought-process-prompting']
 nextjs:
   metadata:
     title: 'Graph of Thoughts: Solving Elaborate Problems with Large Language Models'
@@ -17,15 +17,15 @@ nextjs:
 
 ## Overview
 
-In order to properly introduce a discussion on this paper it is worth looking at the prior work which is being improved upon.
-
 ### Prior Work
 
-{% inlineimg src="/2308-graph-of-thoughts/figure-1.png" caption="Figure 1 of the work" attribution="(Besta et. al. 2023)" attributionHref="https://arxiv.org/abs/2308.09687"/%}
+This paper can be viewed as a continuation of a family of prior work which has often been called merely "**prompt engineering**" or "**prompting approaches**", for lack of a more specific term to be developed. "**_Thought-process prompting_**"? To summarize:
 
 **Input-Output (IO)**
 
-This is the baseline or control condition of no special thought modelling being present. An LLM is fed in input sequence {% latex src="x" /%} to transform into an output sequence {% latex src="y" /%} without intermediate "thoughts".
+This is the baseline or control condition of no special thought process prompting being present, which is used in these papers. An LLM is fed an input sequence {% latex src="x" /%}, and expected to transform it into an output sequence {% latex src="y" /%} without intermediate "thoughts". In other words, the LLM is being used as it normally is:
+
+_Question_ &rarr; _answer_, or, _Direct prompt_ &rarr; _direct answer_.
 
 **Chain-of-Thought (CoT)**
 
@@ -35,11 +35,17 @@ Chain-of-Thought () introduced intermediate thoughts {% latex src="a_1, a_2, ...
 
 **Tree-of-Thoughts (ToT)**
 
+{% inlineimg src="/2308-graph-of-thoughts/figure-1.png" caption="Figure 1 of the work" attribution="(Besta et. al. 2023)" attributionHref="https://arxiv.org/abs/2308.09687"/%}
+
 ## Observations
+
+section 6. Table 2
 
 This differs from other "thought modeling"
 
 They don't demonstrate backtracking in their example
+
+High expectations
 
 ## Future Directions
 

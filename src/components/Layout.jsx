@@ -25,7 +25,7 @@ function GitHubIcon(props) {
 function Header({ navigation }) {
   let [isScrolled, setIsScrolled] = useState(false);
   let pathname = usePathname();
-  let isAbout = pathname === '/about';
+  let isFaq = pathname === '/faq';
 
   useEffect(() => {
     function onScroll() {
@@ -64,13 +64,13 @@ function Header({ navigation }) {
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow font-medium">
         <ThemeSelector className="relative z-10" />
         <Link
-          href="/about"
+          href="/faq"
           className={
-            isAbout
-              ? 'text-sky-500'
-              : 'hover:text-slate-600 dark:hover:text-slate-300'
+            isFaq
+              ? 'font-semibold text-sky-500'
+              : 'text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300'
           }>
-            About
+            FAQ
           {/* <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" /> */}
         </Link>
       </div>

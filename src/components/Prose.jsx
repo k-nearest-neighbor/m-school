@@ -24,6 +24,8 @@ export function Prose({ as: Component = 'div', className, ...props }) {
         // ol
         'prose-ol:my-0 prose-ol:pl-0 prose-ol:list-none prose-ol:space-y-0 prose-ol:ml-0  prose-ol:list-outside',
         
+        // prose-blockquote
+        'prose-blockquote:dark:text-blue-200 prose-blockquote:font-normal'
       )}
       {...props}
     />

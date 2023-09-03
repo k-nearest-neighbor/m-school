@@ -22,6 +22,8 @@
 
 - Unnatural instructions: Tuning language models with (almost) no human labor.
 
+- Efficient Training of Language Models to Fill in the Middle https://arxiv.org/abs/2207.14255 (bavarian 22)
+
 ### Alignment and ability (maybe this is still a good category)
 
 - LLaMA: Open and efficient foundation language models. arXiv:abs/2302.13971, 2023a

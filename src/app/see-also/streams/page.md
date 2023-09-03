@@ -59,7 +59,7 @@ Michaël Trazzi is fantastic and has great guests and conversations. In addition
 
 [latent.space](https://latent.space) | Wherever you podcast
 
-Latent Space is a great podcast about the latest developments in AI. They focus often on applied research and application development. If you're building stuff, you should listen. Swyx (on the left) is a very talented and lovely guy. If you have an exciting project in the space you should talk to him.
+Latent Space is a great podcast about the latest developments in AI. They focus often on applied research and application development. If you're building stuff, you should listen. Swyx (on the left) is also a very intelligent and lovely guy. If you have an exciting project in the space you should talk to him.
 
 {% ls /%}
 

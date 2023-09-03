@@ -27,7 +27,7 @@ export default async function sitemap() {
 
   const routes = [
       "/",
-      "/about",
+      "/faq",
       '/see-also/streams'
     ].map((route) => ({
       url: `${URL}${route}`,

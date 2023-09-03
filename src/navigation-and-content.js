@@ -17,8 +17,8 @@ const posts = [
 
  { 
     template: 'post',
-    title: '🔬 Why do we keep using a dated GPT-4 benchmark score?',
-    href: "/post/why-do-we-keep-using-a-dated-gpt-4-benchmark-score",
+    title: '🔬 Why are we still using a dated GPT-4 benchmark score?',
+    href: "/post/why-are-we-still-using-a-dated-gpt-4-benchmark-score",
     tags: ['generative-code', 'benchmarks','gpt-4'],
     authored_date: new Date('2023-08-29T12:00:00Z'),
     teaseimg: null,
@@ -60,7 +60,7 @@ const posts = [
     tags: ['in-context-learning', 'prompt-engineering', 'thought-modeling'],
     hide_in_latest: false,
     hide_in_all: false,
-    hide: false
+    hide: true
   },  
 ]
 
