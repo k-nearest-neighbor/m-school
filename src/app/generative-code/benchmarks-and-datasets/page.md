@@ -23,15 +23,6 @@ Introduced in 2021 by **OpenAI**, along with the "**Codex**" model.
 
 ---
 
-### EvalPlus / HumanEval+
-
-[Website](https://github.com/evalplus/evalplus) | [Liu et. al. 2023](https://arxiv.org/abs/2305.01210)
-
-- Adds 81x more tests for HumanEval
-- Tools for working with the test inputs and outputs
-
----
-
 ### MBPP
 
 [Website](https://github.com/google-research/google-research/tree/master/mbpp) | [HuggingFace](https://huggingface.co/datasets/mbpp) | [Austin et al. 2021](https://arxiv.org/abs/2108.07732)
@@ -39,6 +30,15 @@ Introduced in 2021 by **OpenAI**, along with the "**Codex**" model.
 The **Mostly Basic Python Problems** dataset,
 
 > "consists of around 1,000 crowd-sourced Python programming problems, designed to be solvable by entry level programmers, covering programming fundamentals, standard library functionality, and so on. Each problem consists of a task description, code solution and 3 automated test cases."
+
+---
+
+### EvalPlus / HumanEval+
+
+[Website](https://github.com/evalplus/evalplus) | [Liu et. al. 2023](https://arxiv.org/abs/2305.01210)
+
+- Adds 81x more tests for HumanEval
+- Tools for working with the test inputs and outputs
 
 ---
 

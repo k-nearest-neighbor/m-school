@@ -1,7 +1,7 @@
 ---
 title: >
-  What does Pass@1 mean in AI Code Generation benchmarks?
-subtitle: Understanding confidence metrics used to evaluate AI Code Generation
+  Understanding Pass@1
+subtitle: the Pass@k metric is used to measure how confident we can be of an AI models ability to solve coding tasks
 nextjs:
   metadata:
     title: >

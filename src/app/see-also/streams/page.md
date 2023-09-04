@@ -51,6 +51,15 @@ Michaël Trazzi is fantastic and has great guests and conversations. In addition
 
 {% ytgrid vids="ZwvJn4x714s 6dmc_773H2M" /%}
 
+---
+
+Neel Nanda is a brilliant Interpretability researcher formally of Anthropic and a co-author of some now classic papers on transformer-circuits.pub.
+
+- [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
+- [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
+
+He does tend to swear a little bit so if you have young children in the room, they may later begin to tell you that "everything is 🤬 cursed" ! 😂
+
 ## Podcasts
 
 ---

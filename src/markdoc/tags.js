@@ -81,6 +81,7 @@ const tags = {
       caption: { type: String },
       attribution: { type: String },
       attributionHref: { type: String },
+      annotated: { type: Boolean },
     },
     render: AttributedImage,
   },
