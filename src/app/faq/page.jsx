@@ -173,10 +173,10 @@ export default function Faq() {
               
 
               <h2 className="text-2xl font-bold mt-16">
-                How can I get updates about content?
+                How can I get updates about posts?
               </h2>
               <p className="my-6">
-                I will post updates on Twitter &#8212;{' '}
+                New posts are announced on Twitter &#8212;{' '}
                 <Link href="https://twitter.com/k_nearest" className="text-sky-500 hover:text-sky-400" >@k_nearest</Link>.
               </p>
               <p className="my-6">
@@ -188,9 +188,9 @@ export default function Faq() {
                 AI Maintainer
               </h2>
               <p className="my-6">
-                I&apos;m a co-founder of a company called{' '}
+                I&apos;m a co-founder of{' '}
                 <Link href="https://www.ai-maintainer.com" className="text-sky-500 hover:text-sky-400" >AI Maintainer</Link>.
-                We&apos;re working on benchmarking AI coding agents and tools.
+                We&apos;re working on evals for AI coding agents and tools.
               </p>
 
               <h2 className="text-2xl font-bold mt-16">
