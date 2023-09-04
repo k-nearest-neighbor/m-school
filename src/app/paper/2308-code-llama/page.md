@@ -73,7 +73,7 @@ Again not surprising, but a statement of "Chinchilla scaling laws are in effect"
 
 ### Long Context Fine-Tuning
 
-"**LCFT**" is a fine-tuning stage that extends the context length from 4,096 to 100k tokens, by modifying the **RoPE** positional embeddings {% ref text="(Su et al 2021)" href="https://arxiv.org/abs/2104.09864" /%} used by LLama 2. See section 2.4
+"**LCFT**" is a fine-tuning stage that extends the context length from 4,096 to 100k tokens, by modifying the **RoPE** positional embeddings {% ref text="(Su et al. 2021)" href="https://arxiv.org/abs/2104.09864" /%} used by LLama 2. See section 2.4
 
 Long context task training is done in a fine-tuning stage for cost reasons; it is effective and doesn't "significantly" increase the cost of training the models.
 
@@ -117,3 +117,8 @@ There's a funny example mentioned on page 16 and in Appendix Table 14. Llama 2's
 {% br /%}
 {% br /%}
 {% br /%}
+
+<!--
+Please cite the original work. This is merely a set of notes or at best a "critique", and the real original work was done by the team who authored the paper(s) being discussed. However if there is something here that makes sense to cite, it can be done this way .
+
+ -->

@@ -14,7 +14,7 @@
 
 **SataCoder / BigCode** {% ref text="(Allal et al. 2023)" href="https://arxiv.org/abs/2301.03988" /%}
 
-**RoFormer / RoPE** {% ref text="(Su et al 2021)" href="https://arxiv.org/abs/2104.09864" /%}
+**RoFormer / RoPE** {% ref text="(Su et al. 2021)" href="https://arxiv.org/abs/2104.09864" /%}
 
 MultiPL-E [Cassano et al. 2022](https://arxiv.org/abs/2208.08227)
 
