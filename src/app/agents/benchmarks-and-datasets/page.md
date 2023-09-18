@@ -4,6 +4,22 @@ nextjs:
   metadata:
     title: Benchmarks & Datasets
     description: Benchmarks & Datasets for AI Agent and code generation research.
+    openGraph:
+      title: >
+        Benchmarks & Datasets
+      description: >
+        Benchmarks & Datasets for AI Agent and code generation research.
+      images:
+        - url: /main-card-2309.png
+    twitter:
+      title: >
+        Benchmarks & Datasets
+      description: >
+        Benchmarks & Datasets for AI Agent and code generation research.
+      images:
+        - url: /main-card-2309.png
+      card: 'summary_large_image'
+      creator: '@k_nearest'
 ---
 
 Nothing here yet.

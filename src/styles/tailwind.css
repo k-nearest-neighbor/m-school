@@ -8,3 +8,7 @@
     display: none;
   }
 }
+
+.prose :where(li):not(:where([class~="not-prose"] *)) {
+  margin-bottom: 0;
+}

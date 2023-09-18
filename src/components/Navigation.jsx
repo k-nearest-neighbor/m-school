@@ -31,6 +31,7 @@ export function Navigation({ navigation, className, onLinkClick }) {
                 <Link
                   href="/"
                   onClick={onLinkClick}
+                  scroll={true}
                   className={clsx(
                     'block w-full',
                     pathname === '/'
@@ -62,6 +63,7 @@ export function Navigation({ navigation, className, onLinkClick }) {
                     <Link
                       href={link.href}
                       onClick={onLinkClick}
+                      scroll={true}
                       className={clsx(
                         'block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full line-clamp-1',
                         link.href === pathname

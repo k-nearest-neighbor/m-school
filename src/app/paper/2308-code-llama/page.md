@@ -3,7 +3,7 @@ title: '📋 Code Llama: Open Foundation Models for Code'
 nickname: 'The Code Llama Paper'
 template: 'paper'
 authors: Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Ellen Tan, Yossef (Yossi) Adi, Jingyu Liu, Tal Remez, Jérémy Rapin, Artyom Kozhevnikov, Ivan Evtimov, Joanna Bitton, Manish Bhatt, Cristian Canton Ferrer, Aaron Grattafiori, Wenhan Xiong, Alexandre Defossez, Jade Copet, Faisal Azhar, Hugo Touvron, Gabriel Synnaeve, Louis Martin, Nicolas Usunier, Thomas Scialom
-cited_as: 'Rozière et. al. 2023'
+cited_as: 'Rozière et al. 2023'
 source: 'https://arxiv.org/abs/2308.12950'
 published_date: 'Aug 24, 2023'
 composed_date: 'Aug 26, 2023'
@@ -11,8 +11,24 @@ updated_date:
 tags: ['code generation', 'foundation models', 'llama2']
 nextjs:
   metadata:
-    title: 'Code Llama: Open Foundation Models for Code'
-    description: 'Code Llama: Open Foundation Models for Code'
+    title: 📋 The Code LLama Paper
+    description: Notes on Rozière et al. 2023
+    openGraph:
+      title: >
+        📋 The Code LLama Paper
+      description: >
+        Notes on Rozière et al. 2023
+      images:
+        - url: /2308-code-llama/2308-code-llama.png
+    twitter:
+      title: >
+        📋 The Code LLama Paper
+      description: >
+        Notes on Rozière et al. 2023
+      images:
+        - url: /2308-code-llama/2308-code-llama.png
+      card: 'summary_large_image'
+      creator: '@k_nearest'
 ---
 
 ## Overview
@@ -51,7 +67,7 @@ As you can see there are **3 variants** each **trained on at least 500B coding t
 
 {% inlineimg src="/2308-code-llama/nice-eval-table.jpg" caption="Code LLama benchmark performance." attribution="Meta AI" attributionHref="https://ai.meta.com/blog/code-llama-large-language-model-coding/"/%}
 
-**Side-note**: There's an inaccuracy regarding the GPT-4 performance in this table, {% nextlink text="which I wrote about here" href="/post/why-do-we-keep-using-a-dated-gpt-4-benchmark-score" /%}.
+**Side-note**: There's an inaccuracy regarding the GPT-4 performance in this table, {% nextlink text="which I wrote about here" href="/post/why-are-we-still-using-a-dated-gpt-4-benchmark-score" /%}.
 
 ## Observations
 

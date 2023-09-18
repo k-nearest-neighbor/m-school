@@ -5,6 +5,22 @@ nextjs:
   metadata:
     title: Books
     description: Books about AI research.
+    openGraph:
+      title: >
+        Books
+      description: >
+        description: Books about AI research.
+      images:
+        - url: /main-card-2309.png
+    twitter:
+      title: >
+        Books
+      description: >
+        description: Books about AI research.
+      images:
+        - url: /main-card-2309.png
+      card: 'summary_large_image'
+      creator: '@k_nearest'
 ---
 
 Just some light reading. 😁

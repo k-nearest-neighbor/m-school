@@ -1,4 +1,23 @@
+import { useEffect, useState } from "react";
+
 export function BreakPointDebug() {
+  // dev feature
+  let [breakpointDebug, setBreakpointDebug] = useState(false);
+  useEffect(()=>{
+    if (typeof window !== "undefined") {
+      setBreakpointDebug(JSON.parse(localStorage.getItem('breakpointDebug') || false));
+      window.breakpointDebugTrue = () =>{
+        localStorage.setItem('breakpointDebug', true);
+      }
+      window.breakpointDebugFalse = () =>{
+        localStorage.setItem('breakpointDebug', false);
+      }
+    }
+  }, [breakpointDebug, setBreakpointDebug])
+
+  if (!breakpointDebug) {
+    return null;
+  }
   return (
     <div className="flex items-center m-2 fixed bottom-0 right-0 border border-gray-400 rounded p-2 bg-gray-300 text-pink-600 text-sm">
         <svg className="h-6 w-auto inline" viewBox="0 0 80 64" fill="none" xmlns="http://www.w3.org/2000/svg">

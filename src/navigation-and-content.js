@@ -1,7 +1,7 @@
 
 
 // would be nice to parse these from the posts and papers directories using the frontmatter
-const posts = [
+export const posts = [
   { 
     template: 'post',
     title: "📓 What does Pass@1 mean? Understanding confidence metrics used to evaluate AI Code Generation",
@@ -23,6 +23,18 @@ const posts = [
     authored_date: new Date('2023-08-29T12:00:00Z'),
     teaseimg: null,
     excerpt: "Several code LLM papers prefer to use a GPT-4 metric which is known to be dated",
+    hide_in_latest: false,
+    hide_in_all: false,
+    hide: false
+  },
+ { 
+    template: 'post',
+    title: '⚠️ AI Alignment and The Messaih Bias',
+    href: "/post/ai-alignment-and-the-messiah-bias",
+    tags: ['alignment', 'governance'],
+    authored_date: new Date('2023-09-09T12:00:00Z'),
+    teaseimg: null,
+    excerpt: "There is a cognitive bias which is threatening the field of AI Alignment.",
     hide_in_latest: false,
     hide_in_all: false,
     hide: false
@@ -90,8 +102,8 @@ export const collectPostsWithTags = (includeTagsArray, excludeTagsArray) => {
   excludeTagsArray = excludeTagsArray || [];
   return posts
     .filter((post) => post.template === 'post' && !post.hide)
-    .filter((post) => includeTagsArray.some(tag => posts[0].tags.includes(tag)))
-    .filter((post) => !excludeTagsArray.some(tag => posts[0].tags.includes(tag)))
+    .filter((post) => includeTagsArray.some((tag) => post.tags.includes(tag)))
+    .filter((post) => !excludeTagsArray.some((tag) => post.tags.includes(tag)))
     .sort((a, b) => b.authored_date - a.authored_date)
     // .slice(0, n)
 }
@@ -128,7 +140,7 @@ export const navigation = [
 
   {
     title: 'Latest',
-    links: collectLatestPosts(3),
+    links: collectLatestPosts(5),
     hide: false
   },
   {
@@ -141,7 +153,7 @@ export const navigation = [
     ],
   },
   {
-    title: 'AI Agents',
+    title: 'Agents',
     links: [
       { title: 'Posts', href: '/agents/posts' },
       { title: 'Papers', href: '/agents/papers' },
@@ -153,12 +165,12 @@ export const navigation = [
 
   {
     title: 'Alignment',
-    hide: true,
+    hide: false,
     links: [
       { title: 'Posts', href: '/alignment/posts' },
-      { title: 'Papers', href: '/alignment/papers' },
-      { title: 'Benchmarks & Datasets', href: '/alignment/benchmarks-and-datasets' },
-      { title: 'People & Projects', href: '/alignment/people-and-projects' },
+      // { title: 'Papers', href: '/alignment/papers' },
+      // { title: 'Benchmarks & Datasets', href: '/alignment/benchmarks-and-datasets' },
+      // { title: 'People & Projects', href: '/alignment/people-and-projects' },
     ],
   },
   {
@@ -218,7 +230,7 @@ export const navigation = [
   },
 
   {
-    title: '💚 See Also',
+    title: 'See Also',
     // title: '👁️ See Also',
     hide: false,
     links: [

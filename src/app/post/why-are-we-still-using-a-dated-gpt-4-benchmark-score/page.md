@@ -7,7 +7,23 @@ tags: ['code generation', 'metrics', 'gpt-4']
 nextjs:
   metadata:
     title: 'Why are we still using a dated GPT-4 benchmark score?'
-    description: 'Why are we still using a dated GPT-4 benchmark score?'
+    description: Several sources are using a dated HumanEval benchmark score for GPT-4
+    # openGraph:
+    #   title: >
+    #     Why are we still using a dated GPT-4 benchmark score?
+    #   description: >
+    #     Several sources are using a dated HumanEval benchmark score for GPT-4
+    #   images:
+    #     - url: /todo
+    # twitter:
+    #   title: >
+    #     Why are we still using a dated GPT-4 benchmark score?
+    #   description: >
+    #     Several sources are using a dated HumanEval benchmark score for GPT-4
+    #   images:
+    #     - url: /todo
+    #   card: 'summary_large_image'
+    #   creator: '@k_nearest'
 ---
 
 ## Appreciation
@@ -40,7 +56,7 @@ So, why did the Code Llama team compare against a lower number for GPT-4? **Ther
 
 ## Whoops
 
-**I sympathize with the researchers**. It can be tedious to verify every reported metric about other people's projects, when there are already a hundred tests and verifications you're running to do your own research. It's easy to just report what you see a few other papers agreeing on.
+I sympathize with the researchers. It can be tedious to verify every reported metric about other people's projects, when there are already a hundred tests and verifications you're running to do your own research. It's easy to just report what you see a few other papers agreeing on.
 
 I suppose it's also a bit annoying to have to pay OpenAI inference fees to do an evaluation on _their_ model. They know they are in the lead, and that everyone needs to have an accurate up-to-date score for benchmarking. It would have been more convenient and the mistake could have been avoided if OpenAI had published the 82.0 themselves, anywhere.
 

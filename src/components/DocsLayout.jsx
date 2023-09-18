@@ -1,11 +1,11 @@
 import Link from 'next/link'
-
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 
 import { DocsHeader } from '@/components/DocsHeader'
 import { PrevNextLinks } from '@/components/PrevNextLinks'
 import { Prose } from '@/components/Prose'
 import { TableOfContents } from '@/components/TableOfContents'
+import { Balancer } from 'react-wrap-balancer'
 
 function getNodeText(node) {
   let text = ''
@@ -65,6 +65,7 @@ export function DocsLayout({ children, frontmatter: {
                                                 published_date,
                                                 composed_date,
                                                 updated_date,
+                                                time_to_read,
                                                 tags }, ast }) {
   let tableOfContents = collectHeadings(ast.children)
   let templateName = template ?? 'post';
@@ -79,7 +80,8 @@ export function DocsLayout({ children, frontmatter: {
             <p className='prose prose-slate max-w-none dark:prose-invert text-slate-400 dark:text-slate-500 mb-8'>
               {composed_date}&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               {updated_date && (<span>updated {updated_date}{' '}&bull;{' '}</span>)}
-              Desmond Grealy
+              <Link className="text-slate-400 dark:text-slate-500 underline" href="/faq">Des Grealy</Link>
+              {time_to_read && (<span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;{time_to_read}</span>)}
             </p>
 
             <Prose>{children}</Prose>
@@ -122,9 +124,9 @@ export function DocsLayout({ children, frontmatter: {
                     [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.slate.50)),var(--quick-links-hover-bg,theme(colors.slate.100)))_padding-box,linear-gradient(to_top,theme(colors.blue.500),theme(colors.cyan.500),theme(colors.sky.600))_border-box] 
                     dark:[--quick-links-hover-bg:theme(colors.slate.900)]" />
                   <div className="relative overflow-hidden rounded-xl px-4 py-2">
-                  <h1 className="font-display text-2xl font-light tracking-tight pb-2">
-                    {title}
-                  </h1>
+                    <h1 className="font-display text-2xl font-light tracking-tight pb-2">
+                      <Balancer>{title}</Balancer>
+                    </h1>
                   <h2 className="font-display font-light tracking-tight pb-8 text-slate-600 dark:text-slate-300">
                     {/* Known as:  {nickname && (<span>&#34;{nickname}&#34; /{' '}</span>)}{cited_as} */}
                     
@@ -180,7 +182,7 @@ export function DocsLayout({ children, frontmatter: {
                   </>
                 )}
                 <br/>
-                <span className="prose prose-slate max-w-none dark:prose-invert dark:text-slate-400">Desmond Grealy</span>
+                <span className="prose prose-slate max-w-none dark:prose-invert dark:text-slate-400">Des Grealy</span>
               </p>
 
             </header>

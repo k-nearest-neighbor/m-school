@@ -5,10 +5,10 @@ import Image from 'next/image'
 import profileImage from '@/images/desmond-grealy.png'
 import { Prose } from '@/components/Prose'
 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
-
 
 function GitHubIcon () {
   return (
@@ -148,7 +148,8 @@ export default function Faq() {
             {/* Center Content */}
             <div className="py-8  sm:mx-0 sm:px-8 sm:pb-14 lg:col-span-2 lg:row-span-2 lg:row-end-2  xl:pb-20 xl:pt-16">
             <Prose>
-              <p className="my-6 text-black dark:text-white">
+              {/* <p className="my-6 text-black dark:text-white"> */}
+              <p className="my-6">
                 Hi, I&apos;m Des.
               </p>
               <p className="my-6">
@@ -190,7 +191,7 @@ export default function Faq() {
               <p className="my-6">
                 I&apos;m a co-founder of{' '}
                 <Link href="https://www.ai-maintainer.com" className="text-sky-500 hover:text-sky-400" >AI Maintainer</Link>.
-                We&apos;re working on evals for AI coding agents and tools.
+                We&apos;re working on evals for AI coding agents.
               </p>
 
               <h2 className="text-2xl font-bold mt-16">

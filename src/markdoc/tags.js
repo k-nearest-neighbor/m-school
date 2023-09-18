@@ -5,8 +5,27 @@ import { LatexComponent } from '@/components/Latex';
 import { AttributedImage } from '@/components/AttributedImage';
 import { NextLink, ALink, CitationRef } from '@/components/Links';
 import { YoutubeEmbed, YoutubeEmbedGrid, lsEmbed, arxpEmbed } from '@/components/Youtube';
+import { Citation, References } from '@/components/Citation';
+import { Balancer } from 'react-wrap-balancer';
 
 const tags = {
+
+  citation: {
+    selfClosing: true,
+    render: Citation,
+    attributes: {
+      expand: { type: Boolean, default: false},
+      shortname: { type: String },
+      title: { type: String },
+      year: { type: String },
+      month: { type: String },
+      url: { type: String },
+    },
+  },
+  references: {
+    selfClosing: true,
+    render: References,
+  },
   axrp: {
     selfClosing: true,
     render: arxpEmbed,
@@ -19,6 +38,17 @@ const tags = {
     selfClosing: true,
     attributes: {
       vid: { type: String },
+      tparam: { type: String },
+      caption1: { type: String },
+      caption2: { type: String },
+      caption3: { type: String },
+      caption4: { type: String },
+      caption5: { type: String },
+      caption1Align: { type: String },
+      caption2Align: { type: String },
+      caption3Align: { type: String },
+      caption4Align: { type: String },
+      caption5Align: { type: String },
     },
     render: YoutubeEmbed,
   },
@@ -36,9 +66,9 @@ const tags = {
     attributes: {
       text: { type: String },
       href: { type: String },
-      target: { type: String },
-      rel: { type: String },
+      newtab: { type: Boolean },
       pwrap: { type: Boolean },
+      bold: { type: Boolean },
     },
     render: ALink,
   },
@@ -132,6 +162,16 @@ const tags = {
     selfClosing: true,
     render: () => {return(<div className="h-8 w-full"></div>)},
   },
+  'br2': {
+    selfClosing: true,
+    render: () => {return(<div className="h-4 w-full"></div>)},
+  },
+  'pop': { // like strong but without the font-bold
+    render: ({children}) => {return(<span className="text-slate-950 dark:text-white">{children}</span>)},
+  },
+  'balance': { 
+    render: ({children}) => {return(<Balancer>{children}</Balancer>)},
+  }
 
 }
 

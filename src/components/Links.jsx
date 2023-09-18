@@ -11,22 +11,25 @@ export function NextLink({ text, href, replace, scroll, prefetch }) {
   )
 }
 
-export function ALink({ text, href, pwrap=false}) {
-  // console.log('pwrap is ', pwrap)
-  if (pwrap) {
-    return (
-      <p>
-        <a className='text-slate-500 hover:text-sky-600 dark:text-slate-400 dark:hover:text-slate-300'
+export function ALink({ text, href, newtab=false, pwrap=false, bold=false}) {
+  let classname = (pwrap) ? 'text-slate-500 hover:text-sky-600 dark:text-slate-400 dark:hover:text-slate-300' : 'text-slate-500 hover:text-sky-600 dark:text-slate-400 dark:hover:text-slate-300'
+  classname = (bold) ? classname + ' font-semibold' : classname;
+  const El = () => (newtab) ? (
+        <a className={classname}
+          href={href}
+          target='_blank'
+          rel="noopener"
+        >{text}</a>
+  ) : (
+        <a className={classname}
           href={href}
         >{text}</a>
-      </p>
-    )
+  );
+
+  if (pwrap) {
+    return <p><El/></p>
   } else {
-  return (
-    <a className='text-slate-500 hover:text-sky-600 dark:text-slate-400 dark:hover:text-slate-300'
-      href={href}
-    >{text}</a>
-  )
+    return <El/>
   }
 }
 // export function CitationRef({ text, href, blue=false, target="_blank", rel="noopener" }) {

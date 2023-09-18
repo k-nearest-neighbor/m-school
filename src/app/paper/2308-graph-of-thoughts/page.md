@@ -1,9 +1,9 @@
 ---
 title: '📋 Graph of Thoughts: Solving Elaborate Problems with Large Language Models'
-nickname: 'The (Zurich) Graph of Thoughts Paper'
+nickname: 'The (Zürich) Graph of Thoughts Paper'
 template: 'paper'
 authors: Maciej Besta, Nils Blach, Ales Kubicek, Robert Gerstenberger, Lukas Gianinazzi, Joanna Gajda, Tomasz Lehmann, Michal Podstawski, Hubert Niewiadomski, Piotr Nyczyk, Torsten Hoefler
-cited_as: 'Besta et. al. 2023'
+cited_as: 'Besta et al. 2023'
 source: 'https://arxiv.org/abs/2308.09687'
 published_date: 'Aug 18, 2023'
 composed_date: 'Sep 2, 2023'
@@ -11,8 +11,24 @@ updated_date:
 tags: ['in-context-learning', 'prompt-engineering', 'thought-process-prompting']
 nextjs:
   metadata:
-    title: 'Graph of Thoughts: Solving Elaborate Problems with Large Language Models'
-    description: 'Graph of Thoughts: Solving Elaborate Problems with Large Language Models'
+    title: 📋 The (Zürich) Graph of Thoughts Paper
+    description: Notes on Basta et al. 2023
+    openGraph:
+      title: >
+        📋 The (Zürich) Graph of Thoughts Paper
+      description: >
+        Notes on Basta et al. 2023
+      images:
+        - url: /todo
+    twitter:
+      title: >
+        📋 The (Zürich) Graph of Thoughts Paper
+      description: >
+        Notes on Basta et al. 2023
+      images:
+        - url: /todo
+      card: 'summary_large_image'
+      creator: '@k_nearest'
 ---
 
 ## Overview
@@ -35,7 +51,7 @@ Chain-of-Thought () introduced intermediate thoughts {% latex src="a_1, a_2, ...
 
 **Tree-of-Thoughts (ToT)**
 
-{% inlineimg src="/2308-graph-of-thoughts/figure-1.png" caption="Figure 1 of the work" attribution="(Besta et. al. 2023)" attributionHref="https://arxiv.org/abs/2308.09687"/%}
+{% inlineimg src="/2308-graph-of-thoughts/figure-1.png" caption="Figure 1 of the work" attribution="(Besta et al. 2023)" attributionHref="https://arxiv.org/abs/2308.09687"/%}
 
 ## Observations
 

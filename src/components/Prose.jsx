@@ -21,6 +21,9 @@ export function Prose({ as: Component = 'div', className, ...props }) {
         'dark:prose-hr:border-blue-950/90 prose-hr:h-[0.1px]',
         // ul
         'prose-ul:my-0 prose-ul:pl-0 prose-ul:space-y-0 prose-ul:ml-12 prose-ul:list-disc prose-ul:list-outside',
+
+        'prose-strong:font-bold prose-strong:text-slate-950 dark:prose-strong:text-white',
+
         // ol
         'prose-ol:my-0 prose-ol:pl-0 prose-ol:list-none prose-ol:space-y-0 prose-ol:ml-0  prose-ol:list-outside',
         

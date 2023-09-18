@@ -1,12 +1,28 @@
 ---
 title: >
-  Understanding Pass@1
+  📓 Understanding The "Pass@k" Metric
 subtitle: the Pass@k metric is used to measure how confident we can be of an AI models ability to solve coding tasks
 nextjs:
   metadata:
     title: >
-      📓 The "Pass@k" Metric: Understanding confidence metrics used to evaluate AI code synthesis.
+      📓 Understanding The "Pass@k" Metric
     description: Benchmarks for AI Agent research.
+    openGraph:
+      title: >
+        📓 Understanding The "Pass@k" Metric
+      description: >
+        Understanding confidence metrics used to evaluate AI code synthesis.
+      images:
+        - url: /todo
+    twitter:
+      title: >
+        📓 Understanding The "Pass@k" Metric
+      description: >
+        Understanding confidence metrics used to evaluate AI code synthesis.
+      images:
+        - url: /todo
+      card: 'summary_large_image'
+      creator: '@k_nearest'
 ---
 
 This is the thing: {% latex src="pass@k" /%} blah blah.

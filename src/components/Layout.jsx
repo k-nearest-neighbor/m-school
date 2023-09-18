@@ -80,19 +80,7 @@ function Header({ navigation }) {
 
 export function Layout({ children }) {
 
-  // dev feature
-  let [breakpointDebug, setBreakpointDebug] = useState(false);
-  useEffect(()=>{
-    if (typeof window !== "undefined") {
-      setBreakpointDebug(JSON.parse(localStorage.getItem('breakpointDebug') || false));
-      window.breakpointDebugTrue = () =>{
-        localStorage.setItem('breakpointDebug', true);
-      }
-      window.breakpointDebugFalse = () =>{
-        localStorage.setItem('breakpointDebug', false);
-      }
-    }
-  }, [breakpointDebug, setBreakpointDebug])
+
 
   return (
     <div className="flex w-full flex-col">
@@ -110,7 +98,7 @@ export function Layout({ children }) {
         {children}
       </div>
       
-      {breakpointDebug && <BreakPointDebug />}
+      <BreakPointDebug />
     
     </div>
   )
