@@ -31,7 +31,7 @@ There is a cognitive bias threatening the field of AI Alignment.
 
 <!-- It is recognizable often by the **high estimations of X-risk** it produces. -->
 
-It is often found where high estimates of X-risk occur:
+It is often found where high estimates of X-risk occur.
 
 <!-- It's caused by an attraction toward emotionally gratifying self-images: -->
 
@@ -39,20 +39,20 @@ It is often found where high estimates of X-risk occur:
 
 {% callout type="warning" title="The Messiah Bias"%}
 
-When assessing the extent of X-risk or the shortness of AGI timelines, there is a bias toward making estimates which allow one to play grandiose roles. Specifically, the estimator is attracted to such roles as:
+When estimating X-risk or AGI timelines, there is a bias toward making assumptions which allow one to play grandiose roles. Specifically, the estimator is attracted to roles like:
 
-- {% pop %}Possessing knowledge supposedly about the fate of the world{% /pop %}
-- {% pop %}Being in a position to dictate what people should and shouldn't do{% /pop %}
-- {% pop %}Being in a position to decide who should have access to knowledge and resources{% /pop %}
-- {% pop %}Being humanity's savior, in the literal sense{% /pop %}
+- {% pop %}Having "crucial" knowledge about the supposed fate of the world{% /pop %}
+- {% pop %}Dictating what people should and shouldn't do{% /pop %}
+- {% pop %}Dictating who should have access to knowledge and resources{% /pop %}
+- {% pop %}Playing humanity's savior{% /pop %}
 
 {% /callout %}
 
 ## Identifying the bias
 
-When a researcher or organization is making extreme estimates of risk and also moving to realize the positions listed above, it's a strong indication that some bias is present. We should be asking, "**who benefits?**"
+When a researcher or organization is making extreme X-risk estimates and also moving to realize the positions listed above, it's a strong indication that some bias is present. We should be asking, "**who benefits?**"
 
-An irrational bias will be built on poor foundations. If a claim of extreme risk isn't properly rationalized, some hand-waving will be encountered when moving to pinpoint certain reasoning for it. Reasoning which is hypothetical at best will be presented as certain. There will be much use of the **appeal to probability** (i.e., assuming _everything_ which can go wrong, will go wrong), and the conversation will tend to devolve some **circular reasoning** involving an **appeal to authority**:
+An irrational bias will be built on poor foundations. If a claim of extreme risk isn't properly rationalized, some hand-waving will be encountered when moving to pinpoint certain reasoning for it. Reasoning which is hypothetical at best will often be presented as certain. There will be much use of the **appeal to probability** (i.e., assuming _everything_ which can go wrong, will go wrong), and the conversation will often tend to devolve into some **circular reasoning** involving an **appeal to authority**:
 
 > I know AGI timelines are short because of knowledge only I or people like me have. Take my word for it.
 > If you do have advanced knowledge and estimate things differently, you just aren't understanding it as well as I am.
@@ -61,13 +61,13 @@ A statement like this is actually reminiscent of some other material which deals
 
 Another circular and frequently alluded to argument deals with the extremeness of the risk estimation itself:
 
-> Imagine the risk of being wrong. It's total annihilation.
+> Imagine the risk of being wrong --it's total annihilation.
 >
 > You can't afford to not take my stance on X-risk.
 
 This is like the argument that one should believe in Hell because if it does exist it's too high a price to pay if you don't believe in it. The _fear_ of a hypothetical risk is being used to pressure into believing in it.
 
-These arguments should be transparent to rational people, but the veil of intellectualism they are sometimes presented in can confuse even the brightest among us.
+These arguments should be transparent to rational people, but the veil of intellectualism they are sometimes presented in can confuse even the brightest.
 
 ## An Example
 
