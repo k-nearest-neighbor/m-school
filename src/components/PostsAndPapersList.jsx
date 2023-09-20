@@ -1,3 +1,4 @@
+'use client'
 import { collectAllPostsAndPapers } from '@/navigation-and-content';
 
 import Image from 'next/image'

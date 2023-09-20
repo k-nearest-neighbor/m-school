@@ -1,5 +1,33 @@
-'use client'
 import { AllPostsAndPapersList } from '@/components/PostsAndPapersList'
+
+
+export const metadata = {
+  title: {
+    template: '%s',
+    default: 'AI Breakout',
+  },
+  description:
+    'Notes on AI Research.',
+  openGraph: {
+    title: "AI Breakout",
+    description:
+      "Notes on AI Research.",
+    images: [
+      {
+        url: "https://www.ai-breakout.com/main-card-2309.png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Breakout",
+    description:
+      "Notes on AI Research.",
+    images: ["/main-card-2309.png"],
+    creator: "@k_nearest",
+  },
+}
+
 
 export default function Posts() {
 
