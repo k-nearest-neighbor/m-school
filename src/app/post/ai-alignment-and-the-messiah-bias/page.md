@@ -1,6 +1,5 @@
 ---
-title: >
-  Alignment and The Messiah Bias
+title: Alignment and The Messiah Bias
 subtitle:
 emoji: '⚠️'
 time_to_read: 6 min
@@ -64,7 +63,7 @@ Another circular and frequently alluded to argument deals with the extremeness o
 
 > Imagine the risk of being wrong. It's total annihilation.
 >
-> You can't afford to **not** take my stance on X-risk.
+> You can't afford to not take my stance on X-risk.
 
 This is like the argument that one should believe in Hell because if it does exist it's too high a price to pay if you don't believe in it. The _fear_ of a hypothetical risk is being used to pressure into believing in it.
 
