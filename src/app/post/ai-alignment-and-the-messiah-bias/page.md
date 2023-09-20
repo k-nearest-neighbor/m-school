@@ -10,19 +10,18 @@ tags: ['alignment', 'governance']
 nextjs:
   metadata:
     title: Alignment and The Messiah Bias
-    description: >
-      Biased parties are threatening hasty AI regulations
-    og:
-      title: >
-        Alignment and The Messiah Bias
-      description: >
-        There is a cognitive bias threatening AI Alignment.
-      image: https://www.ai-breakout.com/alignment-and-the-messiah-bias/alignment-and-the-messiah-bias.png
+    description: Biased parties are threatening hasty AI regulations
+    openGraph:
+      title: Alignment and The Messiah Bias
+      description: There is a cognitive bias threatening AI Alignment.
+      images:
+        - https://www.ai-breakout.com/alignment-and-the-messiah-bias/alignment-and-the-messiah-bias.png
       url: https://www.ai-breakout.com/post/ai-alignment-and-the-messiah-bias
     twitter:
       title: Alignment and The Messiah Bias
       description: Biased parties are threatening hasty AI regulations
-      image: https://www.ai-breakout.com/alignment-and-the-messiah-bias/alignment-and-the-messiah-bias.png
+      images:
+        - https://www.ai-breakout.com/alignment-and-the-messiah-bias/alignment-and-the-messiah-bias.png
       card: 'summary_large_image'
       creator: '@k_nearest'
 ---
