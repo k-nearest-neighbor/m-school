@@ -32,7 +32,7 @@ export const posts = [
     title: '⚠️ AI Alignment and The Messaih Bias',
     href: "/post/ai-alignment-and-the-messiah-bias",
     tags: ['alignment', 'governance'],
-    authored_date: new Date('2023-09-09T12:00:00Z'),
+    authored_date: new Date('2023-19-09T12:00:00Z'),
     teaseimg: null,
     excerpt: "There is a cognitive bias which is threatening the field of AI Alignment.",
     hide_in_latest: false,

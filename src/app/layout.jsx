@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Layout>{children}</Layout>
         </Providers>
-        {(process.env.NODE_ENV !== 'production') && <Analytics/>}
+        <Analytics/>
       </body>
     </html>
   )

@@ -3,7 +3,7 @@ title: Alignment and The Messiah Bias
 subtitle:
 emoji: '⚠️'
 time_to_read: 6 min
-composed_date: 'Sep 9, 2023'
+composed_date: 'Sep 19, 2023'
 updated_date:
 tags: ['alignment', 'governance']
 nextjs:
