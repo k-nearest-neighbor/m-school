@@ -27,15 +27,17 @@ export function Providers({ children }) {
   // the docs are slightly unclear on if this will force everything inside <Providers> to be 'use client' though.
   // https://github.com/vercel/next.js/discussions/43153
   // Never mind, I think this is fine. leaving the note though.
-  useEffect(() => {
-      window.navigation.addEventListener('navigate', (event) => {
-        if (event.destination.url.includes('#')) return; // don't for anchor navigation
-        if (process.env.NODE_ENV !== 'production') return; // For dev it's annoying to force scroll to top when the development reload happens
-        window.setTimeout(()=>{
-            window.scrollTo(0, 0)
-          }, 100) //can you believe this shit. 0 or 1 do not work. 100 is enough I guess
-      } )
-  }, []);
+  // useEffect(() => {
+  //     window.navigation.addEventListener('navigate', (event) => {
+  //       if (event.destination.url.includes('#')) return; // don't for anchor navigation
+  //       if (process.env.NODE_ENV !== 'production') return; // For dev it's annoying to force scroll to top when the development reload happens
+  //       window.setTimeout(()=>{
+  //           window.scrollTo(0, 0)
+  //         }, 100) //can you believe this shit. 0 or 1 do not work. 100 is enough I guess
+  //     } )
+  // }, []);
+
+  // well fuck, this doesn't work on chrome mobile
 
   return (
     <ThemeProvider
