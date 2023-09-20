@@ -39,7 +39,7 @@ It is often found where high estimates of X-risk occur.
 
 {% callout type="warning" title="The Messiah Bias"%}
 
-When estimating X-risk or AGI timelines, there is a bias toward making assumptions which allow one to play grandiose roles. Specifically, the estimator is attracted to roles like:
+When estimating X-risk or AGI timelines, there is a bias toward making estimates that are high enough to allow one to play grandiose roles. Specifically, the estimator is attracted to roles like:
 
 - {% pop %}Having "crucial" knowledge about the supposed fate of the world{% /pop %}
 - {% pop %}Dictating what people should and shouldn't do{% /pop %}
@@ -57,7 +57,7 @@ An irrational bias will be built on poor foundations. If a claim of extreme risk
 > I know AGI timelines are short because of knowledge only I or people like me have. Take my word for it.
 > If you do have advanced knowledge and estimate things differently, you just aren't understanding it as well as I am.
 
-A statement like this is actually reminiscent of some other material which deals with "**cosmic stakes**" &#8212; it resembles the statements of those who claim to provide a direct (but of course mysterious) connection to divine knowledge which is only comprehensible to believers. Both make extraordinary claims, and both ultimately degrade to an appeal to authority when pressed.
+A statement like this is actually reminiscent of some other material which deals with "**cosmic stakes**" &#8212; it resembles those who claim to provide a direct (but of course mysterious) connection to divine knowledge which is only comprehensible to believers. Both make extraordinary claims, and both ultimately degrade to an appeal to authority when pressed.
 
 Another circular and frequently alluded to argument deals with the extremeness of the risk estimation itself:
 
@@ -83,7 +83,7 @@ caption4Align="left"
 caption5Align="left"
 /%}
 
-The video above covers the listed items within a few minutes of the selected timestamp. I invite you to also watch the entirety for context.
+The video above covers the listed items within a few minutes of the timestamp. I invite you to also watch the entirety for context.
 
 ## {% balance %}Beware of "Availability Cascades" {% /balance %}
 

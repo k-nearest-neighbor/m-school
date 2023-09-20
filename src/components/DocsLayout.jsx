@@ -80,7 +80,7 @@ export function DocsLayout({ children, frontmatter: {
             <p className='prose prose-slate max-w-none dark:prose-invert text-slate-400 dark:text-slate-500 mb-8'>
               {composed_date}&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               {updated_date && (<span>updated {updated_date}{' '}&bull;{' '}</span>)}
-              <Link className="text-slate-400 dark:text-slate-500 underline" href="/faq">Des Grealy</Link>
+              <Link className="text-slate-400 dark:text-slate-500 underline" href="/faq">Desmond Grealy</Link>
               {time_to_read && (<span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;{time_to_read}</span>)}
             </p>
 
@@ -182,7 +182,7 @@ export function DocsLayout({ children, frontmatter: {
                   </>
                 )}
                 <br/>
-                <span className="prose prose-slate max-w-none dark:prose-invert dark:text-slate-400">Des Grealy</span>
+                <span className="prose prose-slate max-w-none dark:prose-invert dark:text-slate-400">Desmond Grealy</span>
               </p>
 
             </header>

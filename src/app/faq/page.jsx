@@ -186,15 +186,6 @@ export default function Faq() {
               </p> 
 
               <h2 className="text-2xl font-bold mt-16">
-                AI Maintainer
-              </h2>
-              <p className="my-6">
-                I&apos;m a co-founder of{' '}
-                <Link href="https://www.ai-maintainer.com" className="text-sky-500 hover:text-sky-400" >AI Maintainer</Link>.
-                We&apos;re working on evals for AI coding agents.
-              </p>
-
-              <h2 className="text-2xl font-bold mt-16">
                 What does the name &nbsp;<span className="">&quot;AI Breakout&quot;</span>&nbsp; mean?
               </h2>
 
@@ -230,7 +221,14 @@ export default function Faq() {
               
               </p>
 
-
+              <h2 className="text-2xl font-bold mt-16">
+                AI Maintainer
+              </h2>
+              <p className="my-6">
+                I&apos;m a co-founder of{' '}
+                <Link href="https://www.ai-maintainer.com" className="text-sky-500 hover:text-sky-400" >AI Maintainer</Link>.
+                We&apos;re working on evals for AI coding agents.
+              </p>
               {/* <p className="my-6">
                 
               </p> */}
