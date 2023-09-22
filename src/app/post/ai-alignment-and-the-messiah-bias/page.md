@@ -54,7 +54,7 @@ When a researcher or organization is making extreme X-risk estimates and also mo
 
 An irrational bias will be built on poor foundations. If a claim of extreme risk isn't properly rationalized, some hand-waving will be encountered when moving to pinpoint certain reasoning for it. Reasoning which is hypothetical at best will often be presented as certain. There will be much use of the **appeal to probability** (i.e., assuming _everything_ which can go wrong, will go wrong), and the conversation will often tend to devolve into some **circular reasoning** involving an **appeal to authority**:
 
-> I know AGI timelines are short because of knowledge only I or people like me have. Take my word for it.
+> I know X-risk is high and AGI timelines are short because of knowledge only I or people like me have. Take my word for it.
 > If you do have advanced knowledge and estimate things differently, you just aren't understanding it as well as I am.
 
 A statement like this is actually reminiscent of some other material which deals with "**cosmic stakes**" &#8212; it resembles those who claim to provide a direct (but of course mysterious) connection to divine knowledge which is only comprehensible to believers. Both make extraordinary claims, and both ultimately degrade to an appeal to authority when pressed.
