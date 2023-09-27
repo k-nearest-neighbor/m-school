@@ -29,7 +29,7 @@ export const posts = [
   },
  { 
     template: 'post',
-    title: '⚠️ AI Alignment and The Messaih Bias',
+    title: '⚠️ AI Alignment and The Messiah Bias',
     href: "/post/ai-alignment-and-the-messiah-bias",
     tags: ['alignment', 'governance'],
     authored_date: new Date('2023-09-19T12:00:00Z'),
