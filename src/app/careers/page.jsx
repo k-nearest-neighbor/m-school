@@ -11,7 +11,7 @@ export const metadata = {
       "Orchard Montessori is a small private school in Fairfield for ages 3-6. Orchard is committed to providing a nurturing environment based on Montessori principles.",
     images: [
       {
-        url: "https://www.ai-breakout.com/main-card-2312.png",
+        url: "https://www.orchardmontessori.school/main-card-2312.png",
       },
     ],
   },

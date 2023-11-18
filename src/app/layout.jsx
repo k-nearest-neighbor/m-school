@@ -48,7 +48,7 @@ const lexend = localFont({
 //       "Notes on AI Research.",
 //     images: [
 //       {
-//         url: "https://www.ai-breakout.com/main-card-2312.png",
+//         url: "https://www.orchardmontessori.school/main-card-2312.png",
 //       },
 //     ],
 //   },

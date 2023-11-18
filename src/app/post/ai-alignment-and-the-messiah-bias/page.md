@@ -14,13 +14,13 @@ nextjs:
       title: Alignment and The Messiah Bias
       description: There is a cognitive bias threatening AI Alignment.
       images:
-        - https://www.ai-breakout.com/alignment-and-the-messiah-bias/alignment-and-the-messiah-bias.png
-      url: https://www.ai-breakout.com/post/ai-alignment-and-the-messiah-bias
+        - https://www.orchardmontessori.school/alignment-and-the-messiah-bias/alignment-and-the-messiah-bias.png
+      url: https://www.orchardmontessori.school/post/ai-alignment-and-the-messiah-bias
     twitter:
       title: Alignment and The Messiah Bias
       description: Biased parties are threatening hasty AI regulations
       images:
-        - https://www.ai-breakout.com/alignment-and-the-messiah-bias/alignment-and-the-messiah-bias.png
+        - https://www.orchardmontessori.school/alignment-and-the-messiah-bias/alignment-and-the-messiah-bias.png
       card: 'summary_large_image'
       creator: '@k_nearest'
 ---
@@ -116,7 +116,7 @@ shortname="grealy2023messiahbias"
 title="AI Alignment and The Messiah Bias"
 year="2023"
 month="Sep"
-url="https://www.ai-breakout.com/post/ai-alignment-and-the-messiah-bias"
+url="https://www.orchardmontessori.school/post/ai-alignment-and-the-messiah-bias"
 /%}
 
 {% references /%}
