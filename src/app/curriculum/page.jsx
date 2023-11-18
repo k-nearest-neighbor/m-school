@@ -64,7 +64,7 @@ export default function Testimonials() {
           </h1>
 
           <p>
-Orchard Montessori&#39s educational vision is based upon the curriculum
+Orchard Montessori&#39;s educational vision is based upon the curriculum
 principles of the Montessori Method founded by Dr. Maria Montessori.
 </p>
 <p>

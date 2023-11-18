@@ -39,7 +39,7 @@ export default function Testimonials() {
 
           <article className="bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                 Su Wang
+                Brandon's mom
               </h3>
               <p>
                 Ms. Virginia is one of the most creative and respectful teachers that we have the privilege to
@@ -66,7 +66,7 @@ export default function Testimonials() {
 
           <article className="my-8 bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Daren&#39;s mom, Duruo Xia
+                Daren&#39;s mom
               </h3>
               <p>
                 Our older son started with Ms. Virginia’s class at age 4 and after one year, I can clearly
@@ -94,7 +94,7 @@ export default function Testimonials() {
 
           <article className="my-8 bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Jewel, Ollie&#39;s mom
+                Ollie&#39;s mom
               </h3>
               <p>
                 Ms. Virginia was the head teacher for my son’s class for almost two years at Palo Alto
@@ -112,7 +112,7 @@ export default function Testimonials() {
 
           <article className="my-8 bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Alex Goepfert
+                Kai & Zoey's dad
               </h3>
               <p>
                 We had the privilege of having both of our children in Ms. Virginia’s class. Her patience and
@@ -126,7 +126,7 @@ export default function Testimonials() {
               
           <article className="my-8 bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Zalutskaya Family
+                Sophia's mom
               </h3>
               <p>
                 Our daughter, Sofia was in Ms. Virginia’s class for 2 ½ years. She was very shy and didn’t speak
@@ -141,7 +141,7 @@ export default function Testimonials() {
               
           <article className="my-8 bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Yvonne Casen
+                Angela's mom
               </h3>
               <p>
                 What can I say? Ms. Virginia is truly a gifted teacher. The children really respect her, and she is
