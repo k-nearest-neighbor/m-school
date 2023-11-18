@@ -79,7 +79,7 @@ when they are ready for them.
 <p>
 Monthly themes will touch all areas of the classroom and will change throughout the
 year. Some units of study will coincide with the season, holidays and timely events.
-Some examples of units of study are:
+Some example units of study are:
 </p>
 <ul className="list-disc pl-4">
   <li className="pb-6">
