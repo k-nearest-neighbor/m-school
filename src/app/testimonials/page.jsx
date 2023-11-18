@@ -112,7 +112,7 @@ export default function Testimonials() {
 
           <article className="my-8 bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Kai & Zoey's dad
+                Kai & Zoey&#39;s dad
               </h3>
               <p>
                 We had the privilege of having both of our children in Ms. Virginia’s class. Her patience and
@@ -126,7 +126,7 @@ export default function Testimonials() {
               
           <article className="my-8 bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Sophia's mom
+                Sophia&#39;s mom
               </h3>
               <p>
                 Our daughter, Sofia was in Ms. Virginia’s class for 2 ½ years. She was very shy and didn’t speak
@@ -141,7 +141,7 @@ export default function Testimonials() {
               
           <article className="my-8 bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Angela's mom
+                Angela&#39;s mom
               </h3>
               <p>
                 What can I say? Ms. Virginia is truly a gifted teacher. The children really respect her, and she is
