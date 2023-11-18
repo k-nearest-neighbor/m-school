@@ -151,7 +151,7 @@ export default function Posts() {
         <h3 className="mt-12 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
           Contact
         </h3>
-          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500">missvirginia@orchardmontessori.com</p>
+          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500">ms.virginia@orchardmontessori.com</p>
           <p className="mt-8 mb-4 font-poppins font-semibold">
             (925) 202-9578
           </p>
