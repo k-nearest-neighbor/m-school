@@ -48,7 +48,7 @@ const lexend = localFont({
 //       "Notes on AI Research.",
 //     images: [
 //       {
-//         url: "https://www.ai-breakout.com/main-card-2309.png",
+//         url: "https://www.ai-breakout.com/main-card-2312.png",
 //       },
 //     ],
 //   },
@@ -57,7 +57,7 @@ const lexend = localFont({
 //     title: "AI Breakout",
 //     description:
 //       "Notes on AI Research.",
-//     images: ["/main-card-2309.png"],
+//     images: ["/main-card-2312.png"],
 //     creator: "@k_nearest",
 //   },
 // }
