@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Orchard Montessori",
     description:
-      "Orchard Montessori is a small private school in Fairfield for ages 3-6. Orchard is committed to providing a nurturing environment based on Montessori principles.",
+      "A small private montessori school in Fairfield for ages 3-6.",
     images: [
       {
         url: "https://www.orchardmontessori.school/main-card-2312.png",
@@ -21,7 +21,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Orchard Montessori",
     description:
-      "Orchard Montessori is a small private school in Fairfield for ages 3-6. Orchard is committed to providing a nurturing environment based on Montessori principles.",
+      "A small private montessori school in Fairfield for ages 3-6.",
     images: ["/main-card-2312.png"],
     creator: "Orchard Montessori",
   },
