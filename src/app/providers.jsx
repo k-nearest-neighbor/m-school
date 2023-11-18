@@ -42,7 +42,7 @@ export function Providers({ children }) {
   return (
     <ThemeProvider
       attribute="class"
-      defaultTheme='dark'
+      defaultTheme='light'
       forcedTheme={forcedTheme}
       disableTransitionOnChange>
       {children}
