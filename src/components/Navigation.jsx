@@ -26,25 +26,6 @@ export function Navigation({ navigation, className, onLinkClick }) {
     <nav className={clsx('text-base lg:text-sm', className)}>
       <ul role="list" className="space-y-9">
 
-        {/* Link for all posts at the top. Decided against it but leaving it here in case I want to turn it back on */}
-        <li className="relative">
-                <Link
-                  href="/"
-                  onClick={onLinkClick}
-                  scroll={true}
-                  className={clsx(
-                    'block w-full',
-                    pathname === '/'
-                      ? 'font-semibold text-sky-500'
-                      : 'text-slate-500 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:hover:text-slate-300'
-                  )}
-                >
-                  <h2 className="font-display font-medium">
-                    All Posts & Papers
-                  </h2>
-                </Link>
-        </li>
-
         {navigation
           .filter((section) => devShowAll || !section.hide)
           .map((section) => (
@@ -59,20 +40,20 @@ export function Navigation({ navigation, className, onLinkClick }) {
                 {section.links
                         .filter((link) => devShowAll || !link.hide)
                         .map((link) => (
-                  <li key={link.href} className="relative">
+                  <li key={link.href} className="relative cusor-pointer">
                     <Link
                       href={link.href}
                       onClick={onLinkClick}
                       scroll={true}
                       className={clsx(
-                        'block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full line-clamp-1',
+                        'block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-[6px] before:top-1/2 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full line-clamp-1',
                         link.href === pathname
                           ? 'font-semibold text-sky-500 before:bg-sky-500'
                           : 'text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300'
                       )}
                     >
                       {/* <span className="line-clamp-1">{(link.template ==='paper') && (<span>📋{' '}</span>)}{link.title}</span> */}
-                      <span className="line-clamp-1">{link.title}</span>
+                      <span className="line-clamp-1 text-2xl">{link.title}</span>
                     </Link>
                   </li>
                 ))}

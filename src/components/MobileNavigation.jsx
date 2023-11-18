@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { usePathname, useSearchParams } from 'next/navigation'
 import { Dialog } from '@headlessui/react'
 
-import { Logomark } from '@/components/Logo'
+
 import { Navigation } from '@/components/Navigation'
 
 function MenuIcon(props) {
@@ -82,23 +82,27 @@ export function MobileNavigation({ navigation }) {
         className="fixed inset-0 z-50 flex items-start overflow-y-auto bg-slate-900/50 pr-10 backdrop-blur lg:hidden"
         aria-label="Navigation"
       >
-        <Dialog.Panel className="min-h-full w-full max-w-xs bg-white px-4 pb-12 pt-5 dark:bg-slate-950 sm:px-6">
+        <Dialog.Panel className="min-h-full w-full max-w-xs bg-white px-12 pb-12 pt-8 dark:bg-slate-950 sm:px-6">
           <div className="flex items-center">
-            <button
-              type="button"
-              onClick={() => close()}
-              aria-label="Close navigation"
-            >
-              <CloseIcon className="h-6 w-6 stroke-slate-500" />
-            </button>
-            <Link href="/" className="ml-6" aria-label="Home page">
-              {/* <Logomark className="h-9 w-9" /> */}
-              <span className=" ml-6 h-9 w-auto italic fill-slate-700 dark:fill-sky-100 text-3xl font-extrabold drop-shadow-logo">AI Breakout</span>
-            </Link>
+            <div className="h-full">
+                <button
+                  type="button"
+                  onClick={() => close()}
+                  aria-label="Close navigation"
+                >
+                  <MenuIcon className="h-6 w-6 stroke-slate-500" />
+                </button>
+            </div>
+            <div className="h-full ml-6">
+              <Link href="/" className="" aria-label="Home page">
+                {/* <Logomark className="h-9 w-9" /> */}
+                <span className="  text-2xl font-semibold drop-shadow-logo">Orchard<br/>Montessori</span>
+              </Link>
+            </div>
           </div>
           <Navigation
             navigation={navigation}
-            className="mt-5 px-1"
+            className="mt-12 px-1"
             onLinkClick={onLinkClick}
           />
         </Dialog.Panel>

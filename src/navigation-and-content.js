@@ -138,119 +138,21 @@ export const collectPostsAndPapersWithTags = (includeTagsArray, excludeTagsArray
 
 export const navigation = [ 
 
-  {
-    title: 'Latest',
-    links: collectLatestPosts(5),
-    hide: false
-  },
-  {
-    title: 'Code Generation',
-    links: [
-      { title: 'Posts', href: '/generative-code/posts' },
-      { title: 'Papers', href: '/generative-code/papers' },
-      { title: 'Benchmarks & Datasets', href: '/generative-code/benchmarks-and-datasets' },
-      // { title: 'People & Projects', href: '/generative-code/people-and-projects' },
-    ],
-  },
-  {
-    title: 'Agents',
-    links: [
-      { title: 'Posts', href: '/agents/posts' },
-      { title: 'Papers', href: '/agents/papers' },
-      // { title: 'Overview', href: '/agents/papers' },
-      // { title: 'Benchmarks & Datasets', href: '/agents/benchmarks-and-datasets' },
-      // { title: 'People & Projects', href: '/agents/people-and-projects' },
-    ],
-  },
-
-  {
-    title: 'Alignment',
-    hide: false,
-    links: [
-      { title: 'Posts', href: '/alignment/posts' },
-      // { title: 'Papers', href: '/alignment/papers' },
-      // { title: 'Benchmarks & Datasets', href: '/alignment/benchmarks-and-datasets' },
-      // { title: 'People & Projects', href: '/alignment/people-and-projects' },
-    ],
-  },
-  {
-    title: 'Mechanistic Interpretability',
-    hide: true,
-    links: [
-      // { title: 'Posts', href: '/mech-interp/posts' },
-      { title: 'Papers', href: '/mech-interp/papers' },
-      { title: 'People & Projects', href: '/mech-interp/people-and-projects' },
-    ],
-  },
-  {
-    title: 'Scaling Behaviors',
-    hide: true,
-    links: [
-      // { title: 'Posts', href: '/scaling/posts' },
-      // { title: 'Papers', href: '/scaling/papers' },
-      { title: 'All Known Scaling Behaviors', href: '/scaling/all-known-scaling-behavior' },
-      // { title: 'Classic Scaling laws', href: '/scaling/classic-scaling-laws' },
-    ],
-  },
-  {
-    title: 'Security',
-    hide: true,
-    links: [
-      { title: 'Posts', href: '/security/posts' },
-      { title: 'Papers', href: '/security/papers' },
-    ],
-  },
-  {
-    title: 'Governance',
-    hide: true,
-    links: [
-      { title: 'Posts', href: '/governance/posts' },
-      { title: 'Papers', href: '/governance/papers' },
-      { title: 'Policy & Organizations', href: '/governance/policy-and-organizations' },
-    ],
-  },
-
-  {
-    title: 'Models',
-    hide: true,
-    links: [
-      // { title: 'News', href: '/models/news' }, // needed?
-      { title: 'LLMs', href: '/models/llm' },
-      { title: 'Coding', href: '/models/coding' },
-      { title: 'Multi-Modal', href: '/models/multi-modal' },
-      { title: 'Vision', href: '/models/vision' },
-      { title: 'Generative Image', href: '/models/generative-image' },
-      { title: 'Generative Video', href: '/models/generative-video' },
-      { title: 'Generative Video', href: '/models/generative-audio' },
-      { title: 'TTS', href: '/models/tts' },
-      { title: 'ASR', href: '/models/asr' },
-      
-      { title: 'Specialist', href: '/models/specialist' },
-    ],
-  },
-
-  {
-    title: 'See Also',
-    // title: '👁️ See Also',
-    hide: false,
-    links: [
-      { title: 'Channels & Podcasts', href: '/see-also/streams' },
-      // { title: 'People & Blogs', href: '/see-also/people-and-blogs' },
-      // { title: 'Community', href: '/see-also/community' },
-      // { title: 'Books', href: '/see-also/books' },
-      
-    ],
-  },
-]
-
-
   // {
-  //   title: 'ML Theory & Methodology',
-  //   links: [
-  //     // { title: 'Posts', href: '/scaling/posts' },
-  //     { title: 'Papers', href: '/scaling/papers' },
-  //     { title: 'Regularization', href: '/scaling/all-known-scaling-behaviors' },
-  //     { title: 'Classic Scaling laws', href: '/scaling/classical-scaling-laws' },
-  //   ],
+  //   title: 'Latest',
+  //   links: collectLatestPosts(5),
+  //   hide: false
   // },
+  {
+    title: '',
+    links: [
+      { title: 'The School', href: '/' },
+      { title: 'Curriculum', href: '/curriculum' },
+      { title: 'Testimonials', href: '/testimonials' },
+      { title: 'Enrollment', href: '/enrollment' },
+      // { title: 'Careers', href: '/careers' },
+      // { title: 'Contact', href: '/contact' },
+    ],
+  },
 
+]

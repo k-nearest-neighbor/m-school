@@ -12,6 +12,16 @@ import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 import '@/styles/tailwind.css'
 import 'react-image-lightbox/style.css';
 
+
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['100','200','300','400', '500', '600', '700', '800', '900'],
+  variable: '--font-poppins',
+})
+
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -58,7 +68,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={clsx('h-full antialiased', inter.variable, lexend.variable)}
+      className={clsx('h-full antialiased', inter.variable, lexend.variable, poppins.variable)}
       suppressHydrationWarning
     >
       <GoogleAnalytics/>
