@@ -65,10 +65,7 @@ export default function Testimonials() {
 
           <p>
 Orchard Montessori&#39;s educational vision is based upon the curriculum
-principles of the Montessori Method founded by Dr. Maria Montessori.
-</p>
-<p>
-The Montessori Method of education emphasizes hands-on, individualized learning within mixed age
+principles of the Montessori Method founded by Dr. Maria Montessori. The Montessori Method of education emphasizes hands-on, individualized learning within mixed age
 groups in a child-friendly setting.
 </p>
 <p>
@@ -78,10 +75,7 @@ best of their ability. By creating a classroom environment that allows for open-
 learning and discovery, we give children the opportunity to explore and learn concepts
 when they are ready for them.
 </p>
-<p>
-Our curriculum covers five areas of learning: <strong>Practical Life, Sensorial,
-Language, Mathematics and Cultural Studies.</strong>
-</p>
+
 <p>
 Monthly themes will touch all areas of the classroom and will change throughout the
 year. Some units of study will coincide with the season, holidays and timely events.
@@ -101,10 +95,11 @@ Some examples of units of study are:
   </li>
 </ul>
 
-<p>The units of study in the spring and summer focus on geography and zoology. When
-possible, the continent study will merge with the zoology unit.
-An example would be:
- </p>
+
+<p>
+Our curriculum covers five areas of learning: <strong>Practical Life, Sensorial,
+Language, Mathematics and Cultural Studies.</strong>
+</p>
 
 
         <h3 className="mt-12 text-center sm:text-left text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
