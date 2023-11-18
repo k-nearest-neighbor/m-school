@@ -39,7 +39,7 @@ export default function Testimonials() {
 
           <article className="bg-slate-100 rounded-xl shadow-lg py-4 px-6 prose prose-slate max-w-2xl">
               <h3 className="font-semibold mt-0 mb-4">
-                Brandon's mom
+                Brandon&#39;s mom
               </h3>
               <p>
                 Ms. Virginia is one of the most creative and respectful teachers that we have the privilege to
