@@ -124,7 +124,7 @@ export default function Posts() {
 
           <article className="mt-8 mx-auto py-4 px-6 bg-slate-100 rounded-xl shadow-lg prose prose-slate max-w-2xl font-poppins">
               <h3 className="font-semibold mt-0 mb-4">
-                About Miss Virginia
+                About Ms. Virginia
               </h3>
               <p>
                   When my son was small, I explored different educational
