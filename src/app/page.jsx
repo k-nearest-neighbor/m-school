@@ -160,11 +160,19 @@ export default function Posts() {
             </p> */}
         </article>
 
+        <p className="mt-20 mx-auto max-w-2xl font-poppins text-left text-xl">
+          &nbsp;&nbsp;At Orchard Montessori, children will refine their academic skills while learning to think for
+          themselves and gaining good social skills. In addition to a well-rounded, theme based
+          Montessori program, an outside classroom component will be added in 2024. The outside
+          classroom will allow the children to learn about botany firsthand by growing, nurturing and
+          harvesting fruit, vegetables and herbs.
+        </p>
+
         <h3 className="mt-16 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">
           Full Day Program and Extended Day programs available for children ages 3-6.
         </h3>
 
-        <p className="mt-4 font-poppins text-center">
+        <p className="mt-4 font-poppins text-center text-xl">
           There is currently space for 6 students.
         </p>
 
