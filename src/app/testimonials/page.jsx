@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Orchard Montessori",
     description:
-      "Montessori in Fairfield for ages 3-6.",
+      "Authentic Montessori in Fairfield for ages 3-6.",
     images: [
       {
         url: "https://www.orchardmontessori.school/main-card-2312.png",
@@ -21,7 +21,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Orchard Montessori",
     description:
-      "Montessori in Fairfield for ages 3-6.",
+      "Authentic Montessori in Fairfield for ages 3-6.",
     images: ["/main-card-2312.png"],
     creator: "Orchard Montessori",
   },
@@ -169,7 +169,7 @@ export default function Testimonials() {
             className="border border-gray-200 rounded-md shadow-lg max-w-2xl mx-auto"
             address="643 Nevada St, Fairfield, CA"/>
 
-            
+
       </main>
     </div>
   )

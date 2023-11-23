@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Orchard Montessori",
     description:
-      "Montessori in Fairfield for ages 3-6.",
+      "Authentic Montessori in Fairfield for ages 3-6.",
     images: [
       {
         url: "https://www.orchardmontessori.school/main-card-2312.png",
@@ -19,7 +19,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Orchard Montessori",
     description:
-      "Montessori in Fairfield for ages 3-6.",
+      "Authentic Montessori in Fairfield for ages 3-6.",
     images: ["/main-card-2312.png"],
     creator: "Orchard Montessori",
   },
