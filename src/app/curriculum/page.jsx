@@ -27,7 +27,7 @@ import math4 from '@/images/kids/math/4.jpg';
 
 import sens0 from '@/images/kids/sensorial/0.jpg';
 import sens1 from '@/images/kids/sensorial/1.jpg';
-import sens2 from '@/images/kids/sensorial/1.jpg';
+import sens2 from '@/images/kids/sensorial/2.jpg';
 
 
 
@@ -120,7 +120,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={pl0}
@@ -133,7 +133,7 @@ Language, Mathematics and Cultural Studies.</strong>
               <p className="text-center px-4 text-sm text-slate-700">
                 Caption
               </p>
-            </div>
+            </div> */}
         
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
@@ -146,7 +146,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                Practical Life activities, 3 & 4 y.o.
               </p>
             </div>
 
@@ -161,7 +161,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                Fine motor development
               </p>
             </div>
 
@@ -176,7 +176,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                Sorting activity (develops concentration)
               </p>
             </div>
 
@@ -191,7 +191,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                Fine-motor & visual discrimination 
               </p>
             </div>
         </div>
@@ -217,7 +217,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                The Knobless Cylinders activity
               </p>
             </div>
 
@@ -232,7 +232,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                The Pink Tower & Brown Stair combined
               </p>
             </div>
 
@@ -247,7 +247,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                The sound Cylinders
               </p>
             </div>
 
@@ -258,7 +258,7 @@ Language, Mathematics and Cultural Studies.</strong>
           Language
         </h3>
 
-        <p>Montessori focuses on developing specific language skills:</p>
+        <p>In a Montessori classroom the focus is on developing specific language skills:</p>
           <ul className="!mt-4 marker:text-sky-500">
             <li className="mt-0">letter recognition</li>
             <li className="mt-0">letter + sound association</li>
@@ -294,11 +294,11 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                3 y.o. letter matching
               </p>
             </div>
 
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={lang1}
@@ -311,7 +311,7 @@ Language, Mathematics and Cultural Studies.</strong>
               <p className="text-center px-4 text-sm text-slate-700">
                 Caption
               </p>
-            </div>
+            </div> */}
 
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
@@ -324,7 +324,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                4 y.o. sentence building
               </p>
             </div>
 
@@ -339,7 +339,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                The Metal Insets <br/>(writing development activity)
               </p>
             </div>
 
@@ -354,7 +354,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                Tracing table
               </p>
             </div>
         </div>
@@ -369,21 +369,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
-            <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-                <Image
-                  src={math1}
-                  alt=""
-                  sizes="(min-width: 640px) 18rem, 11rem"
-                  className="inset-0 h-full w-full object-cover"
-                />
-
-              </div>
-              <p className="text-center px-4 text-sm text-slate-700">
-                Caption
-              </p>
-            </div>
-
+            
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
@@ -395,9 +381,26 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                3 y.o., 1-to-1 correspondence  activity
               </p>
             </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={math1}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                The Big Layout. <br/> Numeral and quantity association to 9,000
+              </p>
+            </div>
+
+
 
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
@@ -410,7 +413,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                The Hundred Board
               </p>
             </div>
 
@@ -425,7 +428,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Caption
+                The Teen Boards
               </p>
             </div>
         </div>

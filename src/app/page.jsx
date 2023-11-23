@@ -131,7 +131,7 @@ export default function Posts() {
         </div>
 
         <p className="mt-20 mx-auto max-w-2xl font-poppins text-left text-normal sm:text-xl">
-          &nbsp;&nbsp;At Orchard Montessori, children will refine their academic skills while learning to think for
+          At Orchard Montessori, children will refine their academic skills while learning to think for
           themselves and gaining good social skills. In addition to a well-rounded, theme based
           Montessori program, an outside classroom component will be added in 2024. The outside
           classroom will allow the children to learn about botany firsthand by growing, nurturing and
