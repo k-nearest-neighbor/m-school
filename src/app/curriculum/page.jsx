@@ -7,23 +7,28 @@ import classroom3 from '@/images/classroom/3.jpg';
 import classroom4 from '@/images/classroom/4.jpg';
 import classroom5 from '@/images/classroom/5.jpg';
 
-import pl1 from '@/images/kids/practical-life/0-1.jpg';
-import pl2 from '@/images/kids/practical-life/0.jpg';
-// import pl2 from '@/images/kids/practical-life/0-2.jpg';
+import pl0 from '@/images/kids/practical-life/0.jpg';
+import pl1 from '@/images/kids/practical-life/1.jpg';
+import pl2 from '@/images/kids/practical-life/2.jpg';
+import pl3 from '@/images/kids/practical-life/3.jpg';
+import pl4 from '@/images/kids/practical-life/4.jpg';
 
-import lang1 from '@/images/kids/language/0-1.jpg';
-import lang2 from '@/images/kids/language/0-2.jpg';
-import lang3 from '@/images/kids/language/0-3.jpg';
-import lang4 from '@/images/kids/language/0-4.jpg';
-import lang5 from '@/images/kids/language/0.jpg';
+import lang0 from '@/images/kids/language/0.jpg';
+import lang1 from '@/images/kids/language/1.jpg';
+import lang2 from '@/images/kids/language/2.jpg';
+import lang3 from '@/images/kids/language/3.jpg';
+import lang4 from '@/images/kids/language/4.jpg';
 
-import math1 from '@/images/kids/math/0-3.jpg';
-import math2 from '@/images/kids/math/0-4.jpg';
-import math3 from '@/images/kids/math/0-5.jpg';
-import math4 from '@/images/kids/math/0-6.jpg';
 
-import sens1 from '@/images/kids/sensorial/0.jpg';
-import sens2 from '@/images/kids/language/0-4.jpg'; // looks sensorial to me
+import math1 from '@/images/kids/math/1.jpg';
+import math2 from '@/images/kids/math/2.jpg';
+import math3 from '@/images/kids/math/3.jpg';
+import math4 from '@/images/kids/math/4.jpg';
+
+import sens0 from '@/images/kids/sensorial/0.jpg';
+import sens1 from '@/images/kids/sensorial/1.jpg';
+import sens2 from '@/images/kids/sensorial/1.jpg';
+
 
 
 export const metadata = {
@@ -76,7 +81,7 @@ learning and discovery, we give children the opportunity to explore and learn co
 when they are ready for them.
 </p>
 
-<h3 className='my-6 text-lg font-semibold tracking-tight text-gray-800 font-poppins'>
+<h3 className='my-6 text-lg font-semibold tracking-tight text-center text-sky-600 font-poppins'>
   Theme-based Curriculum
 </h3>
 <p>
@@ -100,13 +105,13 @@ The cycle of themes are in a 2-year rotation. Some examples of themes are:
 
 
 <p>
-Our curriculum covers five areas of learning: <strong>Practical Life, Sensorial,
+Throughout the year, there is foundation curriculum which covers five areas of learning: <strong>Practical Life, Sensorial,
 Language, Mathematics and Cultural Studies.</strong>
 </p>
 
 
 
-        <h3 className="mt-12 text-center sm:text-left text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
+        <h3 className="mt-12 text-center  text-xl font-semibold tracking-tight text-sky-600 dark:text-white font-poppins">
           Practical Life
         </h3>
 
@@ -114,27 +119,84 @@ Language, Mathematics and Cultural Studies.</strong>
         <p>By manipulating small items children develop fine motor dexterity necessary for writing and drawing. In addition to fine motor, sorting activities develop visual discrimination necessary for math and language activities.</p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
-        <div className="mx-auto !mt-1 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={pl1}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="inset-0 h-full w-full object-cover"
-            />
-          </div>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={pl0}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
         
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={pl2}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="inset-0 h-full w-full object-cover"
-            />
-          </div>
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={pl1}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={pl2}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={pl3}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={pl4}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
         </div>
 
-        <h3 className="mt-12 text-center sm:text-left text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
+        <h3 className="mt-12 text-center  text-xl font-semibold tracking-tight text-sky-600 dark:text-white font-poppins">
           Sensorial
         </h3>
 
@@ -143,45 +205,73 @@ Language, Mathematics and Cultural Studies.</strong>
         </p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
-        <div className="mx-auto !mt-1 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={sens1}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="inset-0 h-full w-full object-cover"
-            />
-          </div>
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={sens2}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="inset-0 h-full w-full object-cover"
-            />
-          </div>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={sens0}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={sens1}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={sens2}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
 
         </div>
 
 
-        <h3 className="mt-12 text-center sm:text-left text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
+        <h3 className="mt-12 text-center  text-xl font-semibold tracking-tight text-sky-600 dark:text-white font-poppins">
           Language
         </h3>
 
         <p>Montessori focuses on developing specific language skills:</p>
-          <ul>
-            <li className="mt-0">Letter recognition</li>
-            <li className="mt-0">Letter + sound association</li>
-            <li className="mt-0">Simple word reading</li>
-            <li className="mt-0">Reading and sentence building,</li>
+          <ul className="!mt-4 marker:text-sky-500">
+            <li className="mt-0">letter recognition</li>
+            <li className="mt-0">letter + sound association</li>
+            <li className="mt-0">simple word reading</li>
+            <li className="mt-0">reading and sentence building</li>
           </ul>
-        <p>and important language concepts:</p>
-          <ul>
-            <li className="mt-0">Opposites</li>
-            <li className="mt-0">Story sequencing</li>
-            <li className="mt-0">What goes together</li>
-            <li className="mt-0">Positional words</li>
-            <li className="mt-0">Following directions</li>
+        <p className="!my-4">and important language concepts:</p>
+          <ul className="!mt-0  marker:text-sky-500">
+            <li className="mt-0">opposites</li>
+            <li className="mt-0">story sequencing</li>
+            <li className="mt-0">what goes together</li>
+            <li className="mt-0">positional words</li>
+            <li className="mt-0">following directions</li>
             <li className="mt-0">... and more</li>
           </ul>
         <p>
@@ -192,27 +282,84 @@ Language, Mathematics and Cultural Studies.</strong>
         </p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
-        <div className="mx-auto !mt-1 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={lang1}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="inset-0 h-full w-full object-cover"
-            />
-          </div>
-        
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={lang2}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="inset-0 h-full w-full object-cover"
-            />
-          </div>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={lang0}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={lang1}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={lang2}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={lang3}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={lang4}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
         </div>
 
-        <h3 className="mt-12 text-center sm:text-left text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
+        <h3 className="mt-12 text-center text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
           Mathematics
         </h3>
       
@@ -221,27 +368,69 @@ Language, Mathematics and Cultural Studies.</strong>
         </p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
-        <div className="mx-auto !mt-1 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={math1}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="inset-0 h-full w-full object-cover"
-            />
-          </div>
-        
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={math3}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="inset-0 h-full w-full object-cover"
-            />
-          </div>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={math1}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={math2}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={math3}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={math4}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Caption
+              </p>
+            </div>
         </div>
 
-        {/* <h3 className="mt-12 text-center sm:text-left text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
+        {/* <h3 className="mt-12 text-center  text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
           Cultural Studies
         </h3>
 
@@ -265,7 +454,7 @@ Language, Mathematics and Cultural Studies.</strong>
           </div>
         </div> */}
 
-        <h3 className="mt-[8rem] text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">
+        <h3 className="!mt-[8rem] text-xl font-semibold tracking-tight text-sky-600 dark:text-white font-poppins text-center">
           Contact
         </h3>
           <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500 text-center">ms.virginia@orchardmontessori.com</p>

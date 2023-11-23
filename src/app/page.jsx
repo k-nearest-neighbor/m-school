@@ -11,11 +11,7 @@ import classroom3 from '@/images/classroom/3.jpg';
 import classroom4 from '@/images/classroom/4.jpg';
 import classroom5 from '@/images/classroom/5.jpg';
 
-import kids1 from '@/images/kids/practical-life/0-1.jpg';
-import kids2 from '@/images/kids/practical-life/0.jpg';
 
-import kids3 from '@/images/kids/language/0-2.jpg';
-import kids4 from '@/images/kids/math/0-5.jpg';
 
 
 export const metadata = {
@@ -134,6 +130,14 @@ export default function Posts() {
           </div>
         </div>
 
+        <p className="mt-20 mx-auto max-w-2xl font-poppins text-left text-normal sm:text-xl">
+          &nbsp;&nbsp;At Orchard Montessori, children will refine their academic skills while learning to think for
+          themselves and gaining good social skills. In addition to a well-rounded, theme based
+          Montessori program, an outside classroom component will be added in 2024. The outside
+          classroom will allow the children to learn about botany firsthand by growing, nurturing and
+          harvesting fruit, vegetables and herbs.
+        </p>
+
         <article className="mt-8 mx-auto py-4 px-6 bg-slate-100 rounded-xl shadow-lg prose prose-slate max-w-2xl font-poppins">
             <h3 className="font-semibold mt-0 mb-4">
               About Ms. Virginia
@@ -160,13 +164,7 @@ export default function Posts() {
             </p> */}
         </article>
 
-        <p className="mt-20 mx-auto max-w-2xl font-poppins text-left text-xl">
-          &nbsp;&nbsp;At Orchard Montessori, children will refine their academic skills while learning to think for
-          themselves and gaining good social skills. In addition to a well-rounded, theme based
-          Montessori program, an outside classroom component will be added in 2024. The outside
-          classroom will allow the children to learn about botany firsthand by growing, nurturing and
-          harvesting fruit, vegetables and herbs.
-        </p>
+
 
         <h3 className="mt-16 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">
           Full Day Program and Extended Day programs available for children ages 3-6.
