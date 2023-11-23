@@ -294,7 +294,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                3 y.o. letter matching
+                (3 y.o.) letter matching
               </p>
             </div>
 
@@ -324,7 +324,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                4 y.o. sentence building
+                (4 y.o.) sentence building
               </p>
             </div>
 
@@ -381,7 +381,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                3 y.o., 1-to-1 correspondence  activity
+                (3 y.o.) 1-to-1 correspondence  activity
               </p>
             </div>
 
