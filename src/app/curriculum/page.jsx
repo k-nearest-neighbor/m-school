@@ -113,7 +113,7 @@ Language, Mathematics and Cultural Studies.</strong>
         <p>The Practical Life area was a monumental creation by Dr. Montessori. The Practical Life area allows children to practice basic and purposeful daily activities while developing their eye-hand coordination, concentration and to gain self-confidence.</p>
         <p>By manipulating small items children develop fine motor dexterity necessary for writing and drawing. In addition to fine motor, sorting activities develop visual discrimination necessary for math and language activities.</p>
 
-        <p className='text-sm italic mt-8 mb-0'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-1 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
           <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
             <Image
@@ -142,7 +142,7 @@ Language, Mathematics and Cultural Studies.</strong>
           The sensorial area of the classroom is a place to not only explore with the senses, but a way to prepare for other work. Children explore ideas such as the gradations and the vocabulary of colors, shapes and sizes. They practice and develop process and practice strategy.
         </p>
 
-        <p className='text-sm italic mt-8 mb-0'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-1 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
           <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
             <Image
@@ -191,7 +191,7 @@ Language, Mathematics and Cultural Studies.</strong>
           Language materials change frequently in our classroom to encourage enthusiasm and to keep up with the developmental needs of the children. The cultural and seasonal units of study will include many new activities. Special days and holidays will always include language enriching activities.
         </p>
 
-        <p className='text-sm italic mt-8 mb-0'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-1 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
           <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
             <Image
@@ -220,7 +220,7 @@ Language, Mathematics and Cultural Studies.</strong>
           Montessori math is a hands-on approach. Children in a 3 to 6 Montessori program learn rote counting, numeration, numeral/ quantity association, addition, subtraction, skip counting & multiplication, fractions and round clock time.
         </p>
 
-        <p className='text-sm italic mt-8 mb-0'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-1 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
           <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
             <Image

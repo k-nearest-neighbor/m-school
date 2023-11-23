@@ -46,15 +46,15 @@ export default function Enrollment() {
         <table border="0" className='mt-4'>
             <tr>
                 <td>Full day 9 a.m. to 3:30 p.m.</td>
-                <td>$1100</td>
+                <td className="pl-4">$1100</td>
             </tr>
             <tr>
                 <td>Extended hours 8:00 to 5 p.m.</td>
-                <td>$1200</td>
+                <td className="pl-4">$1200</td>
             </tr>
             <tr>
                 <td>Registration and Material Fee</td>
-                <td>$200</td>
+                <td className="pl-4">$200</td>
             </tr>
         </table>
 
