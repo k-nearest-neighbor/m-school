@@ -81,29 +81,6 @@ learning and discovery, we give children the opportunity to explore and learn co
 when they are ready for them.
 </p>
 
-<h3 className='my-6 text-lg font-semibold tracking-tight text-center text-sky-600 font-poppins'>
-  Theme-based Curriculum
-</h3>
-<p>
-The units of study/ themes will change every month to 2 months and will touch all areas of the
-classroom. Some units of study will coincide with the seasons, holidays and other timely events.
-The cycle of themes are in a 2-year rotation. Some examples of themes are:
-</p>
-<ul className="list-disc pl-4">
-  <li className="pb-6">
-    <strong>Farmers</strong> (a fall unit) &#8212; The children will learn about the harvest, where food, clothing,
-    construction materials come from, food groups and nutrition, parts of the plant, farm
-    animals.  
-  </li>
-  <li>
-    <strong>North America</strong>(a fall unit) &#8212; We will study food, landmarks, climate, and cultures of
-    countries of the continent while studying animal homes and habitats (dessert,
-    mountains, plains, prairies etc.), migration/ hibernation/ adaptation in preparation for
-    winter ...
-  </li>
-</ul>
-
-
 <p>
 Throughout the year, there is foundation curriculum which covers five areas of learning: <strong>Practical Life, Sensorial,
 Language, Mathematics and Cultural Studies.</strong>
@@ -247,7 +224,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                The sound Cylinders
+                The Sound Cylinders
               </p>
             </div>
 
@@ -359,7 +336,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
         </div>
 
-        <h3 className="mt-12 text-center text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
+        <h3 className="mt-12 text-center text-xl font-semibold tracking-tight text-sky-500 dark:text-white font-poppins">
           Mathematics
         </h3>
       
@@ -456,6 +433,30 @@ Language, Mathematics and Cultural Studies.</strong>
             />
           </div>
         </div> */}
+
+
+        <h3 className="mt-12 text-center text-xl font-semibold tracking-tight text-sky-500 dark:text-white font-poppins">
+          Cultural Studies
+        </h3>
+
+<p>
+Cultural studies are theme-based. The units of study/ themes will change every 1 to 2 months and will touch all areas of the
+classroom. Some units of study will coincide with the seasons, holidays and other timely events.
+The cycle of themes are in a 2-year rotation. Some examples of themes are:
+</p>
+<ul className="list-disc pl-4">
+  <li className="pb-6">
+    <strong>Farmers</strong> (a fall unit) &#8212; The children will learn about the harvest, where food, clothing,
+    construction materials come from, food groups and nutrition, parts of the plant, farm
+    animals.  
+  </li>
+  <li>
+    <strong>North America</strong>(a fall unit) &#8212; We will study food, landmarks, climate, and cultures of
+    countries of the continent while studying animal homes and habitats (dessert,
+    mountains, plains, prairies etc.), migration/ hibernation/ adaptation in preparation for
+    winter.
+  </li>
+</ul>
 
         <h3 className="!mt-[8rem] text-xl font-semibold tracking-tight text-sky-600 dark:text-white font-poppins text-center">
           Contact

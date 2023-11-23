@@ -43,6 +43,7 @@ export default function Enrollment() {
           Month-to-Month Rates
         </h3>
 
+
         <table border="0" className='mt-4'>
             <tr>
                 <td>Full day 9 a.m. to 3:30 p.m.</td>
@@ -58,6 +59,9 @@ export default function Enrollment() {
             </tr>
         </table>
 
+        <p className="mt-8 font-poppins">
+          Sibling and active military discounts available, please inquire.
+        </p>
 
         <h3 className="mt-8 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
           Quarterly Tuition Rate
