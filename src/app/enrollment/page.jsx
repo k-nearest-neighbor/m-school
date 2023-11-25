@@ -123,7 +123,7 @@ inside and outside my home.
 
 
 
-        <ContactSection/>
+        <ContactSection showLicense={true}/>
 
       </main>
     </div>

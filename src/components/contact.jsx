@@ -1,6 +1,6 @@
 import Map from '@/components/GoogleMap';
 
-export function ContactSection() {
+export function ContactSection({showLicense=false}) {
 
 
   return (
@@ -23,6 +23,10 @@ export function ContactSection() {
           <Map 
             className="border border-gray-200 rounded-md shadow-lg w-full max-w-2xl mx-auto"
             address="643 Nevada St, Fairfield, CA"/>
+
+          {showLicense && <p className="mt-8 mb-4 font-poppins text-center text-sm text-slate-500">
+            License #483010543
+          </p>}
       </div>
   )
 }

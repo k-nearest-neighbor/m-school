@@ -362,7 +362,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
 
         <p className="pb-8">
-          A parallel path is forged with eye/ hand coordination and fine motor development to encourage sense of success in writing and drawing.
+          A parallel path is forged with hand-eye coordination and fine motor development to encourage a sense of success in writing and drawing.
         </p>
 
 
@@ -482,7 +482,7 @@ Language, Mathematics and Cultural Studies.</strong>
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
-                  src={math1}
+                  src={math4}
                   alt=""
                   sizes="(min-width: 640px) 18rem, 11rem"
                   className="inset-0 h-full w-full object-cover"
@@ -490,11 +490,9 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                The Big Layout. <br/> Numeral and quantity association to 9,000
+                The Teen Boards
               </p>
             </div>
-
-
 
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
@@ -514,7 +512,7 @@ Language, Mathematics and Cultural Studies.</strong>
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
-                  src={math4}
+                  src={math1}
                   alt=""
                   sizes="(min-width: 640px) 18rem, 11rem"
                   className="inset-0 h-full w-full object-cover"
@@ -522,7 +520,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                The Teen Boards
+                The Big Layout. <br/> Numeral and quantity association to 9,000
               </p>
             </div>
         </div>
