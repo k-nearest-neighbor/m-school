@@ -45,7 +45,7 @@ import cultural1 from '@/images/kids/cultural/1.jpg';
 import cultural2 from '@/images/kids/cultural/2.jpg';
 import cultural3 from '@/images/kids/cultural/3.jpg';
 import cultural4 from '@/images/kids/cultural/4.jpg';
-import cultural5 from '@/images/kids/cultural/5.jpg';
+import cultural6 from '@/images/kids/cultural/6.jpg';
 
 
 
@@ -568,7 +568,7 @@ The cycle of themes are in a 2-year rotation. Some examples of themes are:
     animals.  
   </li>
   <li>
-    <strong>North America</strong>(a fall unit) &#8212; We will study food, landmarks, climate, and cultures of
+    <strong>North America</strong> (a fall unit) &#8212; We will study food, landmarks, climate, and cultures of
     countries of the continent while studying animal homes and habitats (dessert,
     mountains, plains, prairies etc.), migration/ hibernation/ adaptation in preparation for
     winter.
@@ -655,7 +655,7 @@ The cycle of themes are in a 2-year rotation. Some examples of themes are:
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
-                  src={cultural5}
+                  src={cultural6}
                   alt=""
                   sizes="(min-width: 640px) 18rem, 11rem"
                   className="inset-0 h-full w-full object-cover"
@@ -663,7 +663,7 @@ The cycle of themes are in a 2-year rotation. Some examples of themes are:
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                South America theme: Alphabet sloths
+                Valentines Day: Fine motor activity
               </p>
             </div>
 
