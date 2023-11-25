@@ -424,7 +424,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                "6 words paper" <br/> (write and draw 6 words)
+                &quot;6 words paper&quot; <br/> (write and draw 6 words)
               </p>
             </div>
 
