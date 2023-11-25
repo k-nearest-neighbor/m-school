@@ -18,12 +18,13 @@ import lang0 from '@/images/kids/language/0.jpg';
 import lang1 from '@/images/kids/language/1.jpg';
 import lang2 from '@/images/kids/language/2.jpg';
 import lang3 from '@/images/kids/language/3.jpg';
-import lang4 from '@/images/kids/language/4.jpg';
+import lang4 from '@/images/kids/language/four.png';
 
 import langWriting1 from '@/images/kids/language/writing/1.jpg';
 import langWriting2 from '@/images/kids/language/writing/2.jpg';
 import langWriting3 from '@/images/kids/language/writing/3.jpg';
 import langWriting4 from '@/images/kids/language/writing/4.jpg';
+
 
 
 import math1 from '@/images/kids/math/1.jpg';
@@ -339,7 +340,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                -------
+                Word building
               </p>
             </div>
 
@@ -354,7 +355,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                -----
+                Movable Alphabet
               </p>
             </div>
         </div>
@@ -408,7 +409,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                -----
+                Sentence writing
               </p>
             </div>
 
@@ -423,7 +424,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                ----
+                "6 words paper" <br/> (write and draw 6 words)
               </p>
             </div>
 
