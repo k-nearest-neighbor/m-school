@@ -149,7 +149,7 @@ export const navigation = [
       { title: 'The School', href: '/' },
       { title: 'Curriculum', href: '/curriculum' },
       { title: 'Testimonials', href: '/testimonials' },
-      { title: 'Tuition', href: '/tuition' },
+      { title: 'Enrollment', href: '/enrollment' },
       // { title: 'Careers', href: '/careers' },
       // { title: 'Contact', href: '/contact' },
     ],
