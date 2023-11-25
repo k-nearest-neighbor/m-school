@@ -198,7 +198,11 @@ harvesting fruit, vegetables and herbs.
         <h3 className="mt-12 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">
           Contact
         </h3>
-          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500 text-center">ms.virginia@orchardmontessori.school</p>
+          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500 text-center">
+            <a href="mailto:ms.virginia@orchardmontessori.school">ms.virginia@orchardmontessori.school</a>
+          </p>
+          
+
           <p className="mt-8 mb-4 font-poppins font-semibold text-center">
             (925) 202-9578
           </p>
