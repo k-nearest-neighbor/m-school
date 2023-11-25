@@ -498,7 +498,7 @@ The cycle of themes are in a 2-year rotation. Some examples of themes are:
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                Fall-theme: Using pin and sequence to make a jack-o-lantern face
+                Fall-theme: Using pin and sequin to make a jack-o-lantern face
               </p>
             </div>
 
