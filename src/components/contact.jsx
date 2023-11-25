@@ -9,8 +9,8 @@ export function ContactSection() {
         <h3 className="mt-12 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">
           Contact
         </h3>
-          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500 text-center">
-            <a href="mailto:ms.virginia@orchardmontessori.school">ms.virginia@orchardmontessori.school</a>
+          <p className="mt-4 mb-4 font-poppins font-semibold text-center">
+            <a className='text-sky-500 no-underline hover:underline' href="mailto:ms.virginia@orchardmontessori.school">ms.virginia@orchardmontessori.school</a>
           </p>
           
           <p className="mt-8 mb-4 font-poppins font-semibold text-center">

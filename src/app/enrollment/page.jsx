@@ -99,7 +99,7 @@ export default function Enrollment() {
         </p>
 
 
-<p className="mt-20 max-w-2xl">
+<p className="mt-12 max-w-2xl">
 <strong> A heads-up to parents or children with allergies: There is a
 cat in the house.</strong> She loves children and plays (and naps)
 inside and outside my home.
