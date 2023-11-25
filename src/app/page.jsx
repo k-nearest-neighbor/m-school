@@ -1,8 +1,6 @@
 import Image from 'next/image'
-import Link from 'next/link'
-import clsx from 'clsx'
 
-import Map from '@/components/GoogleMap';
+import { ContactSection } from '@/components/contact';
 
 import classroom0 from '@/images/classroom/0.jpg';
 import classroom1 from '@/images/classroom/1.jpg';
@@ -10,6 +8,7 @@ import classroom2 from '@/images/classroom/2.jpg';
 import classroom3 from '@/images/classroom/3.jpg';
 import classroom4 from '@/images/classroom/4.jpg';
 import classroom5 from '@/images/classroom/5.jpg';
+
 
 
 
@@ -195,24 +194,8 @@ harvesting fruit, vegetables and herbs.
           There is currently space for 6 students.
         </p>
 
-        <h3 className="mt-12 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">
-          Contact
-        </h3>
-          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500 text-center">
-            <a href="mailto:ms.virginia@orchardmontessori.school">ms.virginia@orchardmontessori.school</a>
-          </p>
-          
+      <ContactSection/>
 
-          <p className="mt-8 mb-4 font-poppins font-semibold text-center">
-            (925) 202-9578
-          </p>
-          <p className="mt-0 mb-8 font-poppins text-center">
-            643 Nevada St<br/>
-            Fairfield, CA
-          </p>
-          <Map 
-            className="border border-gray-200 rounded-md shadow-lg max-w-2xl mx-auto"
-            address="643 Nevada St, Fairfield, CA"/>
       </main>
     </div>
   )

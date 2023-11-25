@@ -1,4 +1,4 @@
-import Map from '@/components/GoogleMap';
+import { ContactSection } from '@/components/contact';
 
 import Image from 'next/image'
 import cat from '@/images/classroom/maxine.png';
@@ -123,20 +123,7 @@ inside and outside my home.
 
 
 
-        <h3 className="mt-[8rem] text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">
-          Contact
-        </h3>
-          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500 text-center">ms.virginia@orchardmontessori.com</p>
-          <p className="mt-8 mb-4 font-poppins font-semibold text-center">
-            (925) 202-9578
-          </p>
-          <p className="mt-0 mb-8 font-poppins text-center">
-            643 Nevada St<br/>
-            Fairfield, CA
-          </p>
-          <Map 
-            className="border border-gray-200 rounded-md shadow-lg max-w-2xl mx-auto"
-            address="643 Nevada St, Fairfield, CA"/>
+        <ContactSection/>
 
       </main>
     </div>
