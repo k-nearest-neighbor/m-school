@@ -132,10 +132,7 @@ export default function Posts() {
 
         <p className="mt-20 mx-auto max-w-2xl font-poppins text-left text-normal sm:text-xl">
           At Orchard Montessori, children will refine their academic skills while learning to think for
-          themselves and gaining good social skills. In addition to a well-rounded, theme based
-          Montessori program, an outside classroom component will be added in 2024. The outside
-          classroom will allow the children to learn about botany firsthand by growing, nurturing and
-          harvesting fruit, vegetables and herbs.
+          themselves and gaining good social skills. 
         </p>
 
         <article className="mt-8 mx-auto py-4 px-6 bg-slate-100 rounded-xl shadow-lg prose prose-slate max-w-2xl font-poppins">
@@ -147,6 +144,9 @@ export default function Posts() {
                 philosophies and landed on Montessori. I had no idea at the time
                 how this would impact my life! In 1986 I moved to Sacramento to
                 become certified as a Montessori teacher.
+            </p>
+            <p>
+
                 Since then, I have guided so many young children through the
                 Montessori Method to become independent thinkers and
                 academically prepared for a lifetime of learning. I have also
@@ -154,15 +154,36 @@ export default function Posts() {
                 went to China to present workshops on the Montessori Method.
             </p>
             <p>
-                In 2023, I purchased my home in Fairfield and created my dream
-                Montessori classroom in the center of my home! Teaching is my
-                passion and so it is ideal that the classroom be the heart of my
-                home.
+
+                As a lifetime Montessorian, I utilize the philosophy developed by
+                Dr. Maria Montessori as a guide to how I approach and teach
+                children. Teaching children is my passion! I believe in helping
+                children to always move forward in their abilities and social
+                development.
+            </p>
+            <p>
+                My focus is 2-fold: developing the skills for academic success &amp;
+                developing independent thinkers with a compassion for others.
+                My emphasis is on positive reinforcements and encouraging
+                children to think for themselves.
+            </p>
+            <p>
+                I purchased my home in 2023 with the intention of becoming
+                licensed as a Family Childcare Home and to have a Montessori
+                classroom in the heart of my home. Modifications were made to
+                create the perfect space for my program, both indoors and
+                outside! An outside classroom component will be added in 2024. The outside
+classroom will allow the children to learn about botany firsthand by growing, nurturing and
+harvesting fruit, vegetables and herbs.
             </p>
             {/* <p>
               Regards,  Regards, Su Wang
             </p> */}
         </article>
+
+        {/* <p className="mt-20 mx-auto max-w-2xl font-poppins text-center text-normal sm:text-xl">
+              An outside classroom component will be added in 2024.
+        </p> */}
 
 
 
@@ -177,7 +198,7 @@ export default function Posts() {
         <h3 className="mt-12 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">
           Contact
         </h3>
-          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500 text-center">ms.virginia@orchardmontessori.com</p>
+          <p className="mt-4 mb-4 font-poppins font-semibold text-sky-500 text-center">ms.virginia@orchardmontessori.school</p>
           <p className="mt-8 mb-4 font-poppins font-semibold text-center">
             (925) 202-9578
           </p>

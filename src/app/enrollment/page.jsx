@@ -1,5 +1,8 @@
 import Map from '@/components/GoogleMap';
 
+import Image from 'next/image'
+import cat from '@/images/classroom/maxine.png';
+
 export const metadata = {
   title: {
     template: '%s',
@@ -45,6 +48,7 @@ export default function Enrollment() {
 
 
         <table border="0" className='mt-4'>
+          <tbody>
             <tr>
                 <td>Full day 9 a.m. to 3:30 p.m.</td>
                 <td className="pl-4">$1100</td>
@@ -57,6 +61,7 @@ export default function Enrollment() {
                 <td>Registration and Material Fee</td>
                 <td className="pl-4">$200</td>
             </tr>
+          </tbody>
         </table>
 
         <p className="mt-8 font-poppins">
@@ -92,6 +97,30 @@ export default function Enrollment() {
           is complete. At that time this fee is used toward program
           materials.
         </p>
+
+
+<p className="mt-20 max-w-2xl">
+<strong> A heads-up to parents or children with allergies: There is a
+cat in the house.</strong> She loves children and plays (and naps)
+inside and outside my home.
+</p>
+
+        <div className="flex flex-col items-center justify-start my-12">
+        <div className="relative aspect-[12/10] w-2/3 max-w-md flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800  sm:rounded-2xl shadow-lg">
+          <Image
+            src={cat}
+            alt=""
+            sizes="(min-width: 640px) 18rem, 11rem"
+            className="inset-0 h-full w-full object-cover"
+          />
+          
+        </div>
+        <p className="text-center px-4 py-4 text-lg text-slate-700">
+          Maxine the cat
+        </p>
+        </div>
+
+
 
 
         <h3 className="mt-[8rem] text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins text-center">

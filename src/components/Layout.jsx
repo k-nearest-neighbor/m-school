@@ -41,12 +41,12 @@ function Header({ navigation }) {
           : 'dark:bg-transparent'
       )}
     >
-      <div className="mr-3 flex lg:hidden">
+      <div className="mr-6 flex md:hidden">
         <MobileNavigation navigation={navigation} />
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" className="flex align-middle justify-center content-center items-center" aria-label="Home page">         
-          <span className="block ml-3 h-9 w-auto fill-slate-700 dark:fill-sky-100 text-2xl sm:text-3xl font-semibold dark:drop-shadow-logo"><span className="">Orchard Montessori</span></span>
+          <span className="block h-9 w-auto fill-slate-700 dark:fill-sky-100 text-2xl sm:text-3xl font-semibold dark:drop-shadow-logo display-poppins"><span className="">Orchard Montessori</span></span>
           
         </Link>
       </div>
@@ -67,7 +67,7 @@ export function Layout({ children }) {
       <Header navigation={navigation} />
 
       <div className="relative mx-auto flex w-full max-w-8xl flex-auto justify-center sm:px-2 lg:px-8 xl:px-12">
-        <div className="hidden lg:relative lg:block lg:flex-none">
+        <div className="hidden md:relative md:block lg:flex-none">
           <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
           <div className="absolute bottom-0 right-0 top-16 hidden h-12 w-px bg-gradient-to-t from-slate-800/80 dark:block" />
           <div className="absolute bottom-0 right-0 top-28 hidden w-px bg-slate-800/80 dark:block" />
