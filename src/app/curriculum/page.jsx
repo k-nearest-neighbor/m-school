@@ -20,6 +20,11 @@ import lang2 from '@/images/kids/language/2.jpg';
 import lang3 from '@/images/kids/language/3.jpg';
 import lang4 from '@/images/kids/language/4.jpg';
 
+import langWriting1 from '@/images/kids/language/writing/1.jpg';
+import langWriting2 from '@/images/kids/language/writing/2.jpg';
+import langWriting3 from '@/images/kids/language/writing/3.jpg';
+import langWriting4 from '@/images/kids/language/writing/4.jpg';
+
 
 import math1 from '@/images/kids/math/1.jpg';
 import math2 from '@/images/kids/math/2.jpg';
@@ -281,10 +286,14 @@ Language, Mathematics and Cultural Studies.</strong>
             <li className="mt-0">... and more</li>
           </ul>
         <p>
-          A parallel path is forged with eye/ hand coordination and fine motor development to encourage sense of success in writing and drawing.
-        </p>
-        <p>
           Language materials change frequently in our classroom to encourage enthusiasm and to keep up with the developmental needs of the children. The cultural and seasonal units of study will include many new activities. Special days and holidays will always include language enriching activities.
+        </p>
+
+        <p>
+          Basic skills like letter recognition and phonics slowly build into more complex concepts and
+          reading activities. We use a lot of cut and paste activities and writing + drawing activities to
+          develop processing skills and improve fine motor development. Children are well prepared for
+          future academics when they have attended a quality Montessori program.
         </p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
@@ -303,21 +312,6 @@ Language, Mathematics and Cultural Studies.</strong>
                 (3 y.o.) letter matching
               </p>
             </div>
-
-            {/* <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-                <Image
-                  src={lang1}
-                  alt=""
-                  sizes="(min-width: 640px) 18rem, 11rem"
-                  className="inset-0 h-full w-full object-cover"
-                />
-
-              </div>
-              <p className="text-center px-4 text-sm text-slate-700">
-                Caption
-              </p>
-            </div> */}
 
             <div className="flex flex-col">
               <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
@@ -345,7 +339,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
-                The Metal Insets <br/>(writing development activity)
+                -------
               </p>
             </div>
 
@@ -360,18 +354,111 @@ Language, Mathematics and Cultural Studies.</strong>
 
               </div>
               <p className="text-center px-4 text-sm text-slate-700">
+                -----
+              </p>
+            </div>
+        </div>
+
+
+        <p className="pb-8">
+          A parallel path is forged with eye/ hand coordination and fine motor development to encourage sense of success in writing and drawing.
+        </p>
+
+
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 gap-2 px-2 sm:px-4">
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={langWriting3}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                The Metal Insets <br/>(writing development activity)
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={langWriting4}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
                 Tracing table
               </p>
             </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={langWriting1}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                -----
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={langWriting2}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                ----
+              </p>
+            </div>
+
         </div>
 
         <h3 className="mt-12 text-center text-xl font-semibold tracking-tight text-sky-500 dark:text-white font-poppins">
           Mathematics
         </h3>
       
-        <p>
+        {/* <p>
           Montessori math is a hands-on approach. Children in a 3 to 6 Montessori program learn rote counting, numeration, numeral/ quantity association, addition, subtraction, skip counting & multiplication, fractions and round clock time.
+        </p> */}
+
+        <p>
+        The Math Area is a wonderful place for mixed ages to work together to master concepts. The
+        older child develops self-esteem helping a younger friend, while the younger child is
+        encouraged to aspire to be like their older friend.
         </p>
+        <p>Montessori math is a hands-on approach. Children manipulate physical quantities and associate them with numerals. This enables them to grasp the concept of quantity in a math equation.
+        </p>
+
+         <p>Children in a 3 to 6 Montessori program learn:</p>
+
+        <ul className="!mt-4 marker:text-sky-500">
+            <li className="mt-0">Rote counting</li>
+            <li className="mt-0">Numeral / quantity association</li>
+            <li className="mt-0">Numeral sequencing to 1000s</li>
+            <li className="mt-0">Greater than, less than</li>
+            <li className="mt-0">Addition up to quantities of 1000s</li>
+            <li className="mt-0">Subtraction up to quantities of 1000s</li>
+            <li className="mt-0">Skip counting &amp; multiplication introduction</li>
+            <li className="mt-0">Fractions</li>
+            <li className="mt-0">Round clock time</li>
+            <li className="mt-0">Measurement</li>
+        </ul>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 gap-2 px-2 sm:px-4">
