@@ -28,6 +28,18 @@ import math4 from '@/images/kids/math/4.jpg';
 import sens0 from '@/images/kids/sensorial/0.jpg';
 import sens1 from '@/images/kids/sensorial/1.jpg';
 import sens2 from '@/images/kids/sensorial/2.jpg';
+import sens3 from '@/images/kids/sensorial/3.jpg';
+import sens4 from '@/images/kids/sensorial/4.jpg';
+import sens5 from '@/images/kids/sensorial/5.jpg';
+
+
+import cultural0 from '@/images/kids/cultural/0.jpg';
+import cultural1 from '@/images/kids/cultural/1.jpg';
+import cultural2 from '@/images/kids/cultural/2.jpg';
+import cultural3 from '@/images/kids/cultural/3.jpg';
+import cultural4 from '@/images/kids/cultural/4.jpg';
+import cultural5 from '@/images/kids/cultural/5.jpg';
+
 
 
 
@@ -95,10 +107,10 @@ Language, Mathematics and Cultural Studies.</strong>
         <p>The Practical Life area was a monumental creation by Dr. Montessori. The Practical Life area allows children to practice basic and purposeful daily activities while developing their eye-hand coordination, concentration and to gain self-confidence.</p>
         <p>By manipulating small items children develop fine motor dexterity necessary for writing and drawing. In addition to fine motor, sorting activities develop visual discrimination necessary for math and language activities.</p>
 
-        <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
-        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
+        <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 px-2 sm:px-4">
             {/* <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={pl0}
                   alt=""
@@ -113,7 +125,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div> */}
         
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={pl1}
                   alt=""
@@ -128,7 +140,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={pl2}
                   alt=""
@@ -143,7 +155,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={pl3}
                   alt=""
@@ -158,7 +170,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={pl4}
                   alt=""
@@ -181,12 +193,12 @@ Language, Mathematics and Cultural Studies.</strong>
           The sensorial area of the classroom is a place to not only explore with the senses, but a way to prepare for other work. Children explore ideas such as the gradations and the vocabulary of colors, shapes and sizes. They practice and develop process and practice strategy.
         </p>
 
-        <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
-        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
+        <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 gap-2 px-2 sm:px-4">
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
-                  src={sens0}
+                  src={sens3}
                   alt=""
                   sizes="(min-width: 640px) 18rem, 11rem"
                   className="inset-0 h-full w-full object-cover"
@@ -199,7 +211,22 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={sens4}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                The Hexagon Box
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={sens1}
                   alt=""
@@ -214,7 +241,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={sens2}
                   alt=""
@@ -258,10 +285,10 @@ Language, Mathematics and Cultural Studies.</strong>
           Language materials change frequently in our classroom to encourage enthusiasm and to keep up with the developmental needs of the children. The cultural and seasonal units of study will include many new activities. Special days and holidays will always include language enriching activities.
         </p>
 
-        <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
-        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
+        <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 gap-2 px-2 sm:px-4">
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={lang0}
                   alt=""
@@ -276,7 +303,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             {/* <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={lang1}
                   alt=""
@@ -291,7 +318,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div> */}
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={lang2}
                   alt=""
@@ -306,7 +333,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={lang3}
                   alt=""
@@ -321,7 +348,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={lang4}
                   alt=""
@@ -344,11 +371,11 @@ Language, Mathematics and Cultural Studies.</strong>
           Montessori math is a hands-on approach. Children in a 3 to 6 Montessori program learn rote counting, numeration, numeral/ quantity association, addition, subtraction, skip counting & multiplication, fractions and round clock time.
         </p>
 
-        <p className='text-sm italic mt-8 mb-0 text-slate-500'>Note: The photos below were taken in my classroom in Palo Alto.</p>
-        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2">
+        <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 gap-2 px-2 sm:px-4">
             
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={math2}
                   alt=""
@@ -363,7 +390,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={math1}
                   alt=""
@@ -380,7 +407,7 @@ Language, Mathematics and Cultural Studies.</strong>
 
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={math3}
                   alt=""
@@ -395,7 +422,7 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
 
             <div className="flex flex-col">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
                 <Image
                   src={math4}
                   alt=""
@@ -415,7 +442,7 @@ Language, Mathematics and Cultural Studies.</strong>
         </h3>
 
         <div className="mt-8 mx-auto max-w-2xl grid grid-cols-2 gap-2">
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+          <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
             <Image
               src={kids1}
               alt=""
@@ -424,7 +451,7 @@ Language, Mathematics and Cultural Studies.</strong>
             />
           </div>
         
-          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+          <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
             <Image
               src={kids2}
               alt=""
@@ -457,6 +484,101 @@ The cycle of themes are in a 2-year rotation. Some examples of themes are:
     winter.
   </li>
 </ul>
+
+        <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
+        <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 gap-2 px-2 sm:px-4">
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={cultural0}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Fall-theme: Using pin and sequence to make a jack-o-lantern face
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={cultural1}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Summer theme: Word building activity
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={cultural2}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Botany unit: Parts of the flower
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={cultural3}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                Spring theme: Alphabet flowers
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={cultural4}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                South America theme: Rain forrest animals puzzle.
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="relative aspect-[9/10] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+                <Image
+                  src={cultural5}
+                  alt=""
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="inset-0 h-full w-full object-cover"
+                />
+
+              </div>
+              <p className="text-center px-4 text-sm text-slate-700">
+                South America theme: Alphabet sloths
+              </p>
+            </div>
+
+
+        </div>
 
         <h3 className="!mt-[8rem] text-xl font-semibold tracking-tight text-sky-600 dark:text-white font-poppins text-center">
           Contact
