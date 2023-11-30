@@ -1,6 +1,6 @@
 import Map from '@/components/GoogleMap';
 
-export function ContactSection({showLicense=false}) {
+export function ContactSection({showLicense=true}) {
 
 
   return (
