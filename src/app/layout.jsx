@@ -7,7 +7,8 @@ import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 
 import { Analytics } from '@vercel/analytics/react';
-import { GoogleAnalytics } from '@/components/GoogleAnalytics'
+import { GoogleAnalytics } from '@/components/GoogleAnalytics';
+import { MetaAnalyticsPixel } from '@/components/MetaAnalyticsPixel';
 
 import '@/styles/tailwind.css'
 import 'react-image-lightbox/style.css';
@@ -72,6 +73,7 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <GoogleAnalytics/>
+      <MetaAnalyticsPixel/>
       <body className="flex min-h-full bg-white dark:bg-slate-950">
         <Providers>
           <Layout>{children}</Layout>
