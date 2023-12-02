@@ -24,7 +24,7 @@ export function MetaAnalyticsPixel() {
           `,
         }}/>
       <noscript>
-        <img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=283075394698952&ev=PageView&noscript=1"/>
+        <img height="1" width="1" style={{display: 'none'}} src="https://www.facebook.com/tr?id=283075394698952&ev=PageView&noscript=1"/>
       </noscript>
     </>
   )
