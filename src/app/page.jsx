@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
 import { ContactSection } from '@/components/contact';
 
@@ -194,6 +195,26 @@ harvesting fruit, vegetables and herbs.
           There is currently space for 6 students.
         </p>
 
+        <Link
+          href='curriculum'
+          className='block w-full mt-4 text-center font-semibold text-sky-500 before:bg-sky-500'
+        >
+          <span className="line-clamp-1 text-2xl">Curriculum</span>
+        </Link>
+
+        <Link
+          href='testimonials'
+          className='block w-full mt-4 text-center font-semibold text-sky-500 before:bg-sky-500'
+        >
+          <span className="line-clamp-1 text-2xl">Testimonials</span>
+        </Link>
+
+        <Link
+          href='enrollment'
+          className='block w-full mt-4 text-center font-semibold text-sky-500 before:bg-sky-500'
+        >
+          <span className="line-clamp-1 text-2xl">View Tuition & Enrollment Info</span>
+        </Link>
       <ContactSection/>
 
       </main>

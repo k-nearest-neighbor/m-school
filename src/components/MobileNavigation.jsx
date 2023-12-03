@@ -2,9 +2,11 @@
 
 import { Suspense, useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname, useSearchParams } from 'next/navigation'
 import { Dialog } from '@headlessui/react'
 
+import logo from '@/images/logos/logo.png';
 
 import { Navigation } from '@/components/Navigation'
 
@@ -84,7 +86,7 @@ export function MobileNavigation({ navigation }) {
       >
         <Dialog.Panel className="min-h-full w-full max-w-xs bg-white px-12 pb-12 pt-8 dark:bg-slate-950 sm:px-6">
           <div className="flex items-center">
-            <div className="h-full">
+            {/* <div className="h-full">
                 <button
                   type="button"
                   onClick={() => close()}
@@ -92,14 +94,21 @@ export function MobileNavigation({ navigation }) {
                 >
                   <MenuIcon className="h-6 w-6 stroke-slate-500" />
                 </button>
-            </div>
-            <div className="h-full ml-6">
-              <Link href="/" className="" aria-label="Home page">
+            </div> */}
+            <div className="h-full">
+              <Link href="/" className="flex " aria-label="Home page">
                 {/* <Logomark className="h-9 w-9" /> */}
-                <span className="  text-2xl font-semibold drop-shadow-logo">Orchard<br/>Montessori</span>
+                <Image
+                  src={logo}
+                  alt=""
+                  sizes="(min-width: 2rem)"
+                  className="h-[4rem] w-auto mr-[2rem]"
+                />
+                <span className="text-2xl font-semibold drop-shadow-logo">Orchard Montessori</span>
               </Link>
             </div>
           </div>
+          
           <Navigation
             navigation={navigation}
             className="mt-12 px-1"

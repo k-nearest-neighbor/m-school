@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 
@@ -14,7 +15,7 @@ import { Search } from '@/components/Search'
 import { navigation } from '@/navigation-and-content'
 import { BreakPointDebug } from '@/components/BreakpointDebug';
 
-
+import logo from '@/images/logos/logo.png';
 
 function Header({ navigation }) {
   let [isScrolled, setIsScrolled] = useState(false);
@@ -45,9 +46,14 @@ function Header({ navigation }) {
         <MobileNavigation navigation={navigation} />
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
-        <Link href="/" className="flex align-middle justify-center content-center items-center" aria-label="Home page">         
-          <span className="block h-9 w-auto fill-slate-700 dark:fill-sky-100 text-2xl sm:text-3xl font-semibold dark:drop-shadow-logo display-poppins"><span className="">Orchard Montessori</span></span>
-          
+        <Link href="/" className="flex align-middle justify-center content-center items-center" aria-label="Home page">
+                <Image
+                  src={logo}
+                  alt=""
+                  sizes="(min-width: 2rem)"
+                  className="h-14 w-auto mr-4"
+                />
+          <span className="block h-9 w-auto text-emerald-800 dark:fill-sky-100 text-2xl sm:text-3xl font-semibold dark:drop-shadow-logo display-poppins"><span className="">Orchard Montessori</span></span>
         </Link>
       </div>
       {/* <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
