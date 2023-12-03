@@ -104,7 +104,7 @@ export function MobileNavigation({ navigation }) {
                   sizes="(min-width: 2rem)"
                   className="h-[4rem] w-auto mr-[2rem]"
                 />
-                <span className="text-2xl font-semibold drop-shadow-logo">Orchard Montessori</span>
+                <span className="text-2xl text-emerald-800 font-semibold drop-shadow-logo">Orchard Montessori</span>
               </Link>
             </div>
           </div>
