@@ -68,6 +68,14 @@ export default function Enrollment() {
           Sibling and active military discounts available, please inquire.
         </p>
 
+        <p className="mt-4 font-poppins">
+          Subsidization programs welcome.
+        </p>
+
+        <p className="mt-4 font-poppins">
+          Ask about our $100 referral bonus!
+        </p>
+
         <h3 className="mt-8 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
           Quarterly Tuition Rate
         </h3>
