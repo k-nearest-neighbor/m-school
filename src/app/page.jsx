@@ -54,10 +54,10 @@ export default function Posts() {
           An authentic Montessori program located in Fairfield.
         </p>
         <p className="mt-4 w-full text-center text-xl font-semibold text-slate-700">
-          A classroom designed for children of ages 3-6 years.
+          The classroom is designed for children of ages 3-6 years.
         </p>
         <p className="mt-4 w-full text-center text-xl font-semibold text-slate-700">
-          (Younger children accepted per individual evaluation.)
+          Younger children accepted per individual evaluation.
         </p>
 
         <div className="mt-16 mb-20 mx-auto max-w-2xl grid grid-cols-2 gap-2">
@@ -224,4 +224,4 @@ harvesting fruit, vegetables and herbs.
 
 
 
-//Orchard Montessori is a small private school in Fairfield, CA. Orchard is committed to providing a nurturing environment that fosters a love of learning and respect for self, others, and the world around us.
+//Orchard Montessori is a private school in Fairfield, CA. Orchard is committed to providing a nurturing environment that fosters a love of learning and respect for self, others, and the world around us.
