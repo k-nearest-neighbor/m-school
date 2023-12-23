@@ -54,7 +54,7 @@ export default function Posts() {
           An authentic Montessori program located in Fairfield.
         </p>
         <p className="mt-4 w-full text-center text-xl font-semibold text-slate-700">
-          The classroom is designed for children of ages 3-6 years.
+          Our classroom is designed for children of ages 3-6 years.
         </p>
         <p className="mt-4 w-full text-center text-xl font-semibold text-slate-700">
           Younger children accepted per individual evaluation.
