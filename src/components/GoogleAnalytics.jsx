@@ -20,6 +20,7 @@ export function GoogleAnalytics() {
             gtag('config', 'AW-11450912799', {
               page_path: window.location.pathname,
             });
+            gtag('config', 'G-6GXFHLPZGH');
           `,
         }}/>
       </>
