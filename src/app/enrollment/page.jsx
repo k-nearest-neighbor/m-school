@@ -43,7 +43,7 @@ export default function Enrollment() {
 
 
         <h3 className="mt-8 text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
-          Month-to-Month Rates
+          Weekly Rates
         </h3>
 
 
@@ -51,21 +51,19 @@ export default function Enrollment() {
           <tbody>
             <tr>
                 <td>Full day 9 a.m. to 3:30 p.m.</td>
-                <td className="pl-4">$1100</td>
+                <td className="pl-4">$275</td>
             </tr>
             <tr>
                 <td>Extended hours 8:00 to 5 p.m.</td>
-                <td className="pl-4">$1200</td>
+                <td className="pl-4">$315</td>
             </tr>
-            <tr>
-                <td>Registration and Material Fee</td>
-                <td className="pl-4">$200</td>
-            </tr>
+
           </tbody>
         </table>
 
+
         <p className="mt-8 font-poppins">
-          Sibling and active military discounts available, please inquire.
+          Sibling and active military discounts available.
         </p>
 
         <p className="mt-4 font-poppins">
@@ -107,11 +105,11 @@ export default function Enrollment() {
         </p>
 
 
-<p className="mt-12 max-w-2xl">
-<strong> A heads-up to parents or children with allergies: There is a
-cat in the house.</strong> She loves children and plays (and naps)
-inside and outside my home.
-</p>
+        {/* <p className="mt-12 max-w-2xl">
+          <strong> A heads-up to parents or children with allergies: There is a
+          cat in the house.</strong> She loves children and plays (and naps)
+          inside and outside my home.
+        </p>
 
         <div className="flex flex-col items-center justify-start my-12">
         <div className="relative aspect-[12/10] w-2/3 max-w-md flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800  sm:rounded-2xl shadow-lg">
@@ -126,7 +124,7 @@ inside and outside my home.
         <p className="text-center px-4 py-4 text-lg text-slate-700">
           Maxine the cat
         </p>
-        </div>
+        </div> */}
 
 
 

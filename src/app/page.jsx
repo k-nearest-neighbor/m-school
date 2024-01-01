@@ -140,7 +140,7 @@ export default function Posts() {
               About Ms. Virginia
             </h3>
             <p>
-                When my son was small, I explored different educational
+                When my son was young, I explored different educational
                 philosophies and landed on Montessori. I had no idea at the time
                 how this would impact my life! In 1986 I moved to Sacramento to
                 become certified as a Montessori teacher.
