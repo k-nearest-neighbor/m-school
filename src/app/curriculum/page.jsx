@@ -88,32 +88,54 @@ export default function Testimonials() {
             Curriculum
           </h1>
 
+
+          {/* old content */}
+          {/* <p>
+          Orchard Montessori&#39;s educational vision is based upon the curriculum
+          principles of the Montessori Method founded by Dr. Maria Montessori. The Montessori Method of education emphasizes hands-on, individualized learning within mixed age
+          groups in a child-friendly setting.
+          </p>
           <p>
-Orchard Montessori&#39;s educational vision is based upon the curriculum
-principles of the Montessori Method founded by Dr. Maria Montessori. The Montessori Method of education emphasizes hands-on, individualized learning within mixed age
-groups in a child-friendly setting.
-</p>
-<p>
-At Orchard Montessori we recognize that children are curious, competent and
-capable. In the Montessori classroom, everything is available to everyone to use to the
-best of their ability. By creating a classroom environment that allows for open-ended
-learning and discovery, we give children the opportunity to explore and learn concepts
-when they are ready for them.
-</p>
+          At Orchard Montessori we recognize that children are curious, competent and
+          capable. In the Montessori classroom, everything is available to everyone to use to the
+          best of their ability. By creating a classroom environment that allows for open-ended
+          learning and discovery, we give children the opportunity to explore and learn concepts
+          when they are ready for them.
+          </p>
 
-<p>
-Throughout the year, there is foundation curriculum which covers five areas of learning: <strong>Practical Life, Sensorial,
-Language, Mathematics and Cultural Studies.</strong>
-</p>
+          <p>
+          Throughout the year, there is foundation curriculum which covers five areas of learning: <strong>Practical Life, Sensorial,
+          Language, Mathematics and Cultural Studies.</strong>
+          </p> 
+          <p>
+          Orchard Montessori uses the Montessori Method founded by Dr. Maria Montessori. The Montessori Method of education emphasizes hands-on, individualized learning within mixed age groups in a child-friendly setting.
+          </p>
+          <p>
+          At Orchard Montessori we recognize that children are curious, competent, and capable. Everything in the classroom is available to everyone to use to the best of their ability. By creating a classroom environment that allows for open-ended learning and discovery, we give children the opportunity to explore and learn concepts when they are ready for them.
+          </p>
 
+        */}
+          <p>
+          Orchard Montessori has a theme-based curriculum. Each month we will explore new theme-based concepts. Maybe we will be focused on &quot;community helpers&quot; and learn about farmers, where food comes from and the food groups. We may focus on the season or a holiday. The theme changes frequently to keep the children interested in learning new things!
+          </p>
 
+          <p>Our study theme will influence the entire classroom, including each Montessori area.</p>
+
+          <p>
+          Throughout the year, there is foundation curriculum which covers five areas of learning:
+          </p>
 
         <h3 className="mt-12 text-center  text-xl font-semibold tracking-tight text-sky-600 dark:text-white font-poppins">
           Practical Life
         </h3>
 
-        <p>The Practical Life area was a monumental creation by Dr. Montessori. The Practical Life area allows children to practice basic and purposeful daily activities while developing their eye-hand coordination, concentration and to gain self-confidence.</p>
-        <p>By manipulating small items children develop fine motor dexterity necessary for writing and drawing. In addition to fine motor, sorting activities develop visual discrimination necessary for math and language activities.</p>
+        {/* old content */}
+        {/* <p>The Practical Life area was a monumental creation by Dr. Montessori. The Practical Life area allows children to practice basic and purposeful daily activities while developing their eye-hand coordination, concentration and to gain self-confidence.</p>
+        <p>By manipulating small items children develop fine motor dexterity necessary for writing and drawing. In addition to fine motor, sorting activities develop visual discrimination necessary for math and language activities.</p> */}
+        
+        <p>
+        The Practical Life area is for exploring and practicing transferring things from one place to another with pitchers, spoons, tongs or the whole hand. Children also learn to sort like things. These activities help the child to develop a stronger hand and finger grasp. They learn to concentrate and develop their eye hand coordination.
+        </p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 px-2 sm:px-4">
@@ -197,8 +219,12 @@ Language, Mathematics and Cultural Studies.</strong>
           Sensorial
         </h3>
 
-        <p>
+        {/* <p>
           The sensorial area of the classroom is a place to not only explore with the senses, but a way to prepare for other work. Children explore ideas such as the gradations and the vocabulary of colors, shapes and sizes. They practice and develop process and practice strategy.
+        </p> */}
+
+        <p>
+        This area of the classroom is all about the senses! A young child will match 2 colors, while an older child will grade colors from dark to light. They can shake two sound cylinders and match the two that sound alike.
         </p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
@@ -270,7 +296,7 @@ Language, Mathematics and Cultural Studies.</strong>
           Language
         </h3>
 
-        <p>In a Montessori classroom the focus is on developing specific language skills:</p>
+        {/* <p>In a Montessori classroom the focus is on developing specific language skills:</p>
           <ul className="!mt-4 marker:text-sky-500">
             <li className="mt-0">letter recognition</li>
             <li className="mt-0">letter + sound association</li>
@@ -295,6 +321,10 @@ Language, Mathematics and Cultural Studies.</strong>
           reading activities. We use a lot of cut and paste activities and writing + drawing activities to
           develop processing skills and improve fine motor development. Children are well prepared for
           future academics when they have attended a quality Montessori program.
+        </p> */}
+
+        <p>
+        Language studies are more than letter and sound activities. Children learn about opposites, rhyming, following directions and more. Many Montessori preschool children begin reading simple words because of the activities they use in the classroom.
         </p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
@@ -438,14 +468,15 @@ Language, Mathematics and Cultural Studies.</strong>
           Montessori math is a hands-on approach. Children in a 3 to 6 Montessori program learn rote counting, numeration, numeral/ quantity association, addition, subtraction, skip counting & multiplication, fractions and round clock time.
         </p> */}
 
-        <p>
+        {/* <p>
         The Math Area is a wonderful place for mixed ages to work together to master concepts. The
         older child develops self-esteem helping a younger friend, while the younger child is
         encouraged to aspire to be like their older friend.
         </p>
         <p>Montessori math is a hands-on approach. Children manipulate physical quantities and associate them with numerals. This enables them to grasp the concept of quantity in a math equation.
-        </p>
+        </p> 
 
+        
          <p>Children in a 3 to 6 Montessori program learn:</p>
 
         <ul className="!mt-4 marker:text-sky-500">
@@ -460,6 +491,11 @@ Language, Mathematics and Cultural Studies.</strong>
             <li className="mt-0">Round clock time</li>
             <li className="mt-0">Measurement</li>
         </ul>
+        */}
+
+        <p>
+        The Math area starts out with very basic number and quantity activities and goes into large numbers and quantities. Yes, Montessori preschool children use thousands! They will be introduced to adding, subtraction, odd &amp; even and other concepts.
+        </p>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 gap-2 px-2 sm:px-4">
@@ -525,6 +561,14 @@ Language, Mathematics and Cultural Studies.</strong>
             </div>
         </div>
 
+        <h3 className="mt-12 text-center  text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
+          Art
+        </h3>
+
+        <p>
+        In addition to these core areas there is always a very popular art area! The art shelf is supplied with all the things needed for your child to make their own pictures or to complete an art project on their own. We also have teacher directed craft projects that go with our themes.
+        </p>
+
         {/* <h3 className="mt-12 text-center  text-xl font-semibold tracking-tight text-gray-800 dark:text-white font-poppins">
           Cultural Studies
         </h3>
@@ -550,28 +594,30 @@ Language, Mathematics and Cultural Studies.</strong>
         </div> */}
 
 
-        <h3 className="mt-12 text-center text-xl font-semibold tracking-tight text-sky-500 dark:text-white font-poppins">
+        {/* I guess we're doing art instead of cultural studies */}
+
+        {/* <h3 className="mt-12 text-center text-xl font-semibold tracking-tight text-sky-500 dark:text-white font-poppins">
           Cultural Studies
         </h3>
 
-<p>
-Cultural studies are theme-based. The units of study/ themes will change every 1 to 2 months and will touch all areas of the
-classroom. Some units of study will coincide with the seasons, holidays and other timely events.
-The cycle of themes are in a 2-year rotation. Some examples of themes are:
-</p>
-<ul className="list-disc pl-4">
-  <li className="pb-6">
-    <strong>Farmers</strong> (a fall unit) &#8212; The children will learn about the harvest, where food, clothing,
-    construction materials come from, food groups and nutrition, parts of the plant, farm
-    animals.  
-  </li>
-  <li>
-    <strong>North America</strong> (a fall unit) &#8212; We will study food, landmarks, climate, and cultures of
-    countries of the continent while studying animal homes and habitats (dessert,
-    mountains, plains, prairies etc.), migration/ hibernation/ adaptation in preparation for
-    winter.
-  </li>
-</ul>
+        <p>
+        Cultural studies are theme-based. The units of study/ themes will change every 1 to 2 months and will touch all areas of the
+        classroom. Some units of study will coincide with the seasons, holidays and other timely events.
+        The cycle of themes are in a 2-year rotation. Some examples of themes are:
+        </p>
+        <ul className="list-disc pl-4">
+          <li className="pb-6">
+            <strong>Farmers</strong> (a fall unit) &#8212; The children will learn about the harvest, where food, clothing,
+            construction materials come from, food groups and nutrition, parts of the plant, farm
+            animals.  
+          </li>
+          <li>
+            <strong>North America</strong> (a fall unit) &#8212; We will study food, landmarks, climate, and cultures of
+            countries of the continent while studying animal homes and habitats (dessert,
+            mountains, plains, prairies etc.), migration/ hibernation/ adaptation in preparation for
+            winter.
+          </li>
+        </ul>
 
         <p className='text-sm italic mt-8 mb-0 text-slate-500 px-2 sm:px-4'>Note: The photos below were taken in my classroom in Palo Alto.</p>
         <div className="mx-auto !mt-2 !pt-0 max-w-2xl grid grid-cols-2 gap-2 gap-2 px-2 sm:px-4">
@@ -666,7 +712,9 @@ The cycle of themes are in a 2-year rotation. Some examples of themes are:
             </div>
 
 
-        </div>
+        </div> */}
+
+
 
         <ContactSection/>
 

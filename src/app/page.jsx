@@ -3,13 +3,19 @@ import Link from 'next/link';
 
 import { ContactSection } from '@/components/contact';
 
-import classroom0 from '@/images/classroom/0.jpg';
-import classroom1 from '@/images/classroom/1.jpg';
-import classroom2 from '@/images/classroom/2.jpg';
-import classroom3 from '@/images/classroom/3.jpg';
-import classroom4 from '@/images/classroom/4.jpg';
-import classroom5 from '@/images/classroom/5.jpg';
+// import classroom0 from '@/images/classroom/0.jpg'; // old
+// import classroom1 from '@/images/classroom/1.jpg'; // old
+// import classroom2 from '@/images/classroom/2.jpg'; // old
+// import classroom3 from '@/images/classroom/3.jpg'; // wasn't used
+// import classroom4 from '@/images/classroom/4.jpg'; // old
+// import classroom5 from '@/images/classroom/5.jpg'; // wasn't used
 
+import classroom1 from '@/images/homepage/1.jpg';
+import classroom2 from '@/images/homepage/2.jpg';
+import classroom3 from '@/images/homepage/3.jpg';
+import classroom4 from '@/images/homepage/4.jpg';
+
+import msv from '@/images/msv/ms-v.jpg';
 
 
 
@@ -97,23 +103,6 @@ export default function Posts() {
           </div> */}
           <div className="relative aspect-[12/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
             <Image
-              src={classroom4}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className=" inset-0 h-full w-full object-cover"
-            />
-          </div>
-          <div className="relative aspect-[12/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
-              src={classroom0}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className=" inset-0 h-full w-full object-cover"
-            />
-          </div>
-
-          <div className="relative aspect-[12/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
-            <Image
               src={classroom1}
               alt=""
               sizes="(min-width: 640px) 18rem, 11rem"
@@ -123,6 +112,23 @@ export default function Posts() {
           <div className="relative aspect-[12/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
             <Image
               src={classroom2}
+              alt=""
+              sizes="(min-width: 640px) 18rem, 11rem"
+              className=" inset-0 h-full w-full object-cover"
+            />
+          </div>
+
+          <div className="relative aspect-[12/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+            <Image
+              src={classroom3}
+              alt=""
+              sizes="(min-width: 640px) 18rem, 11rem"
+              className=" inset-0 h-full w-full object-cover"
+            />
+          </div>
+          <div className="relative aspect-[12/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-full sm:rounded-2xl shadow-lg">
+            <Image
+              src={classroom4}
               alt=""
               sizes="(min-width: 640px) 18rem, 11rem"
               className="inset-0 h-full w-full object-cover"
@@ -136,9 +142,21 @@ export default function Posts() {
         </p>
 
         <article className="mt-8 mx-auto py-4 px-6 bg-slate-100 rounded-xl shadow-lg prose prose-slate max-w-2xl font-poppins">
-            <h3 className="font-semibold mt-0 mb-4">
+          <div className="flex items-center justify-start">
+            <div className="relative aspect-[10/12]  flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 ">
+              <Image
+                src={msv}
+                alt=""
+                sizes="48rem"
+                className="inset-0 h-full w-full object-cover"
+              />
+            </div>
+            <h3 className="font-semibold my-0 ml-8 text-2xl">
               About Ms. Virginia
             </h3>
+          </div>
+            
+
             <p>
                 When my son was young, I explored different educational
                 philosophies and landed on Montessori. I had no idea at the time

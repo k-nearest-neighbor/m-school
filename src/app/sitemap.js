@@ -1,42 +1,30 @@
-// https://claritydev.net/blog/nextjs-dynamic-sitemap-pages-app-directory
-
-import { collectAllPosts, collectAllPapers, navigation } from "@/navigation-and-content";
-
-const URL = "https://ai-breakout.com";
-
-export default async function sitemap() {
-  const posts = collectAllPosts().map((post) => ({
-    url: `${URL}${post.href}`,
-    lastModified: post.authored_date.toISOString(),
-  }));
-
-  const papers = collectAllPapers().map((paper) => ({
-    url: `${URL}${paper.href}`,
-    lastModified: paper.authored_date.toISOString(),
-  }));
-
-  const navigationLinks = navigation
-    .filter((nav) => !nav.hide && (nav.title === "Latest" || nav.links.length > 0))
-    .map((nav) => nav.links)
-    .flat()
-    .map((link) => ({
-      url: `${URL}${link.href}`,
-      lastModified: new Date().toISOString(),
-    }));
 
 
-  const routes = [
-      "/",
-      "/faq",
-      '/see-also/streams'
-    ].map((route) => ({
-      url: `${URL}${route}`,
-      lastModified: new Date().toISOString(),
-  }));
-
+export default function sitemap() {
   return [
-    ...routes,
-    ...posts,
-    ...papers
-  ];
+    {
+      url: 'https://orchardmontessori.school',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
+    },
+    {
+      url: 'https://orchardmontessori.school/curriculum',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
+    },
+    {
+      url: 'https://orchardmontessori.school/testimonials',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
+    },
+    {
+      url: 'https://orchardmontessori.school/enrollment',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
+    },
+  ]
 }

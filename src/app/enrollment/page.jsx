@@ -38,7 +38,7 @@ export default function Enrollment() {
 
 
         <p className="mt-4 font-poppins">
-          There is currently space for 6 students.
+          There is currently space for 4 students.
         </p>
 
 
@@ -50,8 +50,16 @@ export default function Enrollment() {
         <table border="0" className='mt-4'>
           <tbody>
             <tr>
-                <td>Full day 9 a.m. to 3:30 p.m.</td>
-                <td className="pl-4">$275</td>
+                <td>Full-Day 9:00 a.m. to 3:30 p.m.</td>
+                <td className="pl-4">$295</td>
+            </tr>
+            <tr>
+                <td>Half-Day 8:00 a.m. to 3:30 p.m.</td>
+                <td className="pl-4">$265</td>
+            </tr>
+            <tr>
+                <td>Half-Day 12:00 p.m. to 5:00 p.m.</td>
+                <td className="pl-4">$265</td>
             </tr>
             <tr>
                 <td>Extended hours 8:00 to 5 p.m.</td>
@@ -61,6 +69,9 @@ export default function Enrollment() {
           </tbody>
         </table>
 
+        <p className="mt-8 font-poppins max-w-2xl">
+          <strong>Tuition Deposit:</strong> Equal to 2 weeks of program rate. Will be refunded when leaving if a 30-Day Notice has been given.
+        </p>
 
         <p className="mt-8 font-poppins">
           Sibling and active military discounts available.
@@ -105,7 +116,7 @@ export default function Enrollment() {
         </p>
 
 
-        {/* <p className="mt-12 max-w-2xl">
+        <p className="mt-12 max-w-2xl">
           <strong> A heads-up to parents or children with allergies: There is a
           cat in the house.</strong> She loves children and plays (and naps)
           inside and outside my home.
@@ -124,7 +135,7 @@ export default function Enrollment() {
         <p className="text-center px-4 py-4 text-lg text-slate-700">
           Maxine the cat
         </p>
-        </div> */}
+        </div>
 
 
 
